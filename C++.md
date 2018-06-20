@@ -729,6 +729,12 @@ protected: //only this Entity class can access this variable, read and write.
 More visible than private, but less than public. This class and the subclass can access variables and methods, but not outside the class, for example inside the main. 
 
 *Public* :
+~~~cpp
+class Entity{
+protected: //only this Entity class can access this variable, read and write. 
+	int X, Y;
+};
+~~~
 Everyone can access, class, subclass and outside.
 
 Private tells you shouldn't be accessing this outside the class. It helps you understand a code.
@@ -736,6 +742,6 @@ We can ensure that people don't break things, called something than his not supp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5Mzg0MTg4LC0xNDIyNzI5NjkyLC02Nj
-I3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTE1ODU4ODEyNDUsLTE0MjI3Mjk2OTIsLT
+Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
