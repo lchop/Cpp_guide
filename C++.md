@@ -775,11 +775,11 @@ int main{
 	*(int*)((char*)ptr + 8) = 6; //same meaning, with same bits
 }
 ~~~
-
+> When we are doing ptr arithmetic, in term of bits, It's going to add
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDcxOTExLDE1MzcwMzg1NjcsLTE4Nz
-k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
-MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTE4MjM5MDY0MywxNTM3MDM4NTY3LC0xOD
+c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
+NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
