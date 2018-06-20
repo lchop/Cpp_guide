@@ -732,9 +732,10 @@ More visible than private, but less than public. This class and the subclass can
 Everyone can access, class, subclass and outside.
 
 Private tells you shouldn't be accessing this outside the class. It helps you understand a code.
-We can ensure that people don't break thin
+We can ensure that people don't break things, called something than his not supposed to be called.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2NzI3MzksLTE0MjI3Mjk2OTIsLT
-Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbODM5Mzg0MTg4LC0xNDIyNzI5NjkyLC02Nj
+I3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
