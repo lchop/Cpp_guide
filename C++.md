@@ -704,8 +704,9 @@ int main()
   
 ### Visibility
 
+Object oriented programming.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MT
-M2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTUyMTQwNDY0MiwtMTQyMjcyOTY5MiwtNj
+YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
