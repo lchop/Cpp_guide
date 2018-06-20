@@ -810,16 +810,27 @@ public:
 			example[i] = 2;
 	}
 };
+~~~
+
+*In C++ 11* :
+~~~cpp
+class Entity{
+public:
+	std::array<int, 5> example;
+	
+	Entity()
+	{
+		for (int i =0; i<exampleSize; i++)
+			example[i] = 2;
+	}
+};
 int main{
 	Entity e;
 	std::cin.get();
 	}
 ~~~
-
-*In C++ 11* :
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjAxODE3NiwtMzQ3ODE2Mzk0LC0yMD
+eyJoaXN0b3J5IjpbMjAxNzk1NzcwNiwtMzQ3ODE2Mzk0LC0yMD
 A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
 NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
 wtMTkyNTM5NzI3NF19
