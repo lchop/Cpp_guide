@@ -763,13 +763,15 @@ Always write in the bounds of your array, **hard to debug**, you have write in m
 
 > For loop is a good way to go through the entire array. 
 
-Memory: you have 4 segments of 4 bits each in the example above, one after another in a row.
+Memory: you have 4 segments of 4 bits (int = 4 bit)  each in the example above, one after another in a row.
 
-An array is an integer pointer, 
+An array is an integer pointer to the block of memory that contains the 4 integers. 
+~~~cpp
+example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mzc4MjcyNSwxNTM3MDM4NTY3LC0xOD
+eyJoaXN0b3J5IjpbMTYzODQ1NjAxNSwxNTM3MDM4NTY3LC0xOD
 c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
 NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
