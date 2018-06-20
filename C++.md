@@ -731,9 +731,10 @@ More visible than private, but less than public. This class and the subclass can
 *Public* :
 Everyone can access, class, subclass and outside.
 
-Private tells you shouldn't be accessing this outside the class. 
+Private tells you shouldn't be accessing this outside the class. It helps you understand a code.
+We can ensure that people don't break thin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzU2MzM1NSwtMTQyMjcyOTY5MiwtNj
-YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTExNzU2NzI3MzksLTE0MjI3Mjk2OTIsLT
+Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
