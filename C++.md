@@ -794,12 +794,13 @@ Lifetime.
 It takes a lot of performance.
 
 ~~~cpp
-int count = size
+int count = sizeof(example) / sizeof(int); //to know the size of the array only on the stack
 ~~~
+
 *Array in c++11* :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTExMDg0NSwtMzQ3ODE2Mzk0LC0yMD
+eyJoaXN0b3J5IjpbMTA2Nzk2OTI5NiwtMzQ3ODE2Mzk0LC0yMD
 A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
 NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
 wtMTkyNTM5NzI3NF19
