@@ -798,7 +798,7 @@ int count = sizeof(example) / sizeof(int); //to know the size of the array only 
 ~~~
 Not very beautiful and not very trust able. 
 
-Other way:
+*Other way* :
 ~~~cpp
 class Entity{
 public:
@@ -811,7 +811,6 @@ public:
 	}
 };
 ~~~
-
 *In C++ 11* :
 ~~~cpp
 class Entity{
@@ -827,8 +826,8 @@ public:
 ~~~
 It's worth it to use c++11.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODk0OTA0MSwtMzQ3ODE2Mzk0LC0yMD
-A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
-NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
-wtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTIwNjQ1NDY0OTUsLTM0NzgxNjM5NCwtMj
+AwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3
+MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2Mz
+MsLTE5MjUzOTcyNzRdfQ==
 -->
