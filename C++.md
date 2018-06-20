@@ -726,7 +726,10 @@ protected: //only this Entity class can access this variable, read and write.
 	int X, Y;
 };
 ~~~
+More visible than private, but less than public. This class and the subclass can access variables and methods, but not outside the class, for example inside the main. 
+
+*P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjEyNTk2NCwtMTQyMjcyOTY5MiwtNj
+eyJoaXN0b3J5IjpbLTI2MDM0NTUzMiwtMTQyMjcyOTY5MiwtNj
 YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
