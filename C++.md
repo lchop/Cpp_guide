@@ -745,9 +745,11 @@ We can ensure that people don't break things, called something than his not supp
 
 ### Arrays
 
-A collection of elements, a way to represent a 
+A collection of elements, a way to represent a collection of variables.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIzMjI5NDYsLTE4Nzk3MTQzMTIsLT
-E0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUz
-OTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTU4ODM3ODE0MCwtMTg3OTcxNDMxMiwtMT
+QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
+NzI3NF19
 -->
