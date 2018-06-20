@@ -421,10 +421,8 @@ A static method doesn't have a class instence.
   
 **a static Local variable** : live time = the entire program / scop = limited inside this fct  
 ~~~ 
-void Funtion(){  
-static int i = 0 ;  
-i++;  
-std::cout <
+  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTE5NzY5OTk1NywtMTkyNTM5NzI3NF19
 -->
