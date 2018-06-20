@@ -799,8 +799,8 @@ int count = sizeof(example) / sizeof(int); //to know the size of the array only 
 ~~~cpp
 class Entity{
 public:
-	const int size = 5;
-	int example[size]; //has to a compile
+	static constexpr int size = 5;
+	int example[size]; //has to a compile time known const
 	Entity()
 	{
 		for (int i =0; i<5; i++)
@@ -813,8 +813,8 @@ int main{
 	}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTE3NzcyNiwtMzQ3ODE2Mzk0LC0yMD
-A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
-NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
-wtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTE2MDA0NTE5NjAsLTM0NzgxNjM5NCwtMj
+AwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3
+MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2Mz
+MsLTE5MjUzOTcyNzRdfQ==
 -->
