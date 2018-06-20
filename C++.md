@@ -709,7 +709,8 @@ Object oriented programming.
 >No effect on program performance, right better code.
 Organization sugar.
 
-Private, Protected, Public
+Private, Protected, Public.
+*Private* : 
 ~~~cpp
 class Entity{
 private: //only this Entity class can access this variable, read and write. 
@@ -717,8 +718,15 @@ private: //only this Entity class can access this variable, read and write.
 };
 ~~~
 friend can access private variable.
-
+ 
+*Protected* :
+~~~cpp
+class Entity{
+protected: //only this Entity class can access this variable, read and write. 
+	int X, Y;
+};
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1MTYyMzA4LC0xNDIyNzI5NjkyLC02Nj
-I3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTczMjEyNTk2NCwtMTQyMjcyOTY5MiwtNj
+YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
