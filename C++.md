@@ -710,10 +710,13 @@ Object oriented programming.
 Organization sugar.
 
 Private, Protected, Public
- ~~~cpp
- class 
+~~~cpp
+class Entity{
+private:
+	int 
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NTE3MTgsLTE0MjI3Mjk2OTIsLTY2Mj
-czNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTEzODc1NDcwNTQsLTE0MjI3Mjk2OTIsLT
+Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
