@@ -473,17 +473,17 @@ A way to name value
 > Helps to have a cleaner code  
   
 Example :  
-
+~~~cpp
 enum Example : unisgned char { //int by default  
 A = 0 ,B = 6 ,C = 8 //if not defined start from  
 // 0 then increment 1 (A=0 , B=1,...)  
 };  
 int main {  
-Example value = B;  
-if (value ==1){  
-}  
-  
-}  
+	Example value = B;  
+	if (value ==1){  
+	}
+}
+~~~
   
 *************  
   
@@ -701,5 +701,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTA2NjI2LC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTEzNzYxNTY0MywtMTkyNTM5NzI3NF19
 -->
