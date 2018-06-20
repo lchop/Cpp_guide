@@ -767,11 +767,17 @@ Memory: you have 4 segments of 4 bits (int = 4 bit)  each in the example above, 
 
 An array is an integer pointer to the block of memory that contains the 4 integers. 
 ~~~cpp
-example
+int main{
+	int example[5];	
+	int* ptr = example;
+	example[0] =2;
+	example[4] =4;
+}
+~~~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODQ1NjAxNSwxNTM3MDM4NTY3LC0xOD
-c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
-NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTE0NjI1MTIwNDksMTUzNzAzODU2NywtMT
+g3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4
+NTYzMywtMTkyNTM5NzI3NF19
 -->
