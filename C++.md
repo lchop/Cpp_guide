@@ -26,6 +26,7 @@ C++
 20. [Destructor](#destructor)
 21. [Inheritence](#inheritence)
 22. [Virtual Fuctions](#virtual_fuctions)
+23. [Interfaces_Pure_Virtual_Functions](#interfaces_pure_virtual_functions)
 
 *************
 ### Useful
@@ -641,7 +642,7 @@ Dynamic dispach using V-table, mapping for all the virtual function inside the b
   
 *****************  
   
-### Interfaces_Pure_Virtual_Function
+### Interfaces_Pure_Virtual_Functions
   
 Allow us to define a function in a base class, that does not have an implementation and force subclass to implement that fct.  
   
@@ -701,5 +702,5 @@ int main()
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNzkzMzMxLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbOTUzOTU0MTQxLC0xOTI1Mzk3Mjc0XX0=
 -->
