@@ -53,7 +53,7 @@ void Log(int p);
   
 *****************  
   
-### how_it_work
+### how_it_works
   
 * Pre -processing :  
 #include ... basically copy header files before your program  
@@ -703,5 +703,5 @@ int main()
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzE0MjI5NCwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
