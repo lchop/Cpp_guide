@@ -824,10 +824,10 @@ public:
 	}
 };
 ~~~
-It's worth it to use c++11.
+It's worth it to use c++11 array usually, they are called standard array
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ1NDY0OTUsLTM0NzgxNjM5NCwtMj
-AwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3
-MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2Mz
-MsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTA4NDc4NDAyMCwtMjA2NDU0NjQ5NSwtMz
+Q3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAz
+ODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NT
+IwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
