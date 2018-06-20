@@ -816,21 +816,18 @@ public:
 ~~~cpp
 class Entity{
 public:
-	std::array<int, 5> example;
+	std::array<int, 5> example; //type,size
 	
 	Entity()
 	{
-		for (int i =0; i<exampleSize; i++)
+		for (int i =0; i<example.size(); i++)
 			example[i] = 2;
 	}
 };
-int main{
-	Entity e;
-	std::cin.get();
-	}
 ~~~
+It's worth it to use c++11.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzk1NzcwNiwtMzQ3ODE2Mzk0LC0yMD
+eyJoaXN0b3J5IjpbMTM0ODk0OTA0MSwtMzQ3ODE2Mzk0LC0yMD
 A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
 NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
 wtMTkyNTM5NzI3NF19
