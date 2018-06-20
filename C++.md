@@ -800,16 +800,21 @@ int count = sizeof(example) / sizeof(int); //to know the size of the array only 
 class Entity{
 public:
 	const int size = 5;
-	int example[size];
+	int example[size]; //has to a compile
 	Entity()
 	{
 		for (int i =0; i<5; i++)
 			example[i] = 2;
-		
+	}
+};
+int main{
+	Entity e;
+	std::cin.get();
+	}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTA2MTgwLC0zNDc4MTYzOTQsLTIwMD
-QzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC0xODc5NzE0
-MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC
-0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTIyMTE3NzcyNiwtMzQ3ODE2Mzk0LC0yMD
+A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
+NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
+wtMTkyNTM5NzI3NF19
 -->
