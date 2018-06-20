@@ -568,42 +568,41 @@ Inheritence:
 ### Virtual Fuctions  
   
 **Virtual fuctions** : overwrite methods in subclass  
-~~~  
+~~~cpp  
 Class Entity{  
 public:  
-std::string getName() { return "Entity";}  
+	std::string getName() { return "Entity";}  
 };  
   
 Class Player: public Entity{  
 private:  
-std::string m_Name;  
+	std::string m_Name;  
 public:  
-Player(const std::string& name)  
-: m_Name(name){}  
-std::string GetName() { return m_Name;}  
+	Player(const std::string& name)  
+	: m_Name(name){}  
+	std::string GetName() { return m_Name;}  
 };  
 void PrintName(Entity* entity){  
-std::cout >> entity->GetName() << std::endl;  
+	std::cout >> entity->GetName() << std::endl;  
 }  
 int main()  
 {  
-Entity* e = new Entity();  
-PrintName(e);  
-Player* p =new Player("Louis");  
-PrintName(p);  
-std::cin.get();  
+	Entity* e = new Entity();  
+	PrintName(e);  
+	Player* p =new Player("Louis");  
+	PrintName(p);  
+	std::cin.get();  
 }  
-  
 ~~~  
 Entity get print twice and not Louis .  
   
 Because it go inside intity and call entity, it cause methods refer to the type.  
 But we want the getName inside Player.  
 Then we use virtual function, to overwrite the function in the base function and use the subclass function instead.  
-~~~  
+~~~cpp 
 Class Entity{  
 public:  
-virtual std::string getName() { return "Entity";}  
+	virtual std::string getName() { return "Entity";}  
 };  
   
 Class Player: public Entity{  
@@ -704,5 +703,6 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDcwMzI4NywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTIwODI4MTIzNzksLTE5MjUzOTcyNzRdfQ
+==
 -->
