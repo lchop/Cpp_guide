@@ -758,11 +758,12 @@ int main{
 	example[4] =4;
 }
 ~~~
-If you have an index problem, writing outside the bonds of the array, you will have memory address, you will access memory that don't belong to your array variable
+If you have an index problem (memory access violation), writing outside the bounds of the array, you will have memory address, you will access memory that don't belong to your array variable.
+Always write in the bounds of your array, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTU3MTY5LC0xODc5NzE0MzEyLC0xND
-IyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3
-Mjc0XX0=
+eyJoaXN0b3J5IjpbMTk2MTQyNDMxNywtMTg3OTcxNDMxMiwtMT
+QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
+NzI3NF19
 -->
