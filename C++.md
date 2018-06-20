@@ -705,13 +705,15 @@ int main()
 ### Visibility
 
 Object oriented programming.
-How visible members or methods are visible, who can see them, who can use them.
-No effect on program performance, right better code.
+**How visible members or methods are visible, who can see them, who can use them.**
+>No effect on program performance, right better code.
 Organization sugar.
 
-
+Private, Protected, Public
+ ~~~cpp
+ class 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTQ2ODAyNywtMTQyMjcyOTY5MiwtNj
-YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbNTY0NTE3MTgsLTE0MjI3Mjk2OTIsLTY2Mj
+czNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
