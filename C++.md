@@ -790,9 +790,9 @@ int main{
 }	
 ~~~
 Why dynamically allocate ?
-Lifetime. If we have a fct 
+Lifetime. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMzc2NDAwLDE4NzI1MDAzMzksMTUzNz
-AzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0
-NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNT
+M3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3
+MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
