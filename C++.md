@@ -25,6 +25,7 @@ C++
 19. [Constructor](#constructor)
 20. [Destructor](#destructor)
 21. [Inheritence](#inheritence)
+22. [Virtual Fuctions](#virtual_fuctions)
 
 *************
 ### Useful
@@ -565,7 +566,7 @@ Inheritence:
   
 *************  
   
-### Virtual Fuctions  
+### Virtual_Fuctions  
   
 **Virtual fuctions** : overwrite methods in subclass  
 ~~~cpp  
@@ -607,22 +608,22 @@ public:
   
 Class Player: public Entity{  
 private:  
-std::string m_Name;  
+	std::string m_Name;  
 public:  
-Player(const std::string& name)  
+	Player(const std::string& name)  
 : m_Name(name){}  
-std::string GetName() override{ return m_Name;}  
+	std::string GetName() override{ return m_Name;}  
 };  
 void PrintName(Entity* entity){  
-std::cout >> entity->GetName() << std::endl;  
+	std::cout >> entity->GetName() << std::endl;  
 }  
 int main()  
 {  
-Entity* e = new Entity();  
-PrintName(e);  
-Player* p =new Player("Louis");  
-PrintName(p);  
-std::cin.get();  
+	Entity* e = new Entity();  
+	PrintName(e);  
+	Player* p =new Player("Louis");  
+	PrintName(p);  
+	std::cin.get();  
 }  
 ~~~  
   
@@ -703,6 +704,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI4MTIzNzksLTE5MjUzOTcyNzRdfQ
-==
+eyJoaXN0b3J5IjpbOTE0OTczNTE3LC0xOTI1Mzk3Mjc0XX0=
 -->
