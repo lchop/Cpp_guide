@@ -763,11 +763,13 @@ Always write in the bounds of your array, **hard to debug**, you have write in m
 
 > For loop is a good way to go through the entire array. 
 
-Memory: you have 4 segments of 4 bits each in the e
+Memory: you have 4 segments of 4 bits each in the example above, one after another in a row.
+
+An array is an integer pointer, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE2MzcyODgsMTUzNzAzODU2NywtMT
-g3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4
-NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTU5Mzc4MjcyNSwxNTM3MDM4NTY3LC0xOD
+c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
+NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
