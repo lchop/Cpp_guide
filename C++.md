@@ -787,11 +787,11 @@ int main{
 		anotger[i] = 2; 
 		}
 	delete[] another;
-}
-	
+}	
 ~~~
+Why dynamically allocalise 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE0NDUyNDcsMTg3MjUwMDMzOSwxNT
-M3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3
-MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTIwMTgzMTEyMywxODcyNTAwMzM5LDE1Mz
+cwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2Mjcz
+NDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
