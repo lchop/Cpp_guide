@@ -793,11 +793,14 @@ Why dynamically allocate in the heat ?
 Lifetime. 
 It takes a lot of performance.
 
+~~~cpp
+int count = size
+~~~
 *Array in c++11* :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxOD
-cyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3
-Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNz
-RdfQ==
+eyJoaXN0b3J5IjpbLTQyMTExMDg0NSwtMzQ3ODE2Mzk0LC0yMD
+A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
+NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
+wtMTkyNTM5NzI3NF19
 -->
