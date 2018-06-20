@@ -789,10 +789,15 @@ int main{
 	delete[] another;
 }	
 ~~~
-Why dynamically allocate ?
+Why dynamically allocate in the heat ?
 Lifetime. 
+It takes a lot of performance.
+
+*Array in c++11* :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNT
-M3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3
-MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxOD
+cyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3
+Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNz
+RdfQ==
 -->
