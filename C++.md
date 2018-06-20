@@ -23,7 +23,8 @@ C++
 17. [Local_Static](#local_static)
 18. [ENUMS](#enums)
 19. [Constructor](#constructor)
-20. [Destructor](#
+20. [Destructor](#destructor)
+21. [Inheritence](#inheritence)
 
 *************
 ### Useful
@@ -533,24 +534,23 @@ A special method gets called when an object get destroyed (for example when we g
 ### Inheritence  
   
 **inheritence** : allows base class contain basic functionnality then branch to have subclass from this parent class  
-~~~  
+~~~cpp  
 class Entity{  
 public:  
-float X,Y;  
-void Move(float xa, float ya){  
-X=+ xa;  
-Y=+ya;  
-}  
+	float X,Y;  
+	void Move(float xa, float ya){  
+		X=+ xa;  
+		Y=+ya;  
+		}  
 };  
   
 class Player : public Entity  
 {  
 public:  
-const char* name;  
-  
+	const char* name;  
 };  
 int main{  
-player.Move(5, 5);  
+	player.Move(5, 5);  
 }  
 ~~~  
 Player is a sub class of entity. It has the type player and entity.  
@@ -704,5 +704,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzcwNzQ2NywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTUwNDcwMzI4NywtMTkyNTM5NzI3NF19
 -->
