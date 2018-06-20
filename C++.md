@@ -770,14 +770,14 @@ An array is an integer pointer to the block of memory that contains the 4 intege
 int main{
 	int example[5];	
 	int* ptr = example;
-	example[0] =2;
-	example[4] =4;
+	example[2] =5;
+	*(ptr + 2) = 6;
 }
 ~~~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI1MTIwNDksMTUzNzAzODU2NywtMT
-g3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4
-NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMjQ3MDMyNzQ4LDE1MzcwMzg1NjcsLTE4Nz
+k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
+MzMsLTE5MjUzOTcyNzRdfQ==
 -->
