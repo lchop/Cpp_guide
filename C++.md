@@ -740,8 +740,12 @@ Everyone can access, class, subclass and outside.
 Private tells you shouldn't be accessing this outside the class. It helps you understand a code.
 We can ensure that people don't break things, called something than his not supposed to be called.
 
+***************
+
+### Array
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLT
-Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTY0NDQzMDA1NiwtMTg3OTcxNDMxMiwtMT
+QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
+NzI3NF19
 -->
