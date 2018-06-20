@@ -29,8 +29,8 @@ C++
 23. [Interfaces_Pure_Virtual_Functions](#interfaces_pure_virtual_functions)
 24. [Visibility](#visibility)
 25. [Arrays](#arrays)
-26. 
-
+26. [Strings_in_cpp](#strings_in_cpp)
+27. 
 *************
 ### Useful
   
@@ -831,9 +831,11 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 ***********
 
 ### Strings_in_cpp
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDEzNTQwNSwtMjA2NDU0NjQ5NSwtMz
-Q3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAz
-ODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NT
-IwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zND
+c4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4
+NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1Mj
+AsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
