@@ -111,7 +111,7 @@ Exemple:
 // to not include twice the same thing) (better)  
 ~~~  
 or can :  
-~~~  
+~~~cpp  
 #ifndef _LOG_H  
 #define _LOG_H  
 #endif (same effect than pragma once)  
@@ -128,7 +128,7 @@ An if conditions is jumping to some part of memory
 > if statements would be avoid if you want a super fast code  
   
 *Exemple* :  
-~~~  
+~~~cpp 
 int x = 5;  
 bool comparisonResult = x ==5;  
 if (comparisonResult){  
@@ -138,7 +138,7 @@ if (comparisonResult){
 > if the if statement is only one line of code you can not use {}  
   
 To check if **a number/or a pointer is a valid value**, we can use an if statement, **if null will not go into the loop**:  
-~~~  
+~~~cpp  
 if (x) { ==> equal to if (x! = null)  
 "hello"}  
   
@@ -151,7 +151,7 @@ if {
 ### Loops  
   
 * **For**  
-~~~  
+~~~cpp 
 for (int i = 0; i<5; i++){  
 }  
   
@@ -164,14 +164,14 @@ for ( ; ; ){
 ~~~  
   
 * **While**  
-~~~  
+~~~cpp  
 while ( i <5 ){  
 }  
   
 ~~~  
   
 * DO  
-~~~  
+~~~cpp  
 do{  
   
   
@@ -185,7 +185,7 @@ do{
 **Gives more control how loops run**  
   
 **continue* : inside loop, skip to the next iteration of this loop or end loop  
-~~~  
+~~~cpp 
 for (int i=5; i<5; i++){  
 if (i %2 == 0)  
 continue;  
@@ -214,7 +214,7 @@ void* ptr = &var; // store the memory address
 **Types doesn't matter for ptr**, it matters for manipulation of memories, but types matters for ptr when you want to read from ptr  
   
 **Read from pointer** :  
-~~~  
+~~~cpp  
 int var = 8; //(stored on the stack)  
 int* ptr = &var;  
 *ptr = 10; // (access value of ptr, stored in a  
@@ -244,7 +244,7 @@ double pointer, ptr to ptr , variable storing memory adress pointing to an other
 > pretty much the same things as ptrs  
   
 **reference** : a way to reference an existing variable  
-~~~  
+~~~cpp  
 int a =5;  
 int& ref = a;  
 ~~~  
@@ -252,7 +252,7 @@ int& ref = a;
   
 **Comparison With ptr**:  
 *With Ptr* :  
-~~~  
+~~~cpp 
 void Increment (int* value){  
 (*value)++;  
 }  
@@ -264,7 +264,7 @@ Increment(&a);
   
 ~~~  
 *With reference* :  
-~~~  
+~~~cpp 
 void Increment (int& value){  
 value++;  
 }  
@@ -701,5 +701,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTAxMTAwOCwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMTk5NTIxMzA1MSwtMTkyNTM5NzI3NF19
 -->
