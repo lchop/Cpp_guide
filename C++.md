@@ -731,7 +731,7 @@ More visible than private, but less than public. This class and the subclass can
 *Public* :
 ~~~cpp
 class Entity{
-protected: //only this Entity class can access this variable, read and write. 
+public: //only this Entity class can access this variable, read and write. 
 	int X, Y;
 };
 ~~~
@@ -742,6 +742,6 @@ We can ensure that people don't break things, called something than his not supp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4ODEyNDUsLTE0MjI3Mjk2OTIsLT
+eyJoaXN0b3J5IjpbLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLT
 Y2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
