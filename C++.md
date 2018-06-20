@@ -6,7 +6,7 @@ C++
 
 1. [Useful](#useful)
 2. [Compiler&Linker](#compiler_linker)
-3. [how_it_work](#how_it_work)
+3. [how_it_works](#how_it_work)
 4. [Variables](#variables)
 5. [Functions](#functions)
 6. [Header_files](#header_files)
@@ -703,6 +703,5 @@ int main()
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAzMDc3MzcsLTE5MjUzOTcyNzRdfQ
-==
+eyJoaXN0b3J5IjpbMjE0NzE0MjI5NCwtMTkyNTM5NzI3NF19
 -->
