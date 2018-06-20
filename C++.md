@@ -712,12 +712,13 @@ Organization sugar.
 Private, Protected, Public
 ~~~cpp
 class Entity{
-private: //only this class can access this variable, read and write. 
+private: //only this Entity class can access this variable, read and write. 
 	int X, Y;
 };
 ~~~
+friend can access private variable.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NDg3MzUwLC0xNDIyNzI5NjkyLC02Nj
+eyJoaXN0b3J5IjpbNDA1MTYyMzA4LC0xNDIyNzI5NjkyLC02Nj
 I3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
