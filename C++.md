@@ -763,9 +763,11 @@ Always write in the bounds of your array, **hard to debug**, you have write in m
 
 > For loop is a good way to go through the entire array. 
 
+Memory: you have 4 segments of 4 bits each in the e
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzAzODU2NywtMTg3OTcxNDMxMiwtMT
-QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
-NzI3NF19
+eyJoaXN0b3J5IjpbLTE3ODE2MzcyODgsMTUzNzAzODU2NywtMT
+g3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4
+NTYzMywtMTkyNTM5NzI3NF19
 -->
