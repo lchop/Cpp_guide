@@ -824,9 +824,10 @@ public:
 	}
 };
 ~~~
-It's worth it to use c++11 array usually, they are called standard array
+It's worth it to use c++11 array usually. It's safer becaus
+they are called standard array and int array[5] are called raw array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDc4NDAyMCwtMjA2NDU0NjQ5NSwtMz
+eyJoaXN0b3J5IjpbMTczMDczMDYwNSwtMjA2NDU0NjQ5NSwtMz
 Q3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAz
 ODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NT
 IwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
