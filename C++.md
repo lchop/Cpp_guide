@@ -747,9 +747,15 @@ We can ensure that people don't break things, called something than his not supp
 
 A collection of elements, a way to represent a collection of variables.
 
+> Having multiple variables inside a single variable.
+
+> 
+int example[5];
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODM3ODE0MCwtMTg3OTcxNDMxMiwtMT
+eyJoaXN0b3J5IjpbMTUxOTcwMTgwMiwtMTg3OTcxNDMxMiwtMT
 QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
 NzI3NF19
 -->
