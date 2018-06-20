@@ -22,7 +22,8 @@ C++
 16. [Static_Cpp_Outside Class](#static_cpp_outside_class)
 17. [Local_Static](#local_static)
 18. [ENUMS](#enums)
-19. 
+19. [Constructor](#constructor)
+20. [Destructor](#
 
 *************
 ### Useful
@@ -522,7 +523,7 @@ A special method gets called when an object get destroyed (for example when we g
   
 >Unitialize everything, opposite of the constructor, free memory  
   
-~~~  
+~~~cpp  
 ~Entity() { // ~ to specify a destructor and not constructor  
 }  
 ~~~  
@@ -703,5 +704,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTUzNjA3NiwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTcwNzcwNzQ2NywtMTkyNTM5NzI3NF19
 -->
