@@ -420,12 +420,21 @@ A static method doesn't have a class instence.
 > Two parameters to look for variables: Live time of a variable / scope of the variable (where the variable can be use)  
   
 **a static Local variable** : live time = the entire program / scop = limited inside this fct  
-~~~ 
+~~~cpp 
 void Funtion(){  
 static int i = 0 ;  
 i++;  
 std::cout <<i<<std::endl;
+~~~
+==  
+~~~cpp
+int i = 0 ;  
+void Funtion(){  
+	i++;  
+	std::cout <<i<<std::endl;
+}
+~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjkyODk2MCwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTE0NjY2MDUyNCwtMTkyNTM5NzI3NF19
 -->
