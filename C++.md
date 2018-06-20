@@ -641,7 +641,7 @@ Dynamic dispach using V-table, mapping for all the virtual function inside the b
   
 *****************  
   
-### Interfaces (Pure Virtual Function)  
+### Interfaces_Pure_Virtual_Function
   
 Allow us to define a function in a base class, that does not have an implementation and force subclass to implement that fct.  
   
@@ -651,49 +651,46 @@ It s commun to do a base class full of undefined methods and force the subclass 
   
 > It's not possible to instentiate that class. (Instentiate = Entity entity)  
   
-~~~  
+~~~cpp  
 virtual std:string getName() = 0; // =0 make a pure virtual fct that has to  
 // be implemented in an another fct  
 ~~~  
-~~~  
+~~~cpp  
 Class Printable{  
 public:  
-virtual std::string GetClassName() =0;  
+	virtual std::string GetClassName() =0;  
 };  
   
 Class Entity : public Printable {  
 public:  
-virtual std::string getName() { return "Entity";}  
-std::string GetClassName() {return "Entiry";}  
+	virtual std::string getName() { return "Entity";}  
+	std::string GetClassName() {return "Entiry";}  
 };  
   
 Class Player: public Entity{  
 private:  
-std::string m_Name;  
+	std::string m_Name;  
 public:  
-Player(const std::string& name)  
+	Player(const std::string& name)  
 : m_Name(name){}  
-std::string GetName() override { return m_Name;}  
-std::string GetClassName() {return "Player";}  
+	std::string GetName() override { return m_Name;}  
+	std::string GetClassName() {return "Player";}  
 };  
 void PrintName(Entity* entity){  
-std::cout >> entity->GetName() << std::endl;  
+	std::cout >> entity->GetName() << std::endl;  
 }  
   
 void Print( Printable* obj){  
-std::cout << Entity->getName() << std::endl;  
+	std::cout << Entity->getName() << std::endl;  
 }  
   
 int main()  
 {  
-Entity* e = new Entity();  
-  
-Player* p =new Player("Louis");  
-  
-Print(e);  
-Print(p);  
-  
-std::cin.get();  
+	Entity* e = new Entity();  
+	Player* p =new Player("Louis");  
+	Print(e);  
+	Print(p);  
+	std::cin.get();  
 }  
   
 ~~~  
@@ -704,5 +701,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0OTczNTE3LC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbNDIxNzkzMzMxLC0xOTI1Mzk3Mjc0XX0=
 -->
