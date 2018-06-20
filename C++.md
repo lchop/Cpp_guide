@@ -106,7 +106,7 @@ They are used to declare varibales or functions that are used in multiple progra
 **name.h**  
   
 Exemple:  
-~~~  
+~~~cpp  
 #pragma once // (declare only once,  
 // to not include twice the same thing) (better)  
 ~~~  
@@ -422,9 +422,10 @@ A static method doesn't have a class instence.
 **a static Local variable** : live time = the entire program / scop = limited inside this fct  
 ~~~cpp 
 void Funtion(){  
-static int i = 0 ;  
-i++;  
-std::cout <<i<<std::endl;
+	static int i = 0 ;  
+	i++;  
+	std::cout <<i<<std::endl;
+	}
 ~~~
 ==  
 ~~~cpp
@@ -432,9 +433,273 @@ int i = 0 ;
 void Funtion(){  
 	i++;  
 	std::cout <<i<<std::endl;
-}
+	}
 ~~~
-
+Example:  
+~~~cpp
+class Singleton{  
+private:  
+static Singleton* s_Instance;  
+public:  
+static Singleton& Get() { return *s_Instance;}  
+void Hello(){}  
+};  
+Singleton* Singleton::s_Instance=nullPtr;  
+int main(){  
+Singleton::Get().Hello();  
+}  
+~~~  
+==  
+~~~cpp  
+class Singleton{  
+public:  
+static Singleton& Get() {  
+static Singleton instance;  
+return *s_Instance;  
+}  
+void Hello(){}  
+};  
+  
+int main(){  
+Singleton::Get().Hello();  
+}  
+~~~
+***********  
+  
+### ENUMS  
+  
+**Enums** : a way to give a name to a value  
+A way to name value  
+> Helps to have a cleaner code  
+  
+Example :  
+  
+enum Example : unisgned char { //int by default  
+A = 0 ,B = 6 ,C = 8 //if not defined start from  
+// 0 then increment 1 (A=0 , B=1,...)  
+};  
+int main {  
+Example value = B;  
+if (value ==1){  
+}  
+  
+}  
+  
+*************  
+  
+### Constructor  
+  
+**Initialize a class**.  
+  
+A special type of method launched everytime we instanciated an object  
+>Replace a void init()  
+  
+>A method that get called every time we construct an object  
+  
+~~~  
+Class Entity{  
+public:  
+float X,Y  
+Entity() { // as to match the name of the class  
+}  
+Entity (float x, float y){  
+X=x;  
+Y=y;  
+}  
+  
+Entity e(10.0f,5.0.f);  
+~~~  
+  
+>To delete the default constructor: Log() = delete;  
+  
+****************  
+  
+### Destructor  
+  
+A special method gets called when an object get destroyed (for example when we get out of a fct loop)  
+  
+>Unitialize everything, opposite of the constructor, free memory  
+  
+~~~  
+~Entity() { // ~ to specify a destructor and not constructor  
+}  
+~~~  
+  
+***************  
+  
+### Inheritence  
+  
+**inheritence** : allows base class contain basic functionnality then branch to have subclass from this parent class  
+~~~  
+class Entity{  
+public:  
+float X,Y;  
+void Move(float xa, float ya){  
+X=+ xa;  
+Y=+ya;  
+}  
+};  
+  
+class Player : public Entity  
+{  
+public:  
+const char* name;  
+  
+};  
+int main{  
+player.Move(5, 5);  
+}  
+~~~  
+Player is a sub class of entity. It has the type player and entity.  
+Playert has everything entity has.  
+We can add informations that are not in entity in player.  
+  
+**Polymorphise**:  
+We can also use Player everywhere we wanted to use Entity, because Player has everything from Entity + some specific stuff.  
+Inheritence:  
+  
+> A way to extend an existing class, profide new functionnalities to a base class. Super class = Entity, base class  
+  
+*************  
+  
+### Virtual Fuctions  
+  
+**Virtual fuctions** : overwrite methods in subclass  
+~~~  
+Class Entity{  
+public:  
+std::string getName() { return "Entity";}  
+};  
+  
+Class Player: public Entity{  
+private:  
+std::string m_Name;  
+public:  
+Player(const std::string& name)  
+: m_Name(name){}  
+std::string GetName() { return m_Name;}  
+};  
+void PrintName(Entity* entity){  
+std::cout >> entity->GetName() << std::endl;  
+}  
+int main()  
+{  
+Entity* e = new Entity();  
+PrintName(e);  
+Player* p =new Player("Louis");  
+PrintName(p);  
+std::cin.get();  
+}  
+  
+~~~  
+Entity get print twice and not Louis .  
+  
+Because it go inside intity and call entity, it cause methods refer to the type.  
+But we want the getName inside Player.  
+Then we use virtual function, to overwrite the function in the base function and use the subclass function instead.  
+~~~  
+Class Entity{  
+public:  
+virtual std::string getName() { return "Entity";}  
+};  
+  
+Class Player: public Entity{  
+private:  
+std::string m_Name;  
+public:  
+Player(const std::string& name)  
+: m_Name(name){}  
+std::string GetName() override{ return m_Name;}  
+};  
+void PrintName(Entity* entity){  
+std::cout >> entity->GetName() << std::endl;  
+}  
+int main()  
+{  
+Entity* e = new Entity();  
+PrintName(e);  
+Player* p =new Player("Louis");  
+PrintName(p);  
+std::cin.get();  
+}  
+~~~  
+  
+We add virtual in the base class in front of the fct name.  
+We add override in then end of the name of the function that overwrite the fct in the base class. (c++11). (it's not a must but it helps for to make the code more clear and gives feedback on error in the name or else)  
+  
+**How does it work ?**  
+Dynamic dispach using V-table, mapping for all the virtual function inside the base class to map them to the overwrite function.  
+  
+>Additional memory use when using virtual function.  
+  
+>Go trough the table to map the function.  
+  
+>The impact is still minimal.  
+  
+*****************  
+  
+### Interfaces (Pure Virtual Function)  
+  
+Allow us to define a function in a base class, that does not have an implementation and force subclass to implement that fct.  
+  
+We want to force the subclass to provide its own definition.  
+  
+It s commun to do a base class full of undefined methods and force the subclass to implement them, it's called an interface, a class that only consist on unimplemented methods, acting like a template.  
+  
+> It's not possible to instentiate that class. (Instentiate = Entity entity)  
+  
+~~~  
+virtual std:string getName() = 0; // =0 make a pure virtual fct that has to  
+// be implemented in an another fct  
+~~~  
+~~~  
+Class Printable{  
+public:  
+virtual std::string GetClassName() =0;  
+};  
+  
+Class Entity : public Printable {  
+public:  
+virtual std::string getName() { return "Entity";}  
+std::string GetClassName() {return "Entiry";}  
+};  
+  
+Class Player: public Entity{  
+private:  
+std::string m_Name;  
+public:  
+Player(const std::string& name)  
+: m_Name(name){}  
+std::string GetName() override { return m_Name;}  
+std::string GetClassName() {return "Player";}  
+};  
+void PrintName(Entity* entity){  
+std::cout >> entity->GetName() << std::endl;  
+}  
+  
+void Print( Printable* obj){  
+std::cout << Entity->getName() << std::endl;  
+}  
+  
+int main()  
+{  
+Entity* e = new Entity();  
+  
+Player* p =new Player("Louis");  
+  
+Print(e);  
+Print(p);  
+  
+std::cin.get();  
+}  
+  
+~~~  
+  
+> There is no interface keyworld in C++, it's just a class.  
+  
+*******************  
+  
+### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY2MDUyNCwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTQ2OTAxMTAwOCwtMTkyNTM5NzI3NF19
 -->
