@@ -21,7 +21,8 @@ C++
 15. [How_to_write_a_class](#how_to_write_a_class)
 16. [Static_Cpp_Outside Class](#static_cpp_outside_class)
 17. [Local_Static](#local_static)
-18. 
+18. [ENUMS](#enums)
+19. 
 
 *************
 ### Useful
@@ -496,16 +497,17 @@ A special type of method launched everytime we instanciated an object
   
 >A method that get called every time we construct an object  
   
-~~~  
+~~~cpp 
 Class Entity{  
 public:  
-float X,Y  
-Entity() { // as to match the name of the class  
-}  
-Entity (float x, float y){  
-X=x;  
-Y=y;  
-}  
+	float X,Y  
+	Entity() { // as to match the name of the class  
+	}  
+	Entity (float x, float y){  
+		X=x;  
+		Y=y;  
+	} 
+};
   
 Entity e(10.0f,5.0.f);  
 ~~~  
@@ -701,5 +703,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzYxNTY0MywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMTMyOTUzNjA3NiwtMTkyNTM5NzI3NF19
 -->
