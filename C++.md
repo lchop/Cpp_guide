@@ -752,16 +752,17 @@ A collection of elements, a way to represent a collection of variables.
 > Start with 0 in C++
 
 ~~~cpp
-int example[5];	
-example[0] =2;
-example[4] = 4;
-
+int main{
+	int example[5];	
+	example[0] =2;
+	example[4] =4;
+}
 ~~~
-
+If you have an index problem, writing outside the bouds of the array, yo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU0NjA0OTMsLTE4Nzk3MTQzMTIsLT
-E0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUz
-OTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTgzMTU1Mjc3LC0xODc5NzE0MzEyLC0xND
+IyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3
+Mjc0XX0=
 -->
