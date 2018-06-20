@@ -781,14 +781,17 @@ int main{
 ~~~cpp
 int main{
 	int example[5]; //will be deleted at the end of main	
-	int* another = new int[5]; //needs to be manualy deleted using delete keyword
+	int* another = new int[5]; //needs to be manualy deleted using delete keyword (delete[])
 	for	(int i=0, i<5,, i++){
-		
+		example[i] = 2;
+		anotger[i] = 2; 
+		}
+	delete[] another;
 }
 	
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM4NzIwNSwxODcyNTAwMzM5LDE1Mz
-cwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2Mjcz
-NDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTE1MDE0NDUyNDcsMTg3MjUwMDMzOSwxNT
+M3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3
+MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
