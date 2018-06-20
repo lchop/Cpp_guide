@@ -749,13 +749,19 @@ A collection of elements, a way to represent a collection of variables.
 
 > Having multiple variables inside a single variable.
 
-> 
-int example[5];
+> Start with 0 in C++
+
+~~~cpp
+int example[5];	
+example[0] =2;
+example[4] = 4;
+
+~~~
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTcwMTgwMiwtMTg3OTcxNDMxMiwtMT
-QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
-NzI3NF19
+eyJoaXN0b3J5IjpbLTExNjU0NjA0OTMsLTE4Nzk3MTQzMTIsLT
+E0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUz
+OTcyNzRdfQ==
 -->
