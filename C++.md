@@ -28,7 +28,8 @@ C++
 22. [Virtual Fuctions](#virtual_fuctions)
 23. [Interfaces_Pure_Virtual_Functions](#interfaces_pure_virtual_functions)
 24. [Visibility](#visibility)
-25. 
+25. [Array](#array)
+26. 
 
 *************
 ### Useful
@@ -745,7 +746,7 @@ We can ensure that people don't break things, called something than his not supp
 ### Array
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDQzMDA1NiwtMTg3OTcxNDMxMiwtMT
-QyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5
-NzI3NF19
+eyJoaXN0b3J5IjpbLTQwNjI1OTk4LC0xODc5NzE0MzEyLC0xND
+IyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3
+Mjc0XX0=
 -->
