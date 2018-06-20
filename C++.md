@@ -789,9 +789,10 @@ int main{
 	delete[] another;
 }	
 ~~~
-Why dynamically allocalise 
+Why dynamically allocate ?
+Lifetime. If we have a fct 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTgzMTEyMywxODcyNTAwMzM5LDE1Mz
-cwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2Mjcz
-NDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbODEzMzc2NDAwLDE4NzI1MDAzMzksMTUzNz
+AzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0
+NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
