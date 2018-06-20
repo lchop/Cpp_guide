@@ -780,10 +780,13 @@ int main{
 *Array on the heat* 
 ~~~cpp
 int main{
-	int example 
+	int example[5];	
+	int* another = new int[5];
+}
+	
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC0xOD
-c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
-NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTkyNDY0NjUxNiwxODcyNTAwMzM5LDE1Mz
+cwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2Mjcz
+NDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
