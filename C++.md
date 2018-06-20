@@ -791,12 +791,12 @@ int main{
 ~~~
 Why dynamically allocate in the heat ?
 Lifetime. 
-It takes a lot of performance.
+But It takes a lot of performance.
 
 ~~~cpp
 int count = sizeof(example) / sizeof(int); //to know the size of the array only on the stack
 ~~~
-Not very beautiful and not very trust able. 
+Not very beautiful and not very trust-able. 
 
 *Other way* :
 ~~~cpp
@@ -826,10 +826,14 @@ public:
 ~~~
 
 It's worth it to use c++11 array usually. It's safer because it maintained size. 
-They are called standard array and int array[5] are called raw array.
+>They are called standard array and int array[5] are called raw array.
+
+***********
+
+### Strings_in_cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwNjI2NDYsLTIwNjQ1NDY0OTUsLT
-M0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1Mzcw
-Mzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczND
-UyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTMwNDEzNTQwNSwtMjA2NDU0NjQ5NSwtMz
+Q3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAz
+ODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NT
+IwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
