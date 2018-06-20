@@ -27,6 +27,7 @@ C++
 21. [Inheritence](#inheritence)
 22. [Virtual Fuctions](#virtual_fuctions)
 23. [Interfaces_Pure_Virtual_Functions](#interfaces_pure_virtual_functions)
+24. [Visibility](#visibility)
 
 *************
 ### Useful
@@ -702,5 +703,6 @@ int main()
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzOTU0MTQxLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTE5NTAzMDc3MzcsLTE5MjUzOTcyNzRdfQ
+==
 -->
