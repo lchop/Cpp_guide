@@ -777,8 +777,11 @@ int main{
 ~~~
 > When we are doing ptr arithmetic, in term of bits, the numbers of bits he is going to add depend on the type. For example, above we are going to add two times 4 bits because it's integer. 
 
+*Array on the heat* 
+~~~cpp
+~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NTA3MDA0LDE1MzcwMzg1NjcsLTE4Nz
+eyJoaXN0b3J5IjpbNzg3Mzk3NDA0LDE1MzcwMzg1NjcsLTE4Nz
 k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
 MzMsLTE5MjUzOTcyNzRdfQ==
 -->
