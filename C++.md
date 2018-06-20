@@ -802,11 +802,11 @@ Other way:
 ~~~cpp
 class Entity{
 public:
-	static const int size = 5;
-	int example[size]; //has to a compile time known const
+	static const int exampleSize = 5;
+	int example[exampleSize]; //has to a compile time known const = static const
 	Entity()
 	{
-		for (int i =0; i<5; i++)
+		for (int i =0; i<exampleSize; i++)
 			example[i] = 2;
 	}
 };
@@ -815,8 +815,11 @@ int main{
 	std::cin.get();
 	}
 ~~~
+
+*In C++ 11* :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDcwMzc2MCwtMzQ3ODE2Mzk0LC0yMD
+eyJoaXN0b3J5IjpbMTYzMjAxODE3NiwtMzQ3ODE2Mzk0LC0yMD
 A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
 NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
 wtMTkyNTM5NzI3NF19
