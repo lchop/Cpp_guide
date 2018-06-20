@@ -705,8 +705,13 @@ int main()
 ### Visibility
 
 Object oriented programming.
+How visible members or methods are visible, who can see them, who can use them.
+No effect on program performance, right better code.
+Organization sugar.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTQwNDY0MiwtMTQyMjcyOTY5MiwtNj
+eyJoaXN0b3J5IjpbMTk1MTQ2ODAyNywtMTQyMjcyOTY5MiwtNj
 YyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
