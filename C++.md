@@ -287,7 +287,7 @@ Increment(a);
   
 **Object oriented programming**  
 **Class** : put together data and fct  
-~~~  
+~~~cpp  
 Class player{ (unique type, creating a new variable type)  
 public:  
 int x, y  
@@ -297,7 +297,7 @@ int speed;
 **visibility** : how visible is the stuff inside the class (default private)  
 **public** : can access to this variable outside this class  
 **method** : function of a class  
-~~~  
+~~~cpp  
 Class player{  
 public:  
 int x, y  
@@ -319,19 +319,19 @@ y+=ya*speed;
 **A struct is public by default.**  
   
 > Struct exist in part to have compatibility with C.  
-~~~  
-Struct player{  
+~~~cpp  
+struct player{  
 }  
 ~~~  
 **When do I use struct** : usage: playing on data, structure that represente variable, like a vector class;  
-~~~  
+~~~cpp 
 struct vec2{  
 float x,y;  
 void Add(const Vec2& other){  
-x = other.x +x;  
-y= other.y +y;  
-}  
-}  
+	x = other.x +x;  
+	y= other.y +y;  
+	}
+} 
 ~~~  
   
 > Representing data in a structure, use struct.  
@@ -364,7 +364,7 @@ void Subroutine4(big_structure_type const &Parameter1);
 which will cause the variable to be passed without copying but stop it from then being altered.  
   
 * *Object oriented* :  
-~~~  
+~~~cpp 
 class Class2{  
 void Method1() const;  
 int MemberVariable1;  
@@ -473,7 +473,7 @@ A way to name value
 > Helps to have a cleaner code  
   
 Example :  
-  
+
 enum Example : unisgned char { //int by default  
 A = 0 ,B = 6 ,C = 8 //if not defined start from  
 // 0 then increment 1 (A=0 , B=1,...)  
@@ -701,5 +701,5 @@ std::cin.get();
   
 ### Visibility
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTIxMzA1MSwtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMzczOTA2NjI2LC0xOTI1Mzk3Mjc0XX0=
 -->
