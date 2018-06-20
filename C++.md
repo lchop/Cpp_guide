@@ -771,14 +771,15 @@ int main{
 	int example[5];	
 	int* ptr = example;
 	example[2] =5;
-	*(ptr + 2) = 5; // same meaning of the line above but takes more bits
+	*(ptr + 2) = 5; // same meaning of the line above but takes more bits 
+	*(int*)((char*)ptr + 8) = 6; //same meaning, with same bits
 }
 ~~~
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODcyODM5OSwxNTM3MDM4NTY3LC0xOD
-c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
-NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbNjAxMDcxOTExLDE1MzcwMzg1NjcsLTE4Nz
+k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
+MzMsLTE5MjUzOTcyNzRdfQ==
 -->
