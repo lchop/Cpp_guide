@@ -772,16 +772,18 @@ int main{
 	int* ptr = example;
 	example[2] =5;
 	*(ptr + 2) = 5; // same meaning of the line above but takes more bits 
-	*(int*)((char*)ptr + 8) = 6; //same meaning, with same bits
+	*(int*)((char*)ptr + 8) = 5; //same meaning, with same bits
 }
 ~~~
 > When we are doing ptr arithmetic, in term of bits, the numbers of bits he is going to add depend on the type. For example, above we are going to add two times 4 bits because it's integer. 
 
 *Array on the heat* 
 ~~~cpp
-~~
+int main{
+	int example 
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3Mzk3NDA0LDE1MzcwMzg1NjcsLTE4Nz
-k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
-MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC0xOD
+c5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1
+NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
