@@ -775,10 +775,10 @@ int main{
 	*(int*)((char*)ptr + 8) = 6; //same meaning, with same bits
 }
 ~~~
-> When we are doing ptr arithmetic, in term of bits, the numbers of bits he is going to add depend on the type. For example, above we are going to add two times 4 bit
+> When we are doing ptr arithmetic, in term of bits, the numbers of bits he is going to add depend on the type. For example, above we are going to add two times 4 bits because it's integer. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzOTQxNjYsMTUzNzAzODU2NywtMT
-g3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4
-NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMzY1NTA3MDA0LDE1MzcwMzg1NjcsLTE4Nz
+k3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2
+MzMsLTE5MjUzOTcyNzRdfQ==
 -->
