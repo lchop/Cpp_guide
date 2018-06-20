@@ -797,10 +797,19 @@ It takes a lot of performance.
 int count = sizeof(example) / sizeof(int); //to know the size of the array only on the stack
 ~~~
 ~~~cpp
-
+class Entity{
+public:
+	const int size = 5;
+	int example[size];
+	Entity()
+	{
+		for (int i =0; i<5; i++)
+			example[i] = 2;
+		
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTc3ODA1NiwtMzQ3ODE2Mzk0LC0yMD
-A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
-NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
-wtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTY5MTA2MTgwLC0zNDc4MTYzOTQsLTIwMD
+QzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC0xODc5NzE0
+MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC
+0xOTI1Mzk3Mjc0XX0=
 -->
