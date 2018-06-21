@@ -864,17 +864,17 @@ An array of characters.
 ~~~cpp
 int main{
 	const char* name = "Louis"; //we can not change the content with const
-	std::cin.get();
-	char name[5]= { 'L', 'o', 'u','i', '
+	char name[5]= { 'L', 'o', 'u','i', 's',0} //equal to the line above
 	}
 ~~~
 ASCII representation in memory.
-A string always ends with 00 bit in memory. That's how the computer now, where the string end. 
+A string always ends with a 00 bit in memory. That's how the computer now, where the string end. 
+
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTM2MjQ3MSwtODM5NDAxMTgyLDE2Nj
+eyJoaXN0b3J5IjpbLTc4NDY0NjMyNSwtODM5NDAxMTgyLDE2Nj
 AyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0
 OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LD
 E1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2
