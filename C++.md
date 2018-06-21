@@ -875,8 +875,8 @@ A string always ends with a 00 bit in memory. That's how the computer now, where
 #include <string>
 int main{
 	std::string name = "Louis";
-	std::string name = std::string("Louis") + "Hello";
-	bool contains = name.find("lo" != std::str
+	std::string name = std::string("Louis") + "Hello"; //adding strings
+	bool contains = name.find("lo") != std::string::npos; //npos position
 	name.size();
 	}
 ~~~
@@ -886,7 +886,7 @@ You should use the std string library.
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MDI1MzkxLC04Mzk0MDExODIsMTY2MD
+eyJoaXN0b3J5IjpbMzY2MzE1ODQ1LC04Mzk0MDExODIsMTY2MD
 IyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5
 NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMT
 UzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYy
