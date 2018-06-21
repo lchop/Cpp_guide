@@ -903,13 +903,18 @@ String copying is very slow, try to avoid.
 ### String_Literals_in_Cpp
 
 ***String Literals*** = "Louis" 
+~~~cpp
+	const char* name ="Louis";
+	const 
+~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMT
-UxMTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1
-LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zND
-c4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4
-NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1Mj
-AsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTk2NjkxNDQzNSwxMTI1NDA4NzU3LC05Nj
+c1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5NDAxMTgy
+LDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNj
+Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
+MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
+IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+
 -->
