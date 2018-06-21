@@ -874,17 +874,18 @@ A string always ends with a 00 bit in memory. That's how the computer now, where
 ~~~cpp
 #include <string>
 int main{
-	std::string name = "Louis" +"Hello";
+	std::string name = "Louis";
+	
 	name.size();
 	}
 ~~~
 You should use the std string library. 
-***"" : means const char array 
+***" string "*** : (double quote) means const char array.
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTIxNDI4NywtODM5NDAxMTgyLDE2Nj
+eyJoaXN0b3J5IjpbLTk3MDM4MTYwNywtODM5NDAxMTgyLDE2Nj
 AyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0
 OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LD
 E1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2
