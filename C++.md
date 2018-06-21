@@ -212,6 +212,7 @@ continue;
   
 **return** : get out of the function  
   
+   [TOC](#table_of_contents)
 ***************  
   
 ### Pointers  
@@ -251,7 +252,8 @@ delete[] buffer; //( delete the memory used)
 double pointer, ptr to ptr , variable storing memory adress pointing to an other variable stroing an another address that as the data  
   
 **char** ptr** : a ptr to a ptr  
-  
+
+   [TOC](#table_of_contents)
 ************  
   
 ### References  
@@ -298,6 +300,7 @@ Increment(a);
   
 >Once you declared a reference, you can not change what it's refering too  
   
+   [TOC](#table_of_contents)
 ********************  
   
 ### Classes  
@@ -328,6 +331,7 @@ y+=ya*speed;
   
 >They can't do anything than structures can't do.  
   
+   [TOC](#table_of_contents)
 ********************  
   
 ### Class_vs_Structures  
@@ -355,6 +359,7 @@ void Add(const Vec2& other){
   
 > I would never use inheritence with struct.  
   
+   [TOC](#table_of_contents)
 *******************  
   
 ### Const  
@@ -389,6 +394,7 @@ int MemberVariable1;
 ~~~  
 which will ban Method1 in Class2 from being anything which can attempt to alter any member variables in the object.  
   
+   [TOC](#table_of_contents)
 ****************  
   
 ### How_to_write_a_class  
@@ -430,6 +436,7 @@ A static method doesn't have a class instence.
   
 **When do I use static method** : Static data, data that doesnt change between class instence but we want actually to use inside our class  
   
+   [TOC](#table_of_contents)
 ***********  
   
 ### Local_Static  
@@ -481,6 +488,8 @@ int main(){
 Singleton::Get().Hello();  
 }  
 ~~~
+
+ [TOC](#table_of_contents)
 ***********  
   
 ### ENUMS  
@@ -501,7 +510,8 @@ int main {
 	}
 }
 ~~~
-  
+
+   [TOC](#table_of_contents)
 *************  
   
 ### Constructor  
@@ -843,9 +853,9 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI4OTk3NzgsMjUwODkwMzU4LC0yMD
-Y0NTQ2NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUw
-MDMzOSwxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5Nj
-kyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTkzNzY4NTQzNywyNTA4OTAzNTgsLTIwNj
+Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
+MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
+IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 
 -->
