@@ -905,7 +905,7 @@ String copying is very slow, try to avoid.
 ***String Literals*** = "Louis" 
 ~~~cpp
 	const char* name ="Louis"; // const remind you that you never modified a string defined 				like this
-	const wchar_t* name2 = L"Louis"; //Wi characters
+	const wchar_t* name2 = L"Louis"; //Wide characters
 	const char16_t* name3 = u"Louis"; //UTF 16
 	const char32_t* name4 = U"Louis"; //UTF 32
 ~~~
@@ -922,7 +922,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDU0MDMzMSwtMTA4ODcwMDEzMSwtMT
+eyJoaXN0b3J5IjpbLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMT
 k5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUw
 NTA5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC04Mzk0MDExODIsMT
 Y2MDIyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0
