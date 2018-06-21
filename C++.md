@@ -905,16 +905,17 @@ String copying is very slow, try to avoid.
 ***String Literals*** = "Louis" 
 ~~~cpp
 	const char* name ="Louis"; // const remind you that you never modified a string defined 				like this
-	const wchar_t* name2 = 
+	const wchar_t* name2 = L"Louis"; //Wild character
+	const chat16_t
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc5MTU1NywxMTI1NDA4NzU3LC05Nj
-c1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5NDAxMTgy
-LDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNj
-Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
-MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
-IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
-
+eyJoaXN0b3J5IjpbLTEyMjE2NjI2OTIsLTE0NTc5MTU1NywxMT
+I1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYx
+NiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNT
+A4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1
+MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMT
+IsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5
+MjUzOTcyNzRdfQ==
 -->
