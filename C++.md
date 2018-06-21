@@ -161,7 +161,7 @@ if (x) { ==> equal to if (x! = null)
 else if is equal to else{  
 if {  
 ~~~  
-  
+   [TOC](#table_of_contents)
 **************  
   
 ### Loops  
@@ -193,6 +193,7 @@ do{
   
 }while (i<5) : will be done at least one time  
 ~~~  
+ [TOC](#table_of_contents)
   
 ************  
   
@@ -842,8 +843,9 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExOTI1NzQ0LDI1MDg5MDM1OCwtMjA2ND
-U0NjQ5NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAz
-MzksMTUzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5Mi
-wtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbLTE2NDI4OTk3NzgsMjUwODkwMzU4LC0yMD
+Y0NTQ2NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUw
+MDMzOSwxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5Nj
+kyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+
 -->
