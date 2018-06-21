@@ -41,6 +41,7 @@ C++
 * **srand(time(0))**: seed the time to rand  
 * **->**: It's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
   
+   [TOC](#t)
 *************************  
   
 ### Compiler_Linker  
@@ -834,8 +835,9 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zND
-c4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4
-NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1Mj
-AsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTMwODUxNzM4MCwyNTA4OTAzNTgsLTIwNj
+Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
+MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
+IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+
 -->
