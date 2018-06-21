@@ -904,17 +904,20 @@ String copying is very slow, try to avoid.
 
 ***String Literals*** = "Louis" 
 ~~~cpp
-	using namespace std::string_literals; //c++14
-	
 	const char* name ="Louis"; // const remind you that you never modified a string defined 				like this
 	const wchar_t* name2 = L"Louis"; //Wild characters
 	const char16_t* name3 = u"Louis"; //UTF 16
 	const char32_t* name4 = U"Louis"; //UTF 32
 ~~~
+~~~cpp
+	using namespace std::string_literals; //c++14
+	std::wstring name0 = u8"Louis"s + U"Hello"; //the s at the end mean stand string
+~~~
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNzA3NDcwLC0xOTk1NzgwODc2LC0xND
+eyJoaXN0b3J5IjpbNjk4ODIxMjIyLC0xOTk1NzgwODc2LC0xND
 U3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5
 OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3OD
 g5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYz
