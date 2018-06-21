@@ -873,11 +873,6 @@ A string always ends with a 00 bit in memory. That's how the computer now, where
 *In C++*:
 ~~~cpp
 #include <string>
-
-void PrintString(std::string string){
-	std::cout << string << std::endl;
-	}
-	
 int main{
 	std::string name = "Louis";
 	std::string name = std::string("Louis") + "Hello"; //adding strings
@@ -887,13 +882,14 @@ int main{
 ~~~
 You should use the std string library. 
 ***" string "*** : (double quote) means const char array.
+String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQxMTU0MDcsLTgzOTQwMTE4MiwxNj
-YwMjIzNDg1LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2
-NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOS
-wxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02
-NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMzI0MDEzODkzLC04Mzk0MDExODIsMTY2MD
+IyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5
+NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMT
+UzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYy
+NzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
