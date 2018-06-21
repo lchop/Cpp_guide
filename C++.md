@@ -865,13 +865,15 @@ An array of characters.
 int main{
 	const char* name = "Louis"; //we can not change the content with const
 	std::cin.get();
+	}
 ~~~
+ASCII representation in memory.
 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyOTk5MDI5LDE2NjAyMjM0ODUsMTc4OD
+eyJoaXN0b3J5IjpbLTQxNTI0ODc2LDE2NjAyMjM0ODUsMTc4OD
 kwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0NzgxNjM5
 NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLT
 E4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2
