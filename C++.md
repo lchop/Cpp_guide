@@ -909,10 +909,11 @@ String copying is very slow, try to avoid.
 	const char16_t* name3 = u"Louis"; //UTF 16
 	const char32_t* name4 = U"Louis"; //UTF 32
 ~~~
+
 ~~~cpp
 	using namespace std::string_literals; //c++14, you can put symbol in front or end of "" 
 	std::wstring name0 = u8"Louis"s + U"Hello"; //the s at the end mean stand string
-	const char* example = R"(Line1
+	const char* example = R"(Line1 // ignore escape char, multi lines strings
 	Line2
 	Line3
 	Line4)";
@@ -921,7 +922,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxMTY5NzcsLTE5OTU3ODA4NzYsLT
+eyJoaXN0b3J5IjpbLTE5MDUyNDEyMzYsLTE5OTU3ODA4NzYsLT
 E0NTc5MTU1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTEx
 Mzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMT
 c4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nzgx
