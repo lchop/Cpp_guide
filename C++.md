@@ -889,12 +889,10 @@ You should use the std string library.
 void PrintString(std::string string){
 //Here we are copying string, thats very slow.
 	std::cout << string << std::endl;
-	
 	}
-	void PrintString(const std::string& string){
-//.
+void PrintString(const std::string& string){
+//.Reference = won't be copied, const = means we promise not changing the string
 	std::cout << string << std::endl;
-	
 	}
 ~~~
 
@@ -903,7 +901,7 @@ String copying is very slow, try to avoid.
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM2MTQzNjgsLTgzOTQwMTE4MiwxNj
+eyJoaXN0b3J5IjpbLTE2NTA1OTUyODUsLTgzOTQwMTE4MiwxNj
 YwMjIzNDg1LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2
 NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOS
 wxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02
