@@ -910,18 +910,22 @@ String copying is very slow, try to avoid.
 	const char32_t* name4 = U"Louis"; //UTF 32
 ~~~
 ~~~cpp
-	using namespace std::string_literals; //c++14
+	using namespace std::string_literals; //c++14, you can put symbol in front or end of "" 
 	std::wstring name0 = u8"Louis"s + U"Hello"; //the s at the end mean stand string
+	const char* example = R"(Line1
+	Line2
+	Line3
+	Line4)";
 ~~~
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4ODIxMjIyLC0xOTk1NzgwODc2LC0xND
-U3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5
-OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3OD
-g5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYz
-OTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC
-0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEz
-Njg1NjMzXX0=
+eyJoaXN0b3J5IjpbLTE1ODAxMTY5NzcsLTE5OTU3ODA4NzYsLT
+E0NTc5MTU1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTEx
+Mzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMT
+c4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nzgx
+NjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1Nj
+csLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0
+MTM2ODU2MzNdfQ==
 -->
