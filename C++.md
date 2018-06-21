@@ -539,7 +539,8 @@ Entity e(10.0f,5.0.f);
 ~~~  
   
 >To delete the default constructor: Log() = delete;  
-  
+
+   [TOC](#table_of_contents)
 ****************  
   
 ### Destructor  
@@ -553,6 +554,7 @@ A special method gets called when an object get destroyed (for example when we g
 }  
 ~~~  
   
+   [TOC](#table_of_contents)
 ***************  
   
 ### Inheritence  
@@ -587,6 +589,7 @@ Inheritence:
   
 > A way to extend an existing class, profide new functionnalities to a base class. Super class = Entity, base class  
   
+   [TOC](#table_of_contents)
 *************  
   
 ### Virtual_Fuctions  
@@ -662,6 +665,8 @@ Dynamic dispach using V-table, mapping for all the virtual function inside the b
   
 >The impact is still minimal.  
   
+   [TOC](#table_of_contents)
+   
 *****************  
   
 ### Interfaces_Pure_Virtual_Functions
@@ -720,6 +725,7 @@ int main()
   
 > There is no interface keyworld in C++, it's just a class.  
   
+   [TOC](#table_of_contents)
 *******************  
   
 ### Visibility
@@ -760,6 +766,7 @@ Everyone can access, class, subclass and outside.
 Private tells you shouldn't be accessing this outside the class. It helps you understand a code.
 We can ensure that people don't break things, called something than his not supposed to be called.
 
+ [TOC](#table_of_contents)
 ***************
 
 ### Arrays
@@ -847,13 +854,16 @@ public:
 It's worth it to use c++11 array usually. It's safer because it maintained size. 
 >They are called standard array and int array[5] are called raw array.
 
+ [TOC](#table_of_contents)
 ***********
 
 ### Strings_in_cpp
 
 
+
+ [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzY4NTQzNywyNTA4OTAzNTgsLTIwNj
+eyJoaXN0b3J5IjpbMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNj
 Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
 MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
 IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
