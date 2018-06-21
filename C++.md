@@ -30,7 +30,7 @@ C++
 24. [Visibility](#visibility)
 25. [Arrays](#arrays)
 26. [Strings_in_cpp](#strings_in_cpp)
-27. [String_Literals_in_Cpp]
+27. [String_Literals_in_Cpp](#string_literals_in_cpp)
 *************
 ### Useful
   
@@ -906,10 +906,10 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODgyMjc1LC05Njc1MDUwOTYsNjExNT
-ExMzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUs
-MTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nz
-gxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1
-NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMC
-w0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMT
+UxMTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1
+LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zND
+c4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4
+NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1Mj
+AsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
