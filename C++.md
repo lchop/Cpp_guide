@@ -863,17 +863,17 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 An array of characters.
 ~~~cpp
 int main{
-	const char* name = "Louis";
-	std::
+	const char* name = "Louis"; //we can not change the content with const
+	std::cin.get();
 ~~~
 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE1MDQzMzUsMTY2MDIyMzQ4NSwxNz
-g4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5NSwtMzQ3ODE2
-Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2Ny
-wtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQx
-MzY4NTYzMywtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbODMyOTk5MDI5LDE2NjAyMjM0ODUsMTc4OD
+kwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0NzgxNjM5
+NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLT
+E4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2
+ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
