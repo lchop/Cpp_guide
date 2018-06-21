@@ -903,10 +903,10 @@ String copying is very slow, try to avoid.
  ****************
 ### String Literals in C++
 
-
+***String Literals*** = "Louis" 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjgzMTY2LC04Mzk0MDExODIsMTY2MD
+eyJoaXN0b3J5IjpbLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2MD
 IyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5
 NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMT
 UzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYy
