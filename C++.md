@@ -865,17 +865,18 @@ An array of characters.
 int main{
 	const char* name = "Louis"; //we can not change the content with const
 	std::cin.get();
+	char name[5]= { 'L', 'o', 'u','i', '
 	}
 ~~~
 ASCII representation in memory.
-A string always ends with 00 00 bits in memory. That's how the computer now, where the string end. 
+A string always ends with 00 bit in memory. That's how the computer now, where the string end. 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3OD
-g5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYz
-OTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC
-0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEz
-Njg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTkxNTM2MjQ3MSwtODM5NDAxMTgyLDE2Nj
+AyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0
+OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LD
+E1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2
+MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
