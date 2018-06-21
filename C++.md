@@ -875,7 +875,8 @@ A string always ends with a 00 bit in memory. That's how the computer now, where
 #include <string>
 int main{
 	std::string name = "Louis";
-	
+	std::string name = std::string("Louis") + "Hello";
+	bool contains = name.find("lo" != std::str
 	name.size();
 	}
 ~~~
@@ -885,9 +886,9 @@ You should use the std string library.
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDM4MTYwNywtODM5NDAxMTgyLDE2Nj
-AyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0
-OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LD
-E1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2
-MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbOTQ3MDI1MzkxLC04Mzk0MDExODIsMTY2MD
+IyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5
+NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMT
+UzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYy
+NzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
