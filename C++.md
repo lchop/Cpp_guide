@@ -855,6 +855,7 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 >They are called standard array and int array[5] are called raw array.
 
  [TOC](#table_of_contents)
+ 
 ***********
 
 ### Strings_in_cpp
@@ -862,10 +863,11 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 
  [TOC](#table_of_contents)
+ ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNj
-Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
-MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
-IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
-
+eyJoaXN0b3J5IjpbMTgwOTI5NTE1LDE3ODg5MDE0MjcsMjUwOD
+kwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEy
+MTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC
+0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1
+Mzk3Mjc0XX0=
 -->
