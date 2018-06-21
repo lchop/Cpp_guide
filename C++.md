@@ -30,7 +30,7 @@ C++
 24. [Visibility](#visibility)
 25. [Arrays](#arrays)
 26. [Strings_in_cpp](#strings_in_cpp)
-27. 
+27. [String_Literals_in_Cpp]
 *************
 ### Useful
   
@@ -900,16 +900,16 @@ String copying is very slow, try to avoid.
  [TOC](#table_of_contents)
  
  ****************
-### String Literals in C++
+### String_Literals_in_Cpp
 
 ***String Literals*** = "Louis" 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5Mz
-Y0NjE2LC04Mzk0MDExODIsMTY2MDIyMzQ4NSwxNzg4OTAxNDI3
-LDI1MDg5MDM1OCwtMjA2NDU0NjQ5NSwtMzQ3ODE2Mzk0LC0yMD
-A0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2NywtMTg3OTcx
-NDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQxMzY4NTYzMy
-wtMTkyNTM5NzI3NF19
+eyJoaXN0b3J5IjpbMTMzODgyMjc1LC05Njc1MDUwOTYsNjExNT
+ExMzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUs
+MTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nz
+gxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1
+NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMC
+w0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
