@@ -868,14 +868,14 @@ int main{
 	}
 ~~~
 ASCII representation in memory.
-
+A string always ends with 00 00 bits in memory. That's how the computer now, where the string end. 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTI0ODc2LDE2NjAyMjM0ODUsMTc4OD
-kwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0NzgxNjM5
-NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LDE1MzcwMzg1NjcsLT
-E4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2MjczNDUyMCw0MTM2
-ODU2MzMsLTE5MjUzOTcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3OD
+g5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYz
+OTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3MDM4NTY3LC
+0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02NjI3MzQ1MjAsNDEz
+Njg1NjMzLC0xOTI1Mzk3Mjc0XX0=
 -->
