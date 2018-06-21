@@ -904,13 +904,13 @@ String copying is very slow, try to avoid.
 
 ***String Literals*** = "Louis" 
 ~~~cpp
-	const char* name ="Louis";
-	const 
+	const char* name ="Louis"; // const remind you that you never modified a string defined 				like this
+	const wchar_t* name2 = 
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjkxNDQzNSwxMTI1NDA4NzU3LC05Nj
+eyJoaXN0b3J5IjpbLTE0NTc5MTU1NywxMTI1NDA4NzU3LC05Nj
 c1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5NDAxMTgy
 LDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNj
 Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
