@@ -906,12 +906,14 @@ String copying is very slow, try to avoid.
 ~~~cpp
 	const char* name ="Louis"; // const remind you that you never modified a string defined 				like this
 	const wchar_t* name2 = L"Louis"; //Wild character
-	const chat16_t
+	const char16_t* name3 = u"Louis";
+	const char32_t* name4 = U"Louis";
+	
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE2NjI2OTIsLTE0NTc5MTU1NywxMT
+eyJoaXN0b3J5IjpbLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMT
 I1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYx
 NiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNT
 A4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1
