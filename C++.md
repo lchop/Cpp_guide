@@ -875,15 +875,16 @@ A string always ends with a 00 bit in memory. That's how the computer now, where
 #include <string>
 int main{
 	std::string name = "Louis";
+	}
 ~~~
 You should use the std string library. 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODcxNzU1MzUsLTgzOTQwMTE4MiwxNj
-YwMjIzNDg1LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2
-NDk1LC0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOS
-wxNTM3MDM4NTY3LC0xODc5NzE0MzEyLC0xNDIyNzI5NjkyLC02
-NjI3MzQ1MjAsNDEzNjg1NjMzLC0xOTI1Mzk3Mjc0XX0=
+eyJoaXN0b3J5IjpbMTM0NDAyMDIzNCwtODM5NDAxMTgyLDE2Nj
+AyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0
+OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAwMzM5LD
+E1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OTIsLTY2
+MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
 -->
