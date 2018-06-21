@@ -860,13 +860,18 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 ### Strings_in_cpp
 
-An ae
+An array of characters.
+~~~cpp
+int main{
+	const char* name = "Louis";
+	std::
+~~~
 
 
  [TOC](#table_of_contents)
  ****************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI4Mjg0MTIsMTY2MDIyMzQ4NSwxNz
+eyJoaXN0b3J5IjpbLTEwMTE1MDQzMzUsMTY2MDIyMzQ4NSwxNz
 g4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5NSwtMzQ3ODE2
 Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUzNzAzODU2Ny
 wtMTg3OTcxNDMxMiwtMTQyMjcyOTY5MiwtNjYyNzM0NTIwLDQx
