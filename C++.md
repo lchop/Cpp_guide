@@ -2,7 +2,7 @@ C++
 ***We are playing with data.*** 
 
 *************  
-# Table of Contents
+# Table_of_Contents
 
 1. [Useful](#useful)
 2. [Compiler&Linker](#compiler_linker)
@@ -41,7 +41,7 @@ C++
 * **srand(time(0))**: seed the time to rand  
 * **->**: It's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
   
-   [TOC](#t)
+   [TOC](#table_of_contents)
 *************************  
   
 ### Compiler_Linker  
@@ -54,6 +54,7 @@ You can trick compiler by just giving him what he wants:
 > For example if the compiler wants a function we can just create a new file with this function, then include in our main file this file then call the function before main like that:  
 void Log(int p);  
   
+   [TOC](#table_of_contents)
 *****************  
   
 ### how_it_works
@@ -65,6 +66,7 @@ void Log(int p);
 > binaries, executable files  
 > main function return int because return 0 if everything works  
   
+   [TOC](#table_of_contents)
 ****************  
   
 ### Variables  
@@ -78,6 +80,7 @@ char can be number or caracter.
 bool -> 1 bit  
 double -> 8 bit  
   
+   [TOC](#table_of_contents)
 ****************  
   
 ### Functions  
@@ -104,6 +107,8 @@ We usually break up functions into Declaration and definition:
 **Declaration** -> header files  
 **Definition** -> translation unit (.cpp files)  
   
+   [TOC](#table_of_contents)
+   
 *******************  
   
 ### Header_files  
@@ -128,6 +133,8 @@ or can :
 void initLog();  
 void Log(const char* message);  
 ~~~  
+
+ [TOC](#table_of_contents)
 **********  
   
 ### Conditions_and_branches  
@@ -835,9 +842,8 @@ It's worth it to use c++11 array usually. It's safer because it maintained size.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODUxNzM4MCwyNTA4OTAzNTgsLTIwNj
-Q1NDY0OTUsLTM0NzgxNjM5NCwtMjAwNDM1MTIxMywxODcyNTAw
-MzM5LDE1MzcwMzg1NjcsLTE4Nzk3MTQzMTIsLTE0MjI3Mjk2OT
-IsLTY2MjczNDUyMCw0MTM2ODU2MzMsLTE5MjUzOTcyNzRdfQ==
-
+eyJoaXN0b3J5IjpbNTExOTI1NzQ0LDI1MDg5MDM1OCwtMjA2ND
+U0NjQ5NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAz
+MzksMTUzNzAzODU2NywtMTg3OTcxNDMxMiwtMTQyMjcyOTY5Mi
+wtNjYyNzM0NTIwLDQxMzY4NTYzMywtMTkyNTM5NzI3NF19
 -->
