@@ -1099,8 +1099,8 @@ int main{
 static int s_level = 1;
 static int s_Speed = 2;
 int main{
-		s_Speed = s_Level >5 ? 10 : 5; //conditions true ? yes : no 
-		s_Speed s_Level > 5 && s_Level < 10 ? 
+		s_Speed = s_Level >5 ? s_Lev 10 : 5; //conditions true ? yes : no 
+		s_Speed s_Level > 5 ? 15: 10 : 5;
 }
 ~~~
 
@@ -1111,11 +1111,11 @@ int main{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUxNjk0MTUsLTE0MDg5OTc1NDEsOD
-czMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgw
-MjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NT
-UsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2
-NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMT
-MxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQwODc1Nywt
-OTY3NTA1MDk2XX0=
+eyJoaXN0b3J5IjpbMjE1MDAxOTcyLC0xNDA4OTk3NTQxLDg3Mz
+IxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIy
+NzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LD
+EyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2
+MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMS
+wtMTk5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2
+NzUwNTA5Nl19
 -->
