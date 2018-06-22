@@ -1028,18 +1028,43 @@ int main{
 	e.GetName();
 	}
 ~~~
-There is a difference of performance, using member initialiser list is more performante because when you create one initialization with the default constructor and one with the actual constructor
+There is a difference of performance, using member initialiser list is more performante because when you create one initialization with the default constructor and one with the actual constructor.
+
+Example: 
+
+~~~cpp
+class Entity{
+private:
+	
+	std::string m_Name;
+public:
+	Entity() 
+		: m_Name("Unknown") 
+	{
+		}
+	Entity (const std::string& name)
+	{
+		m_Name =name;
+		}
+	const std::string& GetName() const
+	{
+		return m_Name;
+	}
+};
+~~~
+
+
 
 >It's not only a matter of style, it actually make the code more performante !
 Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI5NTc5NjcsNTI0OTUzMzMyLC0xNT
-A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
-MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
-wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
-NzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MT
-U1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0y
-OTM2NDYxNl19
+eyJoaXN0b3J5IjpbLTI2NTI1NTQyMCw1MjQ5NTMzMzIsLTE1MD
+U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
+MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
+EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
+MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
+U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
+MzY0NjE2XX0=
 -->
