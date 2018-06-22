@@ -373,7 +373,7 @@ void Add(const Vec2& other){
  
 const int Constant1=96;  
 const int*  Constant2 : variable ptr to a cte int , cannot modify the content of the ptr
-int const* Constant2: same ( look the po
+int const* Constant2: same ( look the position of the )
 int* const Constant3: cte ptr to a variable int  
 int const * const Constant: cte cte  
 
@@ -951,7 +951,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDk4NjQ4MSwtODc3NDMxMTMzLC0xNT
+eyJoaXN0b3J5IjpbMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNT
 AwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0
 NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMT
 A4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0
