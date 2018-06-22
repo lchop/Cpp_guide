@@ -1124,9 +1124,11 @@ public:
 	Entity () : m_Name ("Unknown"){}
 	Entity (const std::string& name)
 		:m_Name(name){}
+	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity e; //Instantiate 
+	Entity e; //Instantiate on the stack Object/
+	 
 	}
 ~~~
 
@@ -1134,11 +1136,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODI4MDgwMyw4MzQzNzI2NTUsLTkzOD
-I5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYw
-NSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
-E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
-OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MD
-YsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5
-NTc4MDg3Nl19
+eyJoaXN0b3J5IjpbOTk0MDMyNTY5LDgzNDM3MjY1NSwtOTM4Mj
+kxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1
+LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMT
+kyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5
+MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNi
+w1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1
+NzgwODc2XX0=
 -->
