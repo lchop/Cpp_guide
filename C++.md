@@ -273,9 +273,10 @@ int* m_X, *m_Y
 > pretty much the same things as ptrs  
   
 **reference** : a way to reference an existing variable, it's an ***alias*** !  
+
 ~~~cpp  
 int a =5;  
-int& ref = a;  
+int& ref = a;  // ref = a so if we modifie ref we modifie a and if we modifie a we modifie ref
 ~~~  
 > we created an allias, this variable doesn't realy exist for the computer, it's just the same variable all the time.  
   
@@ -1176,11 +1177,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
-c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
-NSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xND
-A4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4
-NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC
-0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQw
-NzQ0NDldfQ==
+eyJoaXN0b3J5IjpbMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNz
+M5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQz
+NSwxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMj
+Y4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMz
+MiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC
+04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0
+MjE2NjhdfQ==
 -->
