@@ -1135,13 +1135,16 @@ int main{
 ~~~
 It' s the fastest way to instantiate in C++, if you can al ways do it like the example above. 
 
+*If you cannot instantiate like this, the different cases :
+
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NTQxNzU0LDgzNDM3MjY1NSwtOTM4Mj
-kxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1
-LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMT
-kyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5
-MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNi
-w1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1
-NzgwODc2XX0=
+eyJoaXN0b3J5IjpbLTE1ODQwMDE5MjcsODM0MzcyNjU1LC05Mz
+gyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2
+MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAyMjczLD
+ExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQx
+NDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2OD
+A2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5
+OTU3ODA4NzZdfQ==
 -->
