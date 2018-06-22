@@ -1133,11 +1133,11 @@ int main{
 	e.GetName(); 
 	}
 ~~~
-It' s the fastest way to intenti
+It' s the fastest way to instantiate in C++, if you can al ways do it like the example above. 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MDYyNTE5LDgzNDM3MjY1NSwtOTM4Mj
+eyJoaXN0b3J5IjpbNTc3NTQxNzU0LDgzNDM3MjY1NSwtOTM4Mj
 kxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1
 LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMT
 kyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5
