@@ -252,7 +252,9 @@ delete[] buffer; //( delete the memory used)
 double pointer, ptr to ptr , variable storing memory adress pointing to an other variable stroing an another address that as the data  
   
 **char** ptr** : a ptr to a ptr  
-
+~~~cpp
+int* m_X, * m
+~~~
 
    [TOC](#table_of_contents)
 ************  
@@ -936,11 +938,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk3MzE5MjcsMTI0MTQ5MDM2Myw3Mj
-Y0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1
-MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC
-0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUx
-MTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LD
-E3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4
-MTYzOTRdfQ==
+eyJoaXN0b3J5IjpbMjEwMDY0MjY5NiwxMjQxNDkwMzYzLDcyNj
+QyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUw
+LC0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLT
+E0NTc5MTU1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTEx
+Mzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMT
+c4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nzgx
+NjM5NF19
 -->
