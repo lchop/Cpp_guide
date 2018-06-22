@@ -990,14 +990,15 @@ int main{
 	};
 	f();
 }
-
-> it's very rare to use mutable in a lambda fct
 ~~~
+
+> it's very rare to use mutable in a lambda fct, it's not
+
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0Mzg3OTgyLC0xNTA1OTAxODY3LC0xOT
+eyJoaXN0b3J5IjpbOTIyNDU3ODAwLC0xNTA1OTAxODY3LC0xOT
 IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
 ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
 0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
