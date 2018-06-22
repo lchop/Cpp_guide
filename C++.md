@@ -1009,9 +1009,9 @@ private:
 	std::string m_Name;
 public:
 	Entity()
-		:m_score(0) m_Name("Unknown") //member initializer list, in the same order that your declare the members
+		: m_score(0), m_Name("Unknown") //member initializer list, in the same order that your declare the members
 	{
-		m_Name = "Unknown";
+		// m_Name ="Unknown"; //we can delete this now this we in
 		}
 	Entity (const std::string& name)
 	{
@@ -1030,11 +1030,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNTM4NTg5LDUyNDk1MzMzMiwtMTUwNT
-kwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzEx
-MzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMT
-AyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5Mjcz
-MTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NT
-csMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkz
-NjQ2MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzIzODE5NDcsNTI0OTUzMzMyLC0xNT
+A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
+MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
+wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
+NzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MT
+U1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0y
+OTM2NDYxNl19
 -->
