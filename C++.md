@@ -1148,21 +1148,21 @@ public:
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity e; //Instantiate on the stack Object/Name
-	Entity e("Louis"); // with a parameters
-	Entity e = Entity("Louis"); //same as line above
-	e.GetName(); 
+	Entity* e; {
+		Entity e("Louis");
+		e = &entity;
+		e.GetName(); 
 	}
 ~~~
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODU5MTQ0NSw4MzQzNzI2NTUsLTkzOD
-I5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYw
-NSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
-E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
-OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MD
-YsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5
-NTc4MDg3Nl19
+eyJoaXN0b3J5IjpbLTE0MzA1OTk1NjEsODM0MzcyNjU1LC05Mz
+gyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2
+MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAyMjczLD
+ExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQx
+NDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2OD
+A2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5
+OTU3ODA4NzZdfQ==
 -->
