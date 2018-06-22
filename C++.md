@@ -31,7 +31,8 @@ C++
 25. [Arrays](#arrays)
 26. [Strings_in_cpp](#strings_in_cpp)
 27. [String_Literals_in_Cpp](#string_literals_in_cpp)
-28. [Mutable_keyword]
+28. [Mutable_keyword](#mutable_keyword)
+29. 
 *************
 ### Useful
   
@@ -954,10 +955,14 @@ String copying is very slow, try to avoid.
 *****************
 ### Mutable_keyword 
 
+*mutable with const*:
+
+
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE1MjQ5NSwtMTUwNTkwMTg2NywtMT
+eyJoaXN0b3J5IjpbMTg1MzYwODQwMywtMTUwNTkwMTg2NywtMT
 kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
 MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
 wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
