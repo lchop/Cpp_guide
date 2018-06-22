@@ -975,11 +975,22 @@ int main{
 	}
 ~~~
 
-*mutable 
+*mutable with lambda*:
+~~~cpp
+int main{
+	Entity e;
+	e.GetName();
+	
+	int x = 8;
+	auto f = [][]
+
+	}
+~~~
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1Mzc4NDYyLC0xNTA1OTAxODY3LC0xOT
+eyJoaXN0b3J5IjpbMzE2MTA3NDM0LC0xNTA1OTAxODY3LC0xOT
 IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
 ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
 0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
