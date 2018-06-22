@@ -983,9 +983,10 @@ int main{
 	e.GetName();
 	
 	int x = 8;
-	auto f = []()
-	{
-		std::cout << "Hello" << std::endl;
+	auto f = [=]() mutable //ref = & value = = 
+	{	
+		x++
+		std::cout << x << std::endl;
 	};
 	f();
 }
@@ -994,11 +995,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTMzNjIzLC0xNTA1OTAxODY3LC0xOT
-IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
-ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
-0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
-MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4Nz
-U3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5
-NDAxMTgyXX0=
+eyJoaXN0b3J5IjpbLTQ0MDc3NjIwNSwtMTUwNTkwMTg2NywtMT
+kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
+MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
+wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
+NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQwOD
+c1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2MTYsLTgz
+OTQwMTE4Ml19
 -->
