@@ -1100,21 +1100,22 @@ static int s_level = 1;
 static int s_Speed = 2;
 int main{
 		s_Speed = s_Level >5 ? 10 : 5; //conditions true ? yes : no 
+		s_Speed s_Level > 5 && s_Level < 10 ? 
 }
 ~~~
 
-If there is multiple statements , if so don't use ternary operator. 
+> If there is multiple statements don't use ternary operator, it get confusing. 
 
 
  [TOC](#table_of_contents)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDI0NDU4OSwtMTQwODk5NzU0MSw4Nz
-MyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAy
-MjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NS
-wxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0
-NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3MDAxMz
-EsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4NzU3LC05
-Njc1MDUwOTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMDUxNjk0MTUsLTE0MDg5OTc1NDEsOD
+czMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgw
+MjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NT
+UsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2
+NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMT
+MxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQwODc1Nywt
+OTY3NTA1MDk2XX0=
 -->
