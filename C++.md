@@ -1137,7 +1137,9 @@ It' s the fastest way to instantiate in C++, if you can al ways do it like the e
 
 *Instantiate on the heap*:
 Why ?
+
 * Not enough memory in the stack.
+
 * 
 ~~~cpp
 class Entity{
@@ -1150,10 +1152,10 @@ public:
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity* e; 
-		Entity e("Louis");
-		e = &entity;
-		e.GetName(); 
+	Entity* e;
+	Entity e("Louis");
+	e = &entity;
+	e.GetName(); 
 	}
 }
 ~~~
@@ -1162,11 +1164,11 @@ int main{
 >
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ0MTgxMjQsMTM4MjUxMTMzNSw4Mz
-QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
-NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLT
-E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
-NjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0ND
-ksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4
-ODcwMDEzMV19
+eyJoaXN0b3J5IjpbNTA2NjMzMDAsMTM4MjUxMTMzNSw4MzQzNz
+I2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQx
+LDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5Mj
+I4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4
+NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLT
+IwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcw
+MDEzMV19
 -->
