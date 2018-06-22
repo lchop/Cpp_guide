@@ -1008,9 +1008,10 @@ private:
 	int m_score;
 	std::string m_Name;
 public:
-	Entity()
+	Entity() //default constructor
 		: m_score(0), m_Name("Unknown") //member initializer list, in the same order that your declare the members
 	{
+		// constructor
 		// m_Name ="Unknown"; //we can delete this now this we initialize above
 		}
 	Entity (const std::string& name)
@@ -1028,15 +1029,16 @@ int main{
 	}
 ~~~
 
-There is a difference of performance, using member initialiser list is more performante because when you create one in
+There is a difference of performance, using member initialiser list is more performante because when you create one initialization with the default constructor and one with the actual constructor
 
+It's not only a matter 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDcxMDUzOSw1MjQ5NTMzMzIsLTE1MD
-U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
-MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
-EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
-MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
-U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
-MzY0NjE2XX0=
+eyJoaXN0b3J5IjpbNjc3OTAxMjk1LDUyNDk1MzMzMiwtMTUwNT
+kwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzEx
+MzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMT
+AyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5Mjcz
+MTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NT
+csMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkz
+NjQ2MTZdfQ==
 -->
