@@ -411,6 +411,7 @@ public:
 	{
 		return m_X;
 	}
+	// 
 	const int* const GetX() const { //return a cte ptr that has a cte content that can not modifed the class
 		return m_X
 		}
@@ -418,7 +419,8 @@ public:
 		m_X = x;
 		}
 };
-
+int main{
+	
 
 ~~~
   
@@ -955,11 +957,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjA3MzUzNCwxMTkyNjkxODA0LC04Nz
-c0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2
-NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMj
-g5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3
-OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OC
-wtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3ODg5
-MDE0MjddfQ==
+eyJoaXN0b3J5IjpbLTExNDUzMDkwODksMTE5MjY5MTgwNCwtOD
+c3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIx
+NjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLT
+I4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1
+NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOT
+gsLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2MDIyMzQ4NSwxNzg4
+OTAxNDI3XX0=
 -->
