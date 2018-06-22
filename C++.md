@@ -253,7 +253,7 @@ double pointer, ptr to ptr , variable storing memory adress pointing to an other
   
 **char** ptr** : a ptr to a ptr  
 ~~~cpp
-int* m_X, * m
+int* m_X, *m_Y
 ~~~
 
    [TOC](#table_of_contents)
@@ -399,7 +399,10 @@ which will ban Method1 in Class2 from being anything which can attempt to alter 
 
 Example:
 ~~~cpp
+#include <iostream>
+#include <string>
 
+class 
 
 
 
@@ -938,7 +941,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDY0MjY5NiwxMjQxNDkwMzYzLDcyNj
+eyJoaXN0b3J5IjpbLTEwMjc5NDA4MywxMjQxNDkwMzYzLDcyNj
 QyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUw
 LC0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLT
 E0NTc5MTU1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTEx
