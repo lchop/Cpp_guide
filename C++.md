@@ -1155,13 +1155,14 @@ int main{
 	e.GetName(); 
 }
 ~~~
- Allocates on the heap takes longer than allocates on the stack, performance 
+ >Allocates on the heap takes longer than allocates on the stack, performance is slower on the heap than stack
+ You have to free manually the memory on the heap.
 
 > Stack is usually 1MegaBit 
 >
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzQ0NDEwNCwxMzgyNTExMzM1LDgzND
+eyJoaXN0b3J5IjpbLTUyMDgyMzk5MiwxMzgyNTExMzM1LDgzND
 M3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1
 NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMT
 kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
