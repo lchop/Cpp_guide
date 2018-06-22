@@ -1041,10 +1041,10 @@ public:
 		{	
 		std::cout<< "Created Entity!" << std::endl;
 		}
-	Example(itn)
+	Example(int x)
 	{
-		m_Name =name;
-		}
+		std::cout<< "Created Entity with " << x <<  std::endl;
+		} 
 	const std::string& GetName() const
 		: m_Name(name)
 	{
@@ -1059,7 +1059,7 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzI4MjcyNSw1MjQ5NTMzMzIsLTE1MD
+eyJoaXN0b3J5IjpbMTMzNDk1NTI4NSw1MjQ5NTMzMzIsLTE1MD
 U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
 MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
 EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
