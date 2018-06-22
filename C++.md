@@ -370,13 +370,13 @@ void Add(const Vec2& other){
 **const** : variables declared with ‘const’ added become constants and cannot be altered by the program  
   
 * *Simple use* :  
-  
+  ~~~ cpp
 const int Constant1=96;  
 const int * Constant2 : variable ptr to a cte int  
 int const * Constant2: same  
 int * const Constant3: cte ptr to a variable int  
 int const * const Constant: cte cte  
-  
+  ~~~
 * *Use of const in functions return* :  
   
 The **const pointer to a variable** is useful for storage that can be changed in value but not in memory  
@@ -951,11 +951,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3Mj
-Y0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1
-MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC
-0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUx
-MTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LD
-E3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4
-MTYzOTRdfQ==
+eyJoaXN0b3J5IjpbLTE3OTI3MTU5MDYsLTE1MDA2MTg2NTUsMT
+I0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYw
+NjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC
+0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3
+NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4Mi
+wxNjYwMjIzNDg1LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0
+NTQ2NDk1XX0=
 -->
