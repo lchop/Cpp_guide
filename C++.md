@@ -272,7 +272,7 @@ int* m_X, *m_Y
   
 > pretty much the same things as ptrs  
   
-**reference** : a way to reference an existing variable  
+**reference** : a way to reference an existing variable, it's an ***alias*** !  
 ~~~cpp  
 int a =5;  
 int& ref = a;  
@@ -1176,11 +1176,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4Mj
-UxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5
-LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MD
-U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
-MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
-EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
-MzEwMF19
+eyJoaXN0b3J5IjpbLTI5NTcxMjUwNSwtMTcwNzY0ODc0LDI3Mj
+M0MTQzNSwxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQx
+LDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyND
+k1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkx
+ODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2My
+w3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYx
+NDE1MF19
 -->
