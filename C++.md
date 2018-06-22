@@ -35,6 +35,7 @@ C++
 29. [Constructor_Initializer_List](#constructor_initializer_list) 
 30. [Ternary_Operators](#ternary_operators)
 31. [Create_Instantiate_objects](#create_instantiate_objects)
+32. [New_keyword](#new_keyword)
 
 
 *************
@@ -1169,9 +1170,13 @@ int main{
 
 **************
 
+### New_keyword 
 
+
+
+ [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTc1NzY2LDEzODI1MTEzMzUsODM0Mz
+eyJoaXN0b3J5IjpbMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0Mz
 cyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0
 MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOT
 IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
