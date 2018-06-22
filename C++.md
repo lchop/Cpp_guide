@@ -1000,16 +1000,32 @@ int main{
 
 ### Constructor_Initializer_List 
 
-
+It's a way to initialize our class members fct in the constructors.
+~~~
+class Entity{
+private:
+	std::string m_Name;
+	mutable int m_DebugCount = 0;
+public:
+	const std::string& GetName() const
+	{
+		m_DebugCount++;
+		return m_Name;
+	}
+};
+int main{
+	Entity e;
+	e.GetName();
+	}
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOT
-IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
-ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
-0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
-MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4Nz
-U3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5
-NDAxMTgyXX0=
+eyJoaXN0b3J5IjpbLTEyMzc0MDk0OCw1MjQ5NTMzMzIsLTE1MD
+U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
+MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
+EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
+MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
+U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
+MzY0NjE2XX0=
 -->
