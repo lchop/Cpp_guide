@@ -1115,12 +1115,17 @@ int main{
 
 >Stack and Heap are the two main memories allocation in C++ 
 
-In
+*Instantiate object* :
+~~~cpp
+	Entity entity;
+	Entity("Louis");
+~~~
+
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDc4MTE5NCw4MzQzNzI2NTUsLTkzOD
+eyJoaXN0b3J5IjpbMTkyMTEwNDg3Myw4MzQzNzI2NTUsLTkzOD
 I5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYw
 NSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
 E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
