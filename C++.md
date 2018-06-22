@@ -1082,6 +1082,7 @@ Should use this all the time !!!!
 ### Ternary_Operators
 
 ***? :*** -> ***Syntactic sugar*** for If statements
+> If statement in one line !
 
 ~~~cpp
 static int s_level = 1;
@@ -1108,7 +1109,7 @@ int main{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIzODAzNDcsODczMjE0NjA1LDUyND
+eyJoaXN0b3J5IjpbLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyND
 k1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkx
 ODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2My
 w3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYx
