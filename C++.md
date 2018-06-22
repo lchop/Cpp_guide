@@ -1081,17 +1081,27 @@ Should use this all the time !!!!
 
 ### Ternary_Operators
 
-?: -> Syntathix sugar for If statements
+***?:*** -> Syntathix sugar for If statements
+
+~~~cpp
+static int s_level = 1;
+static int s_Speed = 2;
+int main{
+
+}
+~~~
+
+
 
  [TOC](#table_of_contents)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIxNzI2MTEsODczMjE0NjA1LDUyND
-k1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkx
-ODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2My
-w3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYx
-NDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwOD
-c2LC0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYx
-MTUxMTM5OF19
+eyJoaXN0b3J5IjpbNzI3MjE4NTAyLDg3MzIxNDYwNSw1MjQ5NT
+MzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgw
+NCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNz
+I2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQx
+NTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3Ni
+wtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1
+MTEzOThdfQ==
 -->
