@@ -1051,11 +1051,11 @@ public:
 };
 class Entity{
 private:
-	Example m_Example; // create an Example here
+	Example m_Example; // create an Example here, that will be thrown away
 	std::string m_Name;
 public:
 	Entity()
-		: m_Example(8) //or m_Example(Example(8))
+		: m_Example(8) //or m_Example(Example(8)) // with this we created only one entity
 	{
 		// m_Example = Example(8); //and here so we have two object instead of one
 		}
@@ -1068,17 +1068,20 @@ int main{
 	Entity e;
 	}
 ~~~
-
 >It's not only a matter of style, it actually make the code more performante !
 Should use this all the time !!!!
 
  [TOC](#table_of_contents)
+
+*************
+### Ternary_Operat
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg0MTc4ODYsNTI0OTUzMzMyLC0xNT
-A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
-MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
-wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
-NzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MT
-U1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0y
-OTM2NDYxNl19
+eyJoaXN0b3J5IjpbLTY3ODg3NzI5MSw1MjQ5NTMzMzIsLTE1MD
+U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
+MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
+EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
+MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
+U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
+MzY0NjE2XX0=
 -->
