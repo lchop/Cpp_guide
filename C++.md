@@ -294,7 +294,7 @@ Increment(&a);
 ~~~  
 *With reference* :  
 ~~~cpp 
-void Increment (int& value){  
+void Increment (int& value){  //It means : int& value = a; value has become a reference of a
 value++;  
 }  
   
@@ -1176,11 +1176,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0xNz
-A3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1
-LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4Nz
-MyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAy
-MjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NS
-wxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0
-NjA2ODA2XX0=
+eyJoaXN0b3J5IjpbMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
+c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
+NSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xND
+A4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4
+NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC
+0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQw
+NzQ0NDldfQ==
 -->
