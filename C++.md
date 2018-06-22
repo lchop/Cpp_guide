@@ -406,11 +406,13 @@ class Entity{
 private:
 	int m_X, m_Y;
 public:
+	
 	int GetX() const // this method is not going to modify the class, any members variables, read only
 	{
 		return m_X;
-	}	
-	void SetX(int x){
+	}
+	const int* const Get(X)
+	void SetX(int x){ // not const, because we write to the class
 		m_X = x;
 		}
 };
@@ -951,7 +953,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzQzMzQzOSwxMTkyNjkxODA0LC04Nz
+eyJoaXN0b3J5IjpbMTIxNTM2NzgxOCwxMTkyNjkxODA0LC04Nz
 c0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2
 NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMj
 g5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3
