@@ -33,7 +33,7 @@ C++
 27. [String_Literals_in_Cpp](#string_literals_in_cpp)
 28. [Mutable_keyword](#mutable_keyword)
 29. [Constructor_Initializer_List](#constructor_initializer_list) 
-30. [Ternary_Operators](#Ternary_Operators)
+30. [Ternary_Operators](#ternary_operators)
 31. 
 
 
@@ -1081,17 +1081,17 @@ Should use this all the time !!!!
 
 ### Ternary_Operators
 
-
+?: -> Syntathix sugar for If statements
 
  [TOC](#table_of_contents)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNT
-kwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzEx
-MzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMT
-AyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5Mjcz
-MTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NT
-csMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkz
-NjQ2MTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MjIxNzI2MTEsODczMjE0NjA1LDUyND
+k1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkx
+ODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2My
+w3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYx
+NDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwOD
+c2LC0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYx
+MTUxMTM5OF19
 -->
