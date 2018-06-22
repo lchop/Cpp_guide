@@ -1034,16 +1034,14 @@ There is a difference of performance, using member initialiser list is more perf
 Example: 
 
 ~~~cpp
-class Entity{
-private:
-	
-	std::string m_Name;
+class Example{
 public:
-	Entity() 
+	Example() 
 		: m_Name("Unknown") 
-	{
+		{	
+		std::cout<< "Created Entity!" << std::endl;
 		}
-	Entity (const std::string& name)
+	Example(itn)
 	{
 		m_Name =name;
 		}
@@ -1061,7 +1059,7 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDEyODY0MSw1MjQ5NTMzMzIsLTE1MD
+eyJoaXN0b3J5IjpbLTk3NzI4MjcyNSw1MjQ5NTMzMzIsLTE1MD
 U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
 MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
 EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
