@@ -245,7 +245,7 @@ int* ptr = &var;
 // memory address)  
 ~~~  
   
-**Create a variable on the heat** :  
+**Create a variable on the heap** :  
 ~~~cpp  
 char* buffer = new char[8]; // (I want to allocate  
 //some memory for me, asking for 8 bits of memory)  
@@ -838,7 +838,7 @@ int main{
 ~~~
 > When we are doing ptr arithmetic, in term of bits, the numbers of bits he is going to add depend on the type. For example, above we are going to add two times 4 bits because it's integer. 
 
-*Array on the heat* 
+*Array on the heap* 
 ~~~cpp
 int main{
 	int example[5]; //will be deleted at the end of main	
@@ -850,7 +850,7 @@ int main{
 	delete[] another;
 }	
 ~~~
-Why dynamically allocate in the heat ?
+Why dynamically allocate in the heap ?
 Lifetime. 
 But It takes a lot of performance.
 
@@ -1113,17 +1113,17 @@ int main{
 
 ### Create_Instantiate_objects
 
->Stack and Heat are the two main memories allocation in C++ 
+>Stack and Heap are the two main memories allocation in C++ 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjU3MzUzLC05MzgyOTEwNDEsMTMyNj
-gyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMy
-LC0xNTA1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLT
-g3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQy
-MTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC
-0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0
-NTc5MTU1N119
+eyJoaXN0b3J5IjpbLTE4OTI4MTc3OTEsLTkzODI5MTA0MSwxMz
+I2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMz
+MzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNC
+wtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2
+NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNT
+AsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3Niwt
+MTQ1NzkxNTU3XX0=
 -->
