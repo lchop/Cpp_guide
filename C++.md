@@ -932,11 +932,12 @@ Promise that you will not modified this variable, It will be constant, but you c
 		const int MAX_AGE =90;
 		int* a = new int;
 		*a = 2;
-		a = (int*)&M
+		a = (int*)&MAX_AGE;
+		}
 ~~~
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTc2NjgxMCwtMjA2NDYwNjgwNiw1ND
+eyJoaXN0b3J5IjpbMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1ND
 YxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1Nzgw
 ODc2LC0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LD
 YxMTUxMTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIz
