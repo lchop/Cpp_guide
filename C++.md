@@ -1016,11 +1016,11 @@ public:
 		}
 	Entity (const std::string& name)
 	{
-		m_Name =name;
+		m_Name = name;
 		}
 	const std::string& GetName() const
+		:m_Name = name;
 	{
-		return m_Name;
 	}
 };
 int main{
@@ -1047,8 +1047,8 @@ public:
 		m_Name =name;
 		}
 	const std::string& GetName() const
+		: m_Name(name)
 	{
-		return m_Name;
 	}
 };
 ~~~
@@ -1060,11 +1060,11 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTI1NTQyMCw1MjQ5NTMzMzIsLTE1MD
-U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
-MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
-EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
-MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
-U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
-MzY0NjE2XX0=
+eyJoaXN0b3J5IjpbMzc4MTA3NzcsNTI0OTUzMzMyLC0xNTA1OT
+AxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEz
+MywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMD
+I0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMx
+MDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1Ny
+wxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2
+NDYxNl19
 -->
