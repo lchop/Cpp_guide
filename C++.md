@@ -257,7 +257,9 @@ delete[] buffer; //( delete the memory used)
   
 **Pointers are variables** :  
 double pointer, ptr to ptr , variable storing memory adress pointing to an other variable stroing an another address that as the data  
-  *ref is called direference 
+
+  >*ref is called de-reference  
+
 **char** ptr** : a ptr to a ptr  
 ~~~cpp
 int* m_X, *m_Y
@@ -1177,11 +1179,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODgzNDgwMiwxNDc3MTkzNjMyLDE2OD
-c4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4
-NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1LC05Mz
-gyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2
-MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAyMjczLD
-ExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQx
-NDkwMzYzXX0=
+eyJoaXN0b3J5IjpbLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNj
+g3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0
+ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3MjY1NSwtOT
+M4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0
+NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3My
+wxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0
+MTQ5MDM2M119
 -->
