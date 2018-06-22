@@ -1139,8 +1139,6 @@ It' s the fastest way to instantiate in C++, if you can al ways do it like the e
 Why ?
 * if we want that the object to live after a scoop end, for example outside a fonction where we instantiate our object
 * Not enough memory in the stack.
-
-* 
 ~~~cpp
 class Entity{
 private:
@@ -1152,24 +1150,23 @@ public:
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity* e;
-	{
-		Entity* entity = new Entity e("Louis"); //new allocate on the heap
-		e = &entity;
-		e.GetName(); 
-	}
+	Entity* entity = new Entity e("Louis"); //new allocate on the heap
+	e = &entity;
+	e.GetName(); 
 }
 ~~~
+
+> Allocate on the heap takes 
 
 > Stack is usually 1MegaBit 
 >
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTIwMjk1LDEzODI1MTEzMzUsODM0Mz
-cyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0
-MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOT
-IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
-ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
-0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
-MDAxMzFdfQ==
+eyJoaXN0b3J5IjpbMTMzMzkwNjA5NSwxMzgyNTExMzM1LDgzND
+M3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1
+NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMT
+kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
+MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
+wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
+NzAwMTMxXX0=
 -->
