@@ -1117,6 +1117,18 @@ int main{
 
 *Instantiate object* :
 ~~~cpp
+class Entity{
+private:
+	std::string m_Name;
+public:
+	Entity (const std::string& name)
+		:m_Name(name)
+		{	
+		}
+};
+int main{
+	Entity e;
+	}
 	Entity entity;
 	Entity("Louis");
 ~~~
@@ -1125,7 +1137,7 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTEwNDg3Myw4MzQzNzI2NTUsLTkzOD
+eyJoaXN0b3J5IjpbMjEwMDUzMjM2OSw4MzQzNzI2NTUsLTkzOD
 I5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYw
 NSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
 E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
