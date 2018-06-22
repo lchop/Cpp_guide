@@ -32,7 +32,7 @@ C++
 26. [Strings_in_cpp](#strings_in_cpp)
 27. [String_Literals_in_Cpp](#string_literals_in_cpp)
 28. [Mutable_keyword](#mutable_keyword)
-29. 
+29. [Constructor_Initializer_List](#constructor_initializer_list) 
 *************
 ### Useful
   
@@ -41,7 +41,7 @@ C++
 * **srand()**: truly rand with a seed as arg  
 * **#include ** : to use time  
 * **srand(time(0))**: seed the time to rand  
-* **->**: It's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
+* **->**: it's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
   
    [TOC](#table_of_contents)
 *************************  
@@ -999,12 +999,17 @@ int main{
 **************
 
 ### Constructor_Initializer_List 
+
+
+
+
+ [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjM2ODk2NSwtMTUwNTkwMTg2NywtMT
-kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
-MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
-wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
-NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQwOD
-c1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2MTYsLTgz
-OTQwMTE4Ml19
+eyJoaXN0b3J5IjpbNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOT
+IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
+ODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC
+0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3
+MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4Nz
+U3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtODM5
+NDAxMTgyXX0=
 -->
