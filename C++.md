@@ -994,11 +994,13 @@ int main{
 
 > it's very rare to use mutable in a lambda fct, it's not a common case. 
 
-
-
  [TOC](#table_of_contents)
+
+**************
+
+### Constructor_Initializer_List 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTI3NTE4NCwtMTUwNTkwMTg2NywtMT
+eyJoaXN0b3J5IjpbMTc3MjM2ODk2NSwtMTUwNTkwMTg2NywtMT
 kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
 MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
 wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
