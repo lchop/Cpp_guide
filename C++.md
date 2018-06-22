@@ -402,10 +402,18 @@ Example:
 #include <iostream>
 #include <string>
 
-class 
+class Entity{
+private:
+	int m_X, m_Y;
+public:
+	int GetX() const
+	{
+		return m_X;
+	}	
+	void SetX
 
 
-
+(in
 ~~~
   
    [TOC](#table_of_contents)
@@ -941,11 +949,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc5NDA4MywxMjQxNDkwMzYzLDcyNj
-QyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUw
-LC0yODkyNzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLT
-E0NTc5MTU1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTEx
-Mzk4LC0yOTM2NDYxNiwtODM5NDAxMTgyLDE2NjAyMjM0ODUsMT
-c4ODkwMTQyNywyNTA4OTAzNTgsLTIwNjQ1NDY0OTUsLTM0Nzgx
-NjM5NF19
+eyJoaXN0b3J5IjpbLTIxNDY3MjMwOTUsMTI0MTQ5MDM2Myw3Mj
+Y0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1
+MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC
+0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUx
+MTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LD
+E3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4
+MTYzOTRdfQ==
 -->
