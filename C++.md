@@ -406,7 +406,6 @@ class Entity{
 private:
 	int m_X, m_Y;
 public:
-	
 	int GetX() const // this method is not going to modify the class, any members variables, read only
 	{
 		return m_X;
@@ -422,10 +421,6 @@ public:
 void PrintEntity(const Entity& e){
 	std::cout<< e.GetX()<< std::endl; //if I have a const ref in the argument, I can only call a const method.
 	}
-int main{
-	Entity e;
-	
-
 ~~~
   
    [TOC](#table_of_contents)
@@ -961,11 +956,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
-E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
-OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MD
-YsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5
-NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNT
-A5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2
-MDIyMzQ4NV19
+eyJoaXN0b3J5IjpbLTE1MDI3MDI1MjMsLTE1MDU5MDE4NjcsLT
+E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
+NjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0ND
+ksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4
+ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MD
+g3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC04
+Mzk0MDExODJdfQ==
 -->
