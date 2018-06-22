@@ -1015,12 +1015,13 @@ public:
 		// m_Name ="Unknown"; //we can delete this now this we initialize above
 		}
 	Entity (const std::string& name)
-		:m_Name = name;
-	{
+		:m_Name(name)
+		{	
+		m_Name = name;
 		}
 	const std::string& GetName() const
 	{
-		
+		return m_Name;
 	}
 };
 int main{
@@ -1060,11 +1061,11 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODQ1MTk0NSw1MjQ5NTMzMzIsLTE1MD
-U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
-MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
-EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
-MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNT
-U3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5
-MzY0NjE2XX0=
+eyJoaXN0b3J5IjpbLTE4OTYyMjg3NjAsNTI0OTUzMzMyLC0xNT
+A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
+MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
+wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
+NzMxMDAsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MT
+U1NywxMTI1NDA4NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0y
+OTM2NDYxNl19
 -->
