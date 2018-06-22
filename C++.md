@@ -286,7 +286,7 @@ void Increment (int* value){
 (*value)++;  
 }  
   
-int main {  
+int main() {  
 int a =5;  
 Increment(&a);  
 }  
@@ -298,7 +298,7 @@ void Increment (int& value){
 value++;  
 }  
   
-int main {  
+int main() {  
 int a =5;  
 Increment(a);  
 }  
@@ -1176,11 +1176,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk2Njk2NzcsLTE3MDc2NDg3NCwyNz
-IzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0
-MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1Mj
-Q5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5
-MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNj
-MsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2
-MTQxNTBdfQ==
+eyJoaXN0b3J5IjpbOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMz
+QxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEs
+MTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OT
+UzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4
+MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLD
+cyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0
+MTUwXX0=
 -->
