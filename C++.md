@@ -1137,8 +1137,8 @@ It' s the fastest way to instantiate in C++, if you can al ways do it like the e
 
 *Instantiate on the heap*:
 Why ?
-
-* if we want that the object to live after a scoop end, for example 
+* if we want that the object to live after a scoop end, for example outside a fonction where we instantiate our object
+* Not enough memory in the stack.
 
 * 
 ~~~cpp
@@ -1164,7 +1164,7 @@ int main{
 >
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDkzNzUwOCwxMzgyNTExMzM1LDgzND
+eyJoaXN0b3J5IjpbLTM3Njc5Mjk2OCwxMzgyNTExMzM1LDgzND
 M3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1
 NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMT
 kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
