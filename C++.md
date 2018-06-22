@@ -253,6 +253,7 @@ double pointer, ptr to ptr , variable storing memory adress pointing to an other
   
 **char** ptr** : a ptr to a ptr  
 
+
    [TOC](#table_of_contents)
 ************  
   
@@ -935,11 +936,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyND
-A3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAw
-LC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMT
-EyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2
-MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3ODg5MDE0MjcsMj
-UwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYzOTQsLTIwMDQz
-NTEyMTNdfQ==
+eyJoaXN0b3J5IjpbLTExNTk3MzE5MjcsMTI0MTQ5MDM2Myw3Mj
+Y0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1
+MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC
+0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUx
+MTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LD
+E3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4
+MTYzOTRdfQ==
 -->
