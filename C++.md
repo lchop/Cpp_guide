@@ -17,7 +17,7 @@ C++
 11. [References](#references)
 12. [Classes](#classes)
 13. [Class vs Structures](#class_vs_structures)
-14. [Const](#Const )
+14. [Const](#const )
 15. [How_to_write_a_class](#how_to_write_a_class)
 16. [Static_Cpp_Outside Class](#static_cpp_outside_class)
 17. [Local_Static](#local_static)
@@ -393,6 +393,14 @@ int MemberVariable1;
 };  
 ~~~  
 which will ban Method1 in Class2 from being anything which can attempt to alter any member variables in the object.  
+
+Example:
+~~~cpp
+
+
+
+
+~~~
   
    [TOC](#table_of_contents)
 ****************  
@@ -927,11 +935,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNj
-Q2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEz
-MSwtMTk5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLT
-k2NzUwNTA5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC04Mzk0MDEx
-ODIsMTY2MDIyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMj
-A2NDU0NjQ5NSwtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1
-MDAzMzldfQ==
+eyJoaXN0b3J5IjpbMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyND
+A3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAw
+LC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMT
+EyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2
+MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3ODg5MDE0MjcsMj
+UwODkwMzU4LC0yMDY0NTQ2NDk1LC0zNDc4MTYzOTQsLTIwMDQz
+NTEyMTNdfQ==
 -->
