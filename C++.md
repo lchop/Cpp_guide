@@ -306,7 +306,7 @@ Increment(a);
   
 > Synthax sugar, cleaner, simpler  
   
->You have to immedialtly initialize.  
+>You have to immediately initialize.  
   
 >Once you declared a reference, you can not change what it's refering too  
   
@@ -1176,11 +1176,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTA4MzIxMyw5MDc2MzcwNDMsLTE3MD
-c2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUs
-LTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3Mz
-IxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIy
-NzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LD
-EyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2
-MDY4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0xNz
+A3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1
+LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4Nz
+MyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAy
+MjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NS
+wxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0
+NjA2ODA2XX0=
 -->
