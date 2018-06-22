@@ -1081,7 +1081,7 @@ Should use this all the time !!!!
 
 ### Ternary_Operators
 
-***? :*** -> Syntathix sugar for If statements
+***? :*** -> ***Syntactic sugar*** for If statements
 
 ~~~cpp
 static int s_level = 1;
@@ -1098,7 +1098,7 @@ int main{
 static int s_level = 1;
 static int s_Speed = 2;
 int main{
-		s_Speed = s_Level >5 ? 10 : 5; //conditions true ? yes
+		s_Speed = s_Level >5 ? 10 : 5; //conditions true ? yes : no 
 }
 ~~~
 
@@ -1108,7 +1108,7 @@ int main{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcyMTgzODYsODczMjE0NjA1LDUyND
+eyJoaXN0b3J5IjpbLTEyMTIzODAzNDcsODczMjE0NjA1LDUyND
 k1MzMzMiwtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkx
 ODA0LC04Nzc0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2My
 w3MjY0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYx
