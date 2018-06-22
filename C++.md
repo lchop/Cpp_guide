@@ -1011,7 +1011,7 @@ public:
 	Entity()
 		: m_score(0), m_Name("Unknown") //member initializer list, in the same order that your declare the members
 	{
-		// m_Name ="Unknown"; //we can delete this now this we in
+		// m_Name ="Unknown"; //we can delete this now this we initialize above
 		}
 	Entity (const std::string& name)
 	{
@@ -1030,7 +1030,7 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIzODE5NDcsNTI0OTUzMzMyLC0xNT
+eyJoaXN0b3J5IjpbLTEyODIyMjM1MjMsNTI0OTUzMzMyLC0xNT
 A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
 MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
 wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
