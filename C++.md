@@ -241,7 +241,7 @@ void* ptr = &var; // store the memory address
 **Read from pointer** :  
 ~~~cpp  
 int var = 8; //(stored on the stack)  
-int* ptr = &var; //
+int* ptr = &var; // the memory address of var 
 *ptr = 10; // (access value of ptr, stored in a  
 // memory address)  
 ~~~  
@@ -1176,7 +1176,7 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDgwMjkyNSwyNzIzNDE0MzUsMTM4Mj
+eyJoaXN0b3J5IjpbLTY4OTQyMDUyMywyNzIzNDE0MzUsMTM4Mj
 UxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5
 LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MD
 U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
