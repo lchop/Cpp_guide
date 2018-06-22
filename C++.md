@@ -1151,7 +1151,7 @@ public:
 };
 int main{
 	Entity* e;
-	{ //
+	{ //empty {}
 		Entity* entity = new Entity e("Louis"); //new allocate on the heap
 		e = entity;
 		e.GetName();
@@ -1161,11 +1161,11 @@ int main{
  >Allocates on the heap takes longer than allocates on the stack, performance is slower on the heap than stack
  You have to free manually the memory on the heap (with delete entity;)
 
-> Stack is usually 1MegaBit 
->
+> Stack is usually 1MB 
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzODYzODUxLDEzODI1MTEzMzUsODM0Mz
+eyJoaXN0b3J5IjpbMzkwMjA3MjY0LDEzODI1MTEzMzUsODM0Mz
 cyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0
 MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOT
 IyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYx
