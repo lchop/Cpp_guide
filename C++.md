@@ -924,15 +924,16 @@ String copying is very slow, try to avoid.
 *****************
 ### Const
 
-Promise that you will not modified this variable, but you can break this 
+Promise that you will not modified this variable, but you can break this promise. 
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI4OTE2ODMsLTIwNjQ2MDY4MDYsNT
-Q2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4
-MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNTA5Ni
-w2MTE1MTEzOTgsLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2MDIy
-MzQ4NSwxNzg4OTAxNDI3LDI1MDg5MDM1OCwtMjA2NDU0NjQ5NS
-wtMzQ3ODE2Mzk0LC0yMDA0MzUxMjEzLDE4NzI1MDAzMzksMTUz
-NzAzODU2N119
+eyJoaXN0b3J5IjpbMTgxMTUzMTg4MiwtMjA2NDYwNjgwNiw1ND
+YxNDE1MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1Nzgw
+ODc2LC0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LD
+YxMTUxMTM5OCwtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIz
+NDg1LDE3ODg5MDE0MjcsMjUwODkwMzU4LC0yMDY0NTQ2NDk1LC
+0zNDc4MTYzOTQsLTIwMDQzNTEyMTMsMTg3MjUwMDMzOSwxNTM3
+MDM4NTY3XX0=
 -->
