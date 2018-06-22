@@ -1135,8 +1135,9 @@ int main{
 ~~~
 It' s the fastest way to instantiate in C++, if you can al ways do it like the example above. 
 
-*If you cannot instantiate like this*, the different cases :
-
+*Instantiate on the heap*:
+Why ?
+	
 ~~~cpp
 class Entity{
 private:
@@ -1153,12 +1154,14 @@ int main{
 		e = &entity;
 		e.GetName(); 
 	}
+}
 ~~~
 
-
+> Stack is usually 1MegaBit 
+>
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA1OTk1NjEsODM0MzcyNjU1LC05Mz
+eyJoaXN0b3J5IjpbLTIwMzIwOTY1MTksODM0MzcyNjU1LC05Mz
 gyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2
 MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAyMjczLD
 ExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NSwxMjQx
