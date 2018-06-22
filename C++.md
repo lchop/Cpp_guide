@@ -161,7 +161,7 @@ if (comparisonResult){
   
 To check if **a number/or a pointer is a valid value**, we can use an if statement, **if null will not go into the loop**:  
 ~~~cpp  
-if (x) { ==> equal to if (x! = null)  
+if (x) { // ==> equal to if (x! = null)  
 "hello"}  
   
 else if is equal to else{  
@@ -1109,13 +1109,15 @@ int main{
 
  [TOC](#table_of_contents)
 
+*****
 
+### Create_Instantiate_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4Nz
-MyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIyODAy
-MjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUwMDYxODY1NS
-wxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5LC0yMDY0
-NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwODg3MDAxMz
-EsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4NzU3LC05
-Njc1MDUwOTZdfQ==
+eyJoaXN0b3J5IjpbLTExNTgyMDc3MTIsMTMyNjgyMzU1OSwtMT
+QwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAx
+ODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMy
+wtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0
+MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMD
+AsLTEwODg3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1Nywx
+MTI1NDA4NzU3XX0=
 -->
