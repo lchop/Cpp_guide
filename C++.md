@@ -1052,24 +1052,20 @@ public:
 };
 class Entity{
 private:
-	Example m_Example; 
+	Example m_Example; // create an Example here
 	std::string m_Name;
 public:
-	Entity() //default constructor
+	Entity()
 	{
+		m_Example = Example(8); //and here so we have two
 		}
 	Entity (const std::string& name)
 		:m_Name(name)
 		{	
 		}
-	const std::string& GetName() const
-	{
-		return m_Name;
-	}
 };
 int main{
 	Entity e;
-	e.GetName();
 	}
 ~~~
 
@@ -1080,7 +1076,7 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjE3MDAwNSw1MjQ5NTMzMzIsLTE1MD
+eyJoaXN0b3J5IjpbLTI1MDk3MjM2OSw1MjQ5NTMzMzIsLTE1MD
 U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
 MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
 EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
