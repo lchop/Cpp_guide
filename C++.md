@@ -419,7 +419,11 @@ public:
 		m_X = x;
 		}
 };
+void PrintEntity(const Entity& e){
+	std::cout<< e.GetX()<< std::endl;
+	}
 int main{
+	Entity e;
 	
 
 ~~~
@@ -957,7 +961,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUzMDkwODksMTE5MjY5MTgwNCwtOD
+eyJoaXN0b3J5IjpbLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtOD
 c3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIx
 NjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLT
 I4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1
