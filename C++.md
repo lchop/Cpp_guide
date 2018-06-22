@@ -1056,8 +1056,9 @@ private:
 	std::string m_Name;
 public:
 	Entity()
+		: m_Example(8) //or m_Example(Example(8))
 	{
-		m_Example = Example(8); //and here so we have two
+		// m_Example = Example(8); //and here so we have two object instead of one
 		}
 	Entity (const std::string& name)
 		:m_Name(name)
@@ -1076,7 +1077,7 @@ Should use this all the time !!!!
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDk3MjM2OSw1MjQ5NTMzMzIsLTE1MD
+eyJoaXN0b3J5IjpbLTIwMzgxMjI0Myw1MjQ5NTMzMzIsLTE1MD
 U5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMx
 MTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LD
 EwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3
