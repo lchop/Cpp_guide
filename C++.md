@@ -1138,7 +1138,7 @@ It' s the fastest way to instantiate in C++, if you can al ways do it like the e
 *Instantiate on the heap*:
 Why ?
 
-* Not enough memory in the stack.
+* if we want that the object to live after a scoop end, for example 
 
 * 
 ~~~cpp
@@ -1164,11 +1164,11 @@ int main{
 >
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2NjMzMDAsMTM4MjUxMTMzNSw4MzQzNz
-I2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQx
-LDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5Mj
-I4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4
-NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLT
-IwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcw
-MDEzMV19
+eyJoaXN0b3J5IjpbLTQyMDkzNzUwOCwxMzgyNTExMzM1LDgzND
+M3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1
+NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMT
+kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
+MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0OS
+wtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMDg4
+NzAwMTMxXX0=
 -->
