@@ -420,7 +420,7 @@ public:
 		}
 };
 void PrintEntity(const Entity& e){
-	std::cout<< e.GetX()<< std::endl;
+	std::cout<< e.GetX()<< std::endl; //if I have a const ref in the argument, I can only call a const method.
 	}
 int main{
 	Entity e;
@@ -961,11 +961,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtOD
-c3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIx
-NjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLT
-I4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1
-NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOT
-gsLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2MDIyMzQ4NSwxNzg4
-OTAxNDI3XX0=
+eyJoaXN0b3J5IjpbLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMT
+E5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAwNjE4NjU1LDEyNDE0
+OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0NDksLTIwNjQ2MDY4MD
+YsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMTA4ODcwMDEzMSwtMTk5
+NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0MDg3NTcsLTk2NzUwNT
+A5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC04Mzk0MDExODIsMTY2
+MDIyMzQ4NV19
 -->
