@@ -1028,9 +1028,11 @@ int main{
 	}
 ~~~
 
+There is a difference of performance, using member initializer list 
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIyMjM1MjMsNTI0OTUzMzMyLC0xNT
+eyJoaXN0b3J5IjpbLTExMTEzOTU2NTQsNTI0OTUzMzMyLC0xNT
 A1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQz
 MTEzMywtMTUwMDYxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OC
 wxMDI0MDc0NDQ5LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODky
