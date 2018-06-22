@@ -406,14 +406,16 @@ class Entity{
 private:
 	int m_X, m_Y;
 public:
-	int GetX() const
+	int GetX() const //prose 
 	{
 		return m_X;
 	}	
-	void SetX
+	void SetX(int x){
+		m_X = x;
+		}
+};
 
 
-(in
 ~~~
   
    [TOC](#table_of_contents)
@@ -949,7 +951,7 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY3MjMwOTUsMTI0MTQ5MDM2Myw3Mj
+eyJoaXN0b3J5IjpbLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3Mj
 Y0MjE2NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1
 MCwtMjg5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC
 0xNDU3OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUx
