@@ -372,7 +372,7 @@ void Add(const Vec2& other){
 * *Simple use* :  
  
 const int Constant1=96;  
-const int*  Constant2 : variable ptr to a cte int  
+const int*  Constant2 : variable ptr to a cte int , cannot modify the 
 int const* Constant2: same  
 int* const Constant3: cte ptr to a variable int  
 int const * const Constant: cte cte  
@@ -951,11 +951,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzM5ODcsLTg3NzQzMTEzMywtMTUwMD
-YxODY1NSwxMjQxNDkwMzYzLDcyNjQyMTY2OCwxMDI0MDc0NDQ5
-LC0yMDY0NjA2ODA2LDU0NjE0MTUwLC0yODkyNzMxMDAsLTEwOD
-g3MDAxMzEsLTE5OTU3ODA4NzYsLTE0NTc5MTU1NywxMTI1NDA4
-NzU3LC05Njc1MDUwOTYsNjExNTExMzk4LC0yOTM2NDYxNiwtOD
-M5NDAxMTgyLDE2NjAyMjM0ODUsMTc4ODkwMTQyNywyNTA4OTAz
-NThdfQ==
+eyJoaXN0b3J5IjpbMTE4NTk4MDQ1LC04Nzc0MzExMzMsLTE1MD
+A2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2NjgsMTAyNDA3NDQ0
+OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMjg5MjczMTAwLC0xMD
+g4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3OTE1NTcsMTEyNTQw
+ODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OCwtMjkzNjQ2MTYsLT
+gzOTQwMTE4MiwxNjYwMjIzNDg1LDE3ODg5MDE0MjcsMjUwODkw
+MzU4XX0=
 -->
