@@ -373,7 +373,7 @@ void Add(const Vec2& other){
  
 const int Constant1=96;  
 const int*  Constant2 : variable ptr to a cte int , cannot modify the content of the ptr
-int const* Constant2: same ( look the position of the )
+int const* Constant2: same ( look the position of the ptr symbol*)
 int* const Constant3: cte ptr to a variable int  
 int const * const Constant: cte cte  
 
@@ -406,7 +406,7 @@ class Entity{
 private:
 	int m_X, m_Y;
 public:
-	int GetX() const //prose 
+	int GetX() const // this method is not going to modify the class, any members variables, read only
 	{
 		return m_X;
 	}	
@@ -951,11 +951,11 @@ String copying is very slow, try to avoid.
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNT
-AwNjE4NjU1LDEyNDE0OTAzNjMsNzI2NDIxNjY4LDEwMjQwNzQ0
-NDksLTIwNjQ2MDY4MDYsNTQ2MTQxNTAsLTI4OTI3MzEwMCwtMT
-A4ODcwMDEzMSwtMTk5NTc4MDg3NiwtMTQ1NzkxNTU3LDExMjU0
-MDg3NTcsLTk2NzUwNTA5Niw2MTE1MTEzOTgsLTI5MzY0NjE2LC
-04Mzk0MDExODIsMTY2MDIyMzQ4NSwxNzg4OTAxNDI3LDI1MDg5
-MDM1OF19
+eyJoaXN0b3J5IjpbMTQ4MzQzMzQzOSwxMTkyNjkxODA0LC04Nz
+c0MzExMzMsLTE1MDA2MTg2NTUsMTI0MTQ5MDM2Myw3MjY0MjE2
+NjgsMTAyNDA3NDQ0OSwtMjA2NDYwNjgwNiw1NDYxNDE1MCwtMj
+g5MjczMTAwLC0xMDg4NzAwMTMxLC0xOTk1NzgwODc2LC0xNDU3
+OTE1NTcsMTEyNTQwODc1NywtOTY3NTA1MDk2LDYxMTUxMTM5OC
+wtMjkzNjQ2MTYsLTgzOTQwMTE4MiwxNjYwMjIzNDg1LDE3ODg5
+MDE0MjddfQ==
 -->
