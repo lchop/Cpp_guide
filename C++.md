@@ -1442,14 +1442,15 @@ int main(){
 	Vector2 b = a; // a and b are 2 differents variables, we are copying.
 	b.x = 2; // a will reamain the same, we are copying the value into b.
 	Vector2* a = new Vector2();
-	Vector2* b = a; // we are copying the ptr t
+	Vector2* b = a; // we are copying the ptr that have the same value.
+	b++; // a will still be the same, we changed the b ptr. 
 	b->x = 2; //will change a and b, because we are changing the value on the same memory address
 }
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDkyODAxMCwxNDUxMzYzMzcsLTEwMz
+eyJoaXN0b3J5IjpbLTQ1NzQxNzU3OCwxNDUxMzYzMzcsLTEwMz
 I2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3
 MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1Mj
 AsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwy
