@@ -42,6 +42,7 @@ C++
 36. [Object_Lifetime](#object_lifetime)
 37. [Smart_Pointers](#smart_pointers)
 38. [Copying_and_Copy_Constructors](#copying_and_copy_constructors)
+39. [Arrow_Operator](#arrow_operator)
 
 
 *************
@@ -1461,12 +1462,20 @@ String(const String& other){ // to add to the object declaration;
  [TOC](#table_of_contents)
 
 ************
+
+### Arrow_Operator 
+
+
+
+ [TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNj
-Y4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3
-NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MD
-k3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwt
-MTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3Nz
-I2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4
-NjM4LC0xNzM5NTUzNjEwXX0=
+eyJoaXN0b3J5IjpbLTEzMzM1NzkwMzksLTE4NTE3NjEzOTcsLT
+k1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYz
+ODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMT
+QyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwt
+MTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNT
+E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
+MzYzMiwxNjg3ODY4NjM4XX0=
 -->
