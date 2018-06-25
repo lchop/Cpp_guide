@@ -1280,15 +1280,15 @@ struct Vector2{
 	float x, y;
 	Vector2(float x, float y)
 		:x(x), y(y){}
-	Vector2 operator+(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
+	Vector2 Add(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
 	{
 		return Vector2(x +other.x), y + other.y);
 	}
-	Vector2 operator+(const Vector2& other) const //2 way og 
+	Vector2 operator+(const Vector2& other) const //2 way of writting 
 	{
 		return *this + other;
 	}
-		Vector2 operator+(const Vector2& other) const
+	Vector2 operator+(const Vector2& other) const //Same 
 	{
 		return Add(other);
 	}
@@ -1306,11 +1306,11 @@ Operator Overloading example:
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTEzMTE1MiwtMTc3MjYxNTIzOCwtMT
-Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
-NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
-EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
-MzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC
-0xNTA1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3
-NzQzMTEzM119
+eyJoaXN0b3J5IjpbLTE3MDk0MTg3NzEsLTE3NzI2MTUyMzgsLT
+E0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5
+NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNS
+wxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4
+MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMi
+wtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04
+Nzc0MzExMzNdfQ==
 -->
