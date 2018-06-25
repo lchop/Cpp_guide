@@ -1341,16 +1341,16 @@ Stack is a data structure.
 We stack things on top, like a stack of books, where you need to remove the book from above to access books that are in the middle.
 When you enter a scope({ }), you add a book to your stack and when you declare variable you write stuff inside your books. When you are out of the scope, it's like you are not anymore inside the book, so it's gone !
 
- 
+ On the stack, a variable will b
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA0NzQ2NzEsLTEzMTA0OTM0MTEsMT
-Y4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3
-MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1Mz
-YxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4
-MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNT
-U5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1
-MDU5MDE4NjddfQ==
+eyJoaXN0b3J5IjpbMzM2OTAzODQ0LC0xMzEwNDkzNDExLDE2OD
+IzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5
+OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MT
+AsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1
+MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OS
+wtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1
+OTAxODY3XX0=
 -->
