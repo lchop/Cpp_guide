@@ -1307,9 +1307,16 @@ int main(){
 
 ### This_keyword 
 
-***this***:  key word accessible throw a method (fct of a class), a pointer to the curent object instance that 
+***this***:  a key word accessible throw a method (fct of a class). It's a pointer to the curent object instance that the method belongs too. 
+
+~~~cpp
+class Entity{
+public:
+	int x,y;
+	Entity(int x, int y)
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzE0Mjg2OCwxNjgyMzEzMzI5LDIwNT
+eyJoaXN0b3J5IjpbLTU4NzMyMTgwNCwxNjgyMzEzMzI5LDIwNT
 E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
 MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0My
 wtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3
