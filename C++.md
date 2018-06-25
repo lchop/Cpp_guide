@@ -1448,17 +1448,18 @@ int main(){
 ~~~
 >When we are assigning one variable to another (variable = variable), we are always copying except for reference. 
 
-Deep copy, copy the entire object, for example it .
+Deep copy, copy the entire object, for example it will also copy the content of pointers or where the pointer is pointing too.
 
+Copy_constru
  [TOC](#table_of_contents)
 
 ************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ4MTUzMTEsLTk1NjE1MzIyOCwxNj
-Y4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3
-NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MD
-k3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwt
-MTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3Nz
-I2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4
-NjM4LC0xNzM5NTUzNjEwXX0=
+eyJoaXN0b3J5IjpbMTk2ODgyMzE1MCwtOTU2MTUzMjI4LDE2Nj
+g3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0
+NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOT
+csMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0x
+MzEwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcwNDMxMiwtMTc3Mj
+YxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2
+MzgsLTE3Mzk1NTM2MTBdfQ==
 -->
