@@ -40,7 +40,7 @@ C++
 34. [Operators_and_Operator_Overloading](#operators_and_operator_overloading)
 35. [This_keyword](#this_keyword)
 36. [Object_Lifetime](#object_lifetime)
-37. [Smart_Pointers](smart_pointers)
+37. [Smart_Pointers](#smart_pointers)
 38. 
 
 
@@ -1387,11 +1387,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODEzMDgwMywtMTAxOTcxNTA5NywyMT
-A3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0
-OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1Mj
-M4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwt
-MTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzND
-E0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwx
-MzI2ODIzNTU5XX0=
+eyJoaXN0b3J5IjpbLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcsMj
+EwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMzEw
+NDkzNDExLDE2ODIzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYxNT
+IzOCwtMTQ4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2Mzgs
+LTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMz
+QxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEs
+MTMyNjgyMzU1OV19
 -->
