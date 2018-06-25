@@ -1402,22 +1402,22 @@ int main(){
 	{
 		std::shared_ptr<Entity> e0;
 		{
-			std::shared_ptr<Entity> entity = std::make_shared<Entity>(); //create shared_ptr
+			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //create shared_ptr
 			e0 = sharedEntity;
 		}
 	}
 }
 ~~~ 
-
+> You ca
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTc2NDE0NSwyMTExNTE4ODM0LC0yMD
-EyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5Mjky
-MDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMz
-I5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMs
-MTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNz
-YzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1
-LDgzNDM3MjY1NV19
+eyJoaXN0b3J5IjpbNzM4NzU0NTE3LDIxMTE1MTg4MzQsLTIwMT
+IyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIw
+NTIwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMj
+ksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3Mywx
+NDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3Nj
+M3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUs
+ODM0MzcyNjU1XX0=
 -->
