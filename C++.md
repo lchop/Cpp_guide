@@ -1253,12 +1253,18 @@ It's not often used, can be used in some mathematical object for example when we
 Operators are just fonctions.  
 
 ***Operator overloading*** : give a new meaning to an operator, adding to an operator, we are allowed to change the behavior of operator. 
->operator overloading should be used as minimum as possi
+>operator overloading should be used as minimum as possible.
 
+~~~cpp
+struct Vector2{
+	float x, y;
+	Vector2(float x, float y)
+		:x(x),
+~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDY1NTE5NiwtMTc3MjYxNTIzOCwtMT
+eyJoaXN0b3J5IjpbLTU4MzgzMjE5MywtMTc3MjYxNTIzOCwtMT
 Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
 NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
 EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
