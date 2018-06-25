@@ -1450,7 +1450,7 @@ int main(){
 
 Deep copy, copy the entire object, for example it will also copy the content of pointers or where the pointer is pointing too.
 
-*Copy_constructor*: used to do a deep copy, used to copy object, that for example have a memory address as members and we need to have two different memory address and not the same.
+*Copy_constructor*: used to do a deep copy of an object, used to copy object, that for example have a memory address as members and we need to have two different memory address and not the same.
 ~~~cpp
 String(const String& other){ // to add to the object declaration;
 	memcpy(this, &other, sizeof(String));
@@ -1461,7 +1461,7 @@ String(const String& other){ // to add to the object declaration;
 
 ************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjE1ODUwMywtOTU2MTUzMjI4LDE2Nj
+eyJoaXN0b3J5IjpbMTkwMzA1NjY0NiwtOTU2MTUzMjI4LDE2Nj
 g3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0
 NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOT
 csMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0x
