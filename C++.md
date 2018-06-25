@@ -1363,19 +1363,25 @@ public:
 		: m_Ptr(ptr)
 		{
 		}
-	
+	~ScopedPtr()
+	{
+		delete m_Ptr;
+	}
+};
+
 int main(){
 	Entity e; //get destroyed at the end of scope
 	Entity* e = new Entity(); //doesn't get destroyed at the end of scope
+	Scoped
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI1NjkxODIsLTU5MjkyMDUyMCwtMT
-Y2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3
-MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5Mz
-YzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0Mywt
-MTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3Mj
-Y1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEs
-ODczMjE0NjA1XX0=
+eyJoaXN0b3J5IjpbMzYyNjkxNTMzLC01OTI5MjA1MjAsLTE2Nj
+I4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0
+MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2Mz
+IsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3
+MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NT
+UsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3
+MzIxNDYwNV19
 -->
