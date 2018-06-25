@@ -1307,9 +1307,9 @@ int main(){
 
 ### This_keyword 
 
-***this***:  key word accessible throw a methods, a pointer to the curent instance 
+***this***:  key word accessible throw a method (fct of a class), a pointer to the curent object instance that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTg3ODA1MywxNjgyMzEzMzI5LDIwNT
+eyJoaXN0b3J5IjpbLTk4MzE0Mjg2OCwxNjgyMzEzMzI5LDIwNT
 E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
 MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0My
 wtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3
