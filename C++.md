@@ -1339,18 +1339,18 @@ void PrintEntity(Entity* e){
 
 Stack is a data structure. 
 We stack things on top, like a stack of books, where you need to remove the book from above to access books that are in the middle.
-When you enter a scope, you add a book to your stack and when you declare variable you write stuff inside your books. 
+When you enter a scope({}, you add a book to your stack and when you declare variable you write stuff inside your books. When you are out of the scope, it's like you are not anymore inside the book, so it's gone !
 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDM1MDExOSwtMTMxMDQ5MzQxMSwxNj
-gyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcw
-OTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNj
-EwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgy
-NTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NT
-ksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUw
-NTkwMTg2N119
+eyJoaXN0b3J5IjpbLTEyOTAxMzI4MDAsLTEzMTA0OTM0MTEsMT
+Y4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3
+MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1Mz
+YxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4
+MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNT
+U5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1
+MDU5MDE4NjddfQ==
 -->
