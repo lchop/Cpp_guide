@@ -46,7 +46,6 @@ C++
 
 *************
 ### Useful
-  
 * **#include **:library to use random number (can call rand())  
 * **rand()%9** to call rand num between 1 and 9  
 * **srand()**: truly rand with a seed as arg  
@@ -1461,7 +1460,7 @@ String(const String& other){ // to add to the object declaration;
 
 ************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzA1NjY0NiwtOTU2MTUzMjI4LDE2Nj
+eyJoaXN0b3J5IjpbMTMzMzIzODUxNiwtOTU2MTUzMjI4LDE2Nj
 g3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0
 NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOT
 csMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0x
