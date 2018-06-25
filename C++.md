@@ -1437,22 +1437,23 @@ int main(){
 struct Vector 2{
 	float x,y;
 };
-
 int main(){
 	Vector2 a = {2,3};
-	Vector2 b = a; // a and b are 2 differents variables; 
+	Vector2 b = a; // a and b are 2 differents variables, we are copying.
+	b.x = 2; // a will reama
 	Vector2* a = new Vector2();
 	Vector2* b = a;
 	b->x = 2; //will change a and b, because we are changing the value on the same memory address
+}
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAwOTkxNDUsMTQ1MTM2MzM3LC0xMD
-MyNjM4OTIyLC0xODAyNTc0NjEwLDIxMTE1MTg4MzQsLTIwMTIy
-NzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIwNT
-IwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjks
-MjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxND
-c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
-MDQzLC0xNzA3NjQ4NzRdfQ==
+eyJoaXN0b3J5IjpbNzM0Mzc0MDYzLDE0NTEzNjMzNywtMTAzMj
+YzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcw
+MTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMC
+wtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIw
+NTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3Nz
+E5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0
+MywtMTcwNzY0ODc0XX0=
 -->
