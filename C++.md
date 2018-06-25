@@ -41,7 +41,7 @@ C++
 35. [This_keyword](#this_keyword)
 36. [Object_Lifetime](#object_lifetime)
 37. [Smart_Pointers](#smart_pointers)
-38. 
+38. [Copying_and_Copy_Constructors](#copying_and_copy_constructors)
 
 
 *************
@@ -1433,13 +1433,13 @@ int main(){
 ### Copying_and_Copy_Constructors
 
 
-
+ [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMj
-ExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3
-MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OT
-M0MTEsMTY4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4
-LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMT
-czOTU1MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0
-MzUsMTM4MjUxMTMzNV19
+eyJoaXN0b3J5IjpbMjExMDkyOTgyNywtMTAzMjYzODkyMiwtMT
+gwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5
+NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNz
+YyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIs
+LTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNj
+g3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0
+ODc0LDI3MjM0MTQzNV19
 -->
