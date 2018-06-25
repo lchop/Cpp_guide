@@ -1284,9 +1284,13 @@ struct Vector2{
 	{
 		return Vector2(x +other.x), y + other.y);
 	}
-		Vector2 operator+(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
+	Vector2 operator+(const Vector2& other) const
 	{
-		return Vector2(x +other.x), y + other.y);
+		return *this + other;;
+	}
+		Vector2 operator+(const Vector2& other) const
+	{
+		return operator+(other);
 	}
 };
 int main(){
@@ -1302,11 +1306,11 @@ Operator Overloading example:
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MTQzOTUsLTE3NzI2MTUyMzgsLTE0OD
-cwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUz
-NjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMz
-gyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1
-NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMT
-UwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0
-MzExMzNdfQ==
+eyJoaXN0b3J5IjpbNzI1MjQxNTg0LC0xNzcyNjE1MjM4LC0xND
+g3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1
+MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMT
+M4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIz
+NTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLT
+E1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3
+NDMxMTMzXX0=
 -->
