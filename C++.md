@@ -1259,12 +1259,18 @@ Operators are just fonctions.
 struct Vector2{
 	float x, y;
 	Vector2(float x, float y)
-		:x(x),
+		:x(x), y(y){}
+	Vector2 Add(const Vector2& other) const
+	{
+		return Vector2(x +other.x), y + other.y);
+	}
+
+		
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzgzMjE5MywtMTc3MjYxNTIzOCwtMT
+eyJoaXN0b3J5IjpbLTExNTU3MzM2MCwtMTc3MjYxNTIzOCwtMT
 Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
 NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
 EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
