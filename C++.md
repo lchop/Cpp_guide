@@ -1402,10 +1402,10 @@ int main(){
 	{
 		std::shared_ptr<Entity> e0; //holds reference of the shared ptr
 		{
-			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //create shared_ptr
+			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //created shared_ptr
 			e0 = sharedEntity;
 		}//doesn't die in this scope
-	}//die in this scope because e0 gets delete, so no more reference !
+	}//die in this scope because e0 gets delete, because no more reference !
 }
 ~~~ 
 > You can copy with shared pointers. 
@@ -1417,16 +1417,19 @@ int main(){
 	{
 		std::weak_ptr<Entity> e0; //holds reference of the shared ptr
 		{
-			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //create shared_ptr
+			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //created shared_ptr
 			e0 = sharedEntity;
-		}//doesn't die in this scope
-	}//die in this scope because e0 gets delete, becaus no more reference !
+		}//die in this scope, because no more reference, weak_ptr doesn't count as a reference.
+	}
 }
 ~~~ 
+> Try to use 
+
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA0NjQ5OTAsMjExMTUxODgzNCwtMj
+eyJoaXN0b3J5IjpbLTE3NDUzNDIxMzcsMjExMTUxODgzNCwtMj
 AxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5
 MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMz
 MyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5Mjcz
