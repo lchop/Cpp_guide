@@ -1410,27 +1410,27 @@ int main(){
 ~~~ 
 > You can copy with shared pointers. 
 
-*weak_ptr* : 
+*weak_ptr* : When you assign shared ptr to weak ptr it won't count has a reference, so It won't keep shared ptr alive. 
 
 ~~~cpp
 int main(){
 	{
-		std::shared_ptr<Entity> e0; //holds reference of the shared ptr
+		std::weak_ptr<Entity> e0; //holds reference of the shared ptr
 		{
 			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //create shared_ptr
 			e0 = sharedEntity;
 		}//doesn't die in this scope
-	}//die in this scope because e0 gets delete, so no more reference !
+	}//die in this scope because e0 gets delete, becaus no more reference !
 }
 ~~~ 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDY1ODI4LDIxMTE1MTg4MzQsLTIwMT
-IyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIw
-NTIwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMj
-ksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3Mywx
-NDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3Nj
-M3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUs
-ODM0MzcyNjU1XX0=
+eyJoaXN0b3J5IjpbLTExODA0NjQ5OTAsMjExMTUxODgzNCwtMj
+AxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5
+MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMz
+MyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5Mjcz
+LDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
+c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
+NSw4MzQzNzI2NTVdfQ==
 -->
