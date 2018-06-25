@@ -1185,7 +1185,8 @@ int main(){
 	int* b = new int[50]; // 200 bytes of memory
 	Entity* e = new Entity(); // here it called also the constructor and allocate memory on the heap for one Entity
 	Entity* e = new Entity[50]; //Allocate memory on the heap for 50 object Entity
-	delete e; //neeed to release the memory on the heap
+	delete e; //neeed to release the memory on the heap by using delete
+	delete[] b; //delete using [] if you define new with []
 }
 ~~~
 > new call first malloc(sizeof(int)) behind the scene ( memory allocation)
@@ -1193,7 +1194,7 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM3ODM3MDUsLTE0ODcwOTkyNzMsMT
+eyJoaXN0b3J5IjpbLTExNjUzMTYxOTEsLTE0ODcwOTkyNzMsMT
 Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
 NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
 gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
