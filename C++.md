@@ -1415,7 +1415,7 @@ int main(){
 ~~~cpp
 int main(){
 	{
-		std::weak_ptr<Entity> e0; //holds reference of the shared ptr
+		std::weak_ptr<Entity> e0; //doesn' holds reference of the shared ptr
 		{
 			std::shared_ptr<Entity> sharedEntity = std::make_shared<Entity>(); //created shared_ptr
 			e0 = sharedEntity;
@@ -1423,17 +1423,15 @@ int main(){
 	}
 }
 ~~~ 
-> Try to use 
-
-
+> Try to use smart pointers as much as possible, it's very useful and optimized. 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUzNDIxMzcsMjExMTUxODgzNCwtMj
-AxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5
-MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMz
-MyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5Mjcz
-LDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
-c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
-NSw4MzQzNzI2NTVdfQ==
+eyJoaXN0b3J5IjpbNTE5NTcyOTA1LDIxMTE1MTg4MzQsLTIwMT
+IyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIw
+NTIwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMj
+ksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3Mywx
+NDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3Nj
+M3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUs
+ODM0MzcyNjU1XX0=
 -->
