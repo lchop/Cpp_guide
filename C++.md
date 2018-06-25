@@ -1310,6 +1310,7 @@ int main(){
 ***this***:  a key word accessible throw a method (fct of a class). It's a pointer to the curent object instance that the method belongs too. 
 
 ~~~cpp
+void PrintEntity(Entity* e);
 class Entity{
 public:
 	int x,y;
@@ -1323,15 +1324,16 @@ public:
 		return this->x
 	}
 };
+void PrintEntity(Entity* e){
 int main(){
 	}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTUwMDE4OSwxNjgyMzEzMzI5LDIwNT
-E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
-MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0My
-wtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3
-MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1ND
-EsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMTky
-MjgwMjI3M119
+eyJoaXN0b3J5IjpbMzczODI0NzU3LDE2ODIzMTMzMjksMjA1MT
+cwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkz
+NjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC
+0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0Mzcy
+NjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MS
+w4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIy
+ODAyMjczXX0=
 -->
