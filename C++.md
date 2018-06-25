@@ -1250,17 +1250,17 @@ It's not often used, can be used in some mathematical object for example when we
 
 ### Operators_and_Operator_Overloading 
 
-Operator overloa
+***Operator overloading*** : give a new meaning to an operator, adding to an operator, we are aload to change the behavior of operator. 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkwNzcwNjYsLTE3NzI2MTUyMzgsLT
-E0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5
-NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNS
-wxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4
-MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMi
-wtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04
-Nzc0MzExMzNdfQ==
+eyJoaXN0b3J5IjpbMjY5NjMwMTc4LC0xNzcyNjE1MjM4LC0xND
+g3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1
+MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMT
+M4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIz
+NTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLT
+E1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3
+NDMxMTMzXX0=
 -->
