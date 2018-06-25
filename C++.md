@@ -1355,13 +1355,13 @@ public:
 	}
 };
 int main(){
-	Entity e;
-	
+	Entity e; //get destroyed at the end of scope
+	Entity* e = new Entity(); //doesn't get destroyed at the end of scope
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTg1NDkzNiwtMTY2MjgxNzYyMiwtMT
+eyJoaXN0b3J5IjpbLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwtMT
 MxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2
 MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4Nj
 M4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3
