@@ -39,6 +39,7 @@ C++
 33. [Implicit_conversion_Explicit_keyword](#implicit_conversion_explicit_keyword)
 34. [Operators_and_Operator_Overloading](#operators_and_operator_overloading)
 35. [This_keyword](#this_keyword)
+36. 
 
 
 *************
@@ -1330,10 +1331,16 @@ void PrintEntity(Entity* e){
 ~~~
 
  [TOC](#table_of_contents)
-
+ 
 ********************
+
+### Object_Lifetime
+
+
+
+ [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNjg0MTY3LDE2ODIzMTMzMjksMjA1MT
+eyJoaXN0b3J5IjpbOTY2NTc1NjAxLDE2ODIzMTMzMjksMjA1MT
 cwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkz
 NjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC
 0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0Mzcy
