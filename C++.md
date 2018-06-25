@@ -1264,13 +1264,18 @@ struct Vector2{
 	{
 		return Vector2(x +other.x), y + other.y);
 	}
+};
 
-		
+int main(){
+	Vector2 position (4.0f, 4.0f);
+	Vector2 speed(0.5f, 1.5f);
+	Vector2 result = position.Add(speed);
+}
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU3MzM2MCwtMTc3MjYxNTIzOCwtMT
+eyJoaXN0b3J5IjpbMTg4ODk4NTg0MiwtMTc3MjYxNTIzOCwtMT
 Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
 NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
 EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
