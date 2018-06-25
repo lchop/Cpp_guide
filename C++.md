@@ -1217,10 +1217,13 @@ int main{
 }
 ~~~
 
+> Doesn't look very clear when you use implicit conversion, try to avoid.
+
+
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTI4MTEzOCwtMTQ4NzA5OTI3MywxND
+eyJoaXN0b3J5IjpbMTg4MjM0ODkwNiwtMTQ4NzA5OTI3MywxND
 c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
 MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
 M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
