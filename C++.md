@@ -1338,6 +1338,7 @@ void PrintEntity(Entity* e){
 ### Object_Lifetime
 
 Stack is a data structure. 
+
 We stack things on top, like a stack of books, where you need to remove the book from above to access books that are in the middle.
 When you enter a scope({ }), you add a book to your stack and when you declare variable you write stuff inside your books. When you are out of the scope, it's like you are not anymore inside the book, so it's gone !
 
@@ -1377,11 +1378,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE2MDM0NTUsLTU5MjkyMDUyMCwtMT
-Y2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3
-MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5Mz
-YzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0Mywt
-MTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3Mj
-Y1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEs
-ODczMjE0NjA1XX0=
+eyJoaXN0b3J5IjpbMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNj
+YyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcw
+NDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkzNj
+MyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0x
+NzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0MzcyNj
+U1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MSw4
+NzMyMTQ2MDVdfQ==
 -->
