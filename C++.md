@@ -1176,11 +1176,12 @@ int main{
 ### New_keyword 
 
 Allocate memory on the heap.
+Needs to find an address where I can find the memory needed. 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDEwNDY4MSwtMTQ4NzA5OTI3MywxND
+eyJoaXN0b3J5IjpbMTUyMjA2NTAxMSwtMTQ4NzA5OTI3MywxND
 c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
 MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
 M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
