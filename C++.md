@@ -1213,19 +1213,15 @@ public:
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity a = "Louis";
-
-		Entity* entity = new Entity e("Louis"); //new allocate on the heap
-		e = entity;
-		e.GetName();
-	
+	Entity a("Louis"); 
+	Entity a = "Louis"; //Implicit conversion
 }
 ~~~
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUzNTYxMDMsLTE0ODcwOTkyNzMsMT
+eyJoaXN0b3J5IjpbLTExNjM2MDA5MDIsLTE0ODcwOTkyNzMsMT
 Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
 NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
 gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
