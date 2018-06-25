@@ -1384,12 +1384,13 @@ int main(){
 ### Smart_Pointers
 Automate the process of allocate and delete pointers on the heap without calling new or delete. 
 
-*unique_ptr*: scope pointer. 
+*unique_ptr*: ***scope pointer***, when it goes out of scope the ptr on the heap get delete. 
+ > you need to #include <memory
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTk5MDA1MywtMjAxMjI3MDE0MiwtMT
+eyJoaXN0b3J5IjpbMTc4NDM1NzMwMywtMjAxMjI3MDE0MiwtMT
 AxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4
 MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0Mz
 EyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIs
