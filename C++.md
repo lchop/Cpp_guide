@@ -1237,13 +1237,13 @@ int main{
 	Entity a = "Louis"; //Implicit conversion
 }
 ~~~
-We use explicit, when we want
+We use explicit, when we want the constructor to be explicitly called. 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTYxMzc4LC0xNDg3MDk5MjczLDE0Nz
+eyJoaXN0b3J5IjpbMjY3ODQwNDE3LC0xNDg3MDk5MjczLDE0Nz
 cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
 NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
 QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
