@@ -1356,8 +1356,14 @@ public:
 };
 
 class ScopedPtr{
-	private:
-		
+private:
+	Entity* m_Ptr;
+public:
+	ScopedPtr(Entity* ptr)
+		: m_Ptr(ptr)
+		{
+		}
+	
 int main(){
 	Entity e; //get destroyed at the end of scope
 	Entity* e = new Entity(); //doesn't get destroyed at the end of scope
@@ -1365,7 +1371,7 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU1NjI2NzYsLTU5MjkyMDUyMCwtMT
+eyJoaXN0b3J5IjpbLTEwMjI1NjkxODIsLTU5MjkyMDUyMCwtMT
 Y2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3
 MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5Mz
 YzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0Mywt
