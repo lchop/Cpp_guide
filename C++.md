@@ -1282,7 +1282,7 @@ struct Vector2{
 		:x(x), y(y){}
 	Vector2 Add(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
 	{
-		return Vector2(x +other.x), y + other.y);
+		return Vector2(x +other.x, y + other.y);
 	}
 	Vector2 operator+(const Vector2& other) const //2 way of writting 
 	{
@@ -1307,11 +1307,11 @@ Operator Overloading example:
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMT
-Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
-NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
-EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
-MzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC
-0xNTA1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3
-NzQzMTEzM119
+eyJoaXN0b3J5IjpbLTkyMTk1MTIyOSwyMDUxNzA0MzEyLC0xNz
+cyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2
+ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NC
+wyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5
+MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNS
+w1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5
+MjY5MTgwNF19
 -->
