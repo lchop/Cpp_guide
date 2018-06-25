@@ -1280,7 +1280,11 @@ struct Vector2{
 	float x, y;
 	Vector2(float x, float y)
 		:x(x), y(y){}
-	Vector2 operator+(const Vector2& other) const //not going to modify the class so const, passing by reference avoid copying
+	Vector2 operator+(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
+	{
+		return Vector2(x +other.x), y + other.y);
+	}
+		Vector2 operator+(const Vector2& other) const //not going to modify the class so const, //passing by reference avoid copying
 	{
 		return Vector2(x +other.x), y + other.y);
 	}
@@ -1298,7 +1302,7 @@ Operator Overloading example:
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4ODQxODYsLTE3NzI2MTUyMzgsLTE0OD
+eyJoaXN0b3J5IjpbNTc5MTQzOTUsLTE3NzI2MTUyMzgsLTE0OD
 cwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUz
 NjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMz
 gyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1
