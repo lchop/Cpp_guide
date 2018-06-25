@@ -1400,20 +1400,24 @@ int main(){
 ~~~cpp
 int main(){
 	{
-		std::shared_ptr<En
-	std::shared_ptr<Entity> entity = std::make_shared<Entity>(); //create shared_ptr
+		std::shared_ptr<Entity> e0;
+		{
+			std::shared_ptr<Entity> entity = std::make_shared<Entity>(); //create shared_ptr
+			e0 = sharedEntity;
+		}
 	}
+}
 ~~~ 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjMwMzM0MzMsMjExMTUxODgzNCwtMj
-AxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5
-MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMz
-MyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5Mjcz
-LDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
-c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
-NSw4MzQzNzI2NTVdfQ==
+eyJoaXN0b3J5IjpbMTg5OTc2NDE0NSwyMTExNTE4ODM0LC0yMD
+EyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5Mjky
+MDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMz
+I5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMs
+MTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNz
+YzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1
+LDgzNDM3MjY1NV19
 -->
