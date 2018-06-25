@@ -1318,13 +1318,15 @@ public:
 		Entity* e = this;
 		this->x=x;
 	}
-	
+	int GetX() const{
+		const Entity* e = this;
+	}
 };
 int main(){
 	}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjI1ODY4NiwxNjgyMzEzMzI5LDIwNT
+eyJoaXN0b3J5IjpbMjA1MDU4MjQyNCwxNjgyMzEzMzI5LDIwNT
 E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
 MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0My
 wtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3
