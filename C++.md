@@ -1395,14 +1395,14 @@ int main(){
 ~~~
 > This pointer is unique, you can not copy it for example. 
 > 
- *share_ptr*: It's usually using reference counting (keep track,  of how many reference you have to this pointer, when it goes to 0 it dies. 
+ *share_ptr*: It's usually using reference counting (count how many reference you have to this pointer, when it goes to 0 it dies. 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzg5OTI2NSwtMjAxMjI3MDE0MiwtMT
-AxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4
-MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0Mz
-EyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIs
-MTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3MD
-c2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUs
-LTkzODI5MTA0MV19
+eyJoaXN0b3J5IjpbLTE4OTUwOTU1NTcsLTIwMTIyNzAxNDIsLT
+EwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYy
+ODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcwND
+MxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkzNjMy
+LDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC0xNz
+A3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0MzcyNjU1
+LC05MzgyOTEwNDFdfQ==
 -->
