@@ -36,6 +36,7 @@ C++
 30. [Ternary_Operators](#ternary_operators)
 31. [Create_Instantiate_objects](#create_instantiate_objects)
 32. [New_keyword](#new_keyword)
+33. 
 
 
 *************
@@ -1195,12 +1196,15 @@ int main(){
 
 
  [TOC](#table_of_contents)
+
+************
+### Implicit_conversion_Explicit_keyword 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2ODU3MTU0LC0xNDg3MDk5MjczLDE0Nz
-cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
-NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
-QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
-NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLT
-E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
-NjE4NjU1XX0=
+eyJoaXN0b3J5IjpbNDQyOTUyNDYsLTE0ODcwOTkyNzMsMTQ3Nz
+E5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0
+MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzND
+M3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1
+NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2NywtMT
+kyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1MDA2
+MTg2NTVdfQ==
 -->
