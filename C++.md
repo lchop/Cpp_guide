@@ -1337,18 +1337,18 @@ void PrintEntity(Entity* e){
 
 ### Object_Lifetime
 
-Stack is a data structure
+Stack is a data structure. (We stack things on top, like a stack of book 
 
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzg5MTM1NywtMTMxMDQ5MzQxMSwxNj
-gyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcw
-OTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNj
-EwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgy
-NTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NT
-ksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUw
-NTkwMTg2N119
+eyJoaXN0b3J5IjpbNzUwMjE3MTg4LC0xMzEwNDkzNDExLDE2OD
+IzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5
+OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MT
+AsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1
+MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OS
+wtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1
+OTAxODY3XX0=
 -->
