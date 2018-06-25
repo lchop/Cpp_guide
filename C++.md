@@ -1240,10 +1240,15 @@ int main{
 
 We use explicit, when we want the constructor to be explicitly called. When we don't want to have the compiler doing implicit conversion we don't want. 
 
-It's not often used, can be used in some mathematical object for example when w
+It's not often used, can be used in some mathematical object for example when we don't want the compiler to convert vector to number all the time.
+
  [TOC](#table_of_contents)
+
+**************
+
+### Operators_and_Operator_Overloading 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mzk4ODY3MywtMTQ4NzA5OTI3MywxND
+eyJoaXN0b3J5IjpbMTQ2MTg5NzI2MiwtMTQ4NzA5OTI3MywxND
 c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
 MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
 M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
