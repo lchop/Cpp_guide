@@ -1390,22 +1390,24 @@ Automate the process of allocate and delete pointers on the heap without calling
 ~~~cpp
 int main(){
 	std::unique_ptr<Entity> entity(new Entity()); //create unique_ptr
-	std::unique_ptr<Entity> = std::make_unique<Entity>(); //better way to create
+	std::unique_ptr<Entity> entity = std::make_unique<Entity>(); //better way to create
 	}
 ~~~
 > This pointer is unique, you can not copy it for example. 
-> 
+
  *share_ptr*: It's usually using reference counting (count how many reference you have to your pointer, when it goes to 0 it gets deleted.
 
 ~~~cpp
 int main(){
-	std::unique_ptr<Entity> entity(new Entity()); //create unique_ptr
-	std::shared_ptr<Entity> entity = std::make_unique<Entity>(); //better way to create
+	std::shared_ptr<Entity> entity = std::make_shared<Entity>(); //create shared_ptr
 	}
 ~~~ 
+
+
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODUxNDE0OCwtMjAxMjI3MDE0MiwtMT
+eyJoaXN0b3J5IjpbMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMT
 AxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4
 MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0Mz
 EyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIs
