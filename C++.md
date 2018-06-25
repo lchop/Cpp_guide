@@ -1182,18 +1182,20 @@ It's slower than using the stack, because you have more step, the computer has t
 ~~~cpp
 int main(){
 	int a = 2;
-	int* b = new i
+	int* b = new int[50]; // 200 bytes of memory
+	Entity* e = new Entity[50];
+}
 ~~~
 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYzMTE4MzIsLTE0ODcwOTkyNzMsMT
-Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
-NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
-gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
-OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2Ny
-wtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1
-MDA2MTg2NTVdfQ==
+eyJoaXN0b3J5IjpbLTgzMjUxNzg2MCwtMTQ4NzA5OTI3MywxND
+c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
+MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
+M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
+NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC
+0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUw
+MDYxODY1NV19
 -->
