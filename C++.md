@@ -1209,23 +1209,23 @@ public:
 	Entity (const std::string& name)
 		:m_Name(name), m_Age(-1){}
 	Entity(int age)
-		: m_Name("Unkno
+		: m_Name("Unknown"), m_Age(age){}
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
-	Entity* e;
-	{ //empty {}
+	Entity a = "Louis";
+
 		Entity* entity = new Entity e("Louis"); //new allocate on the heap
 		e = entity;
 		e.GetName();
-	}
+	
 }
 ~~~
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk4MTYzNDAsLTE0ODcwOTkyNzMsMT
+eyJoaXN0b3J5IjpbLTExNTUzNTYxMDMsLTE0ODcwOTkyNzMsMT
 Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
 NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
 gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
