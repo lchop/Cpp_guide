@@ -1382,6 +1382,7 @@ int main(){
 ***************
 
 ### Smart_Pointers
+
 Automate the process of allocate and delete pointers on the heap without calling new or delete. 
 
 *unique_ptr*: ***scope pointer***, when it goes out of scope the ptr on the heap get delete. 
@@ -1389,18 +1390,18 @@ Automate the process of allocate and delete pointers on the heap without calling
 ~~~cpp
 int main(){
 	std::unique_ptr<Entity> entity(new Entity()); //create unique_ptr
-	std::unique_ptr<Entity> = std::make_unique<Entity>(); //same
+	std::unique_ptr<Entity> = std::make_unique<Entity>(); //better way to create
 	}
 ~~~
-> thi
-
+> This pointer is unique, you can not copy it for example. 
+ *share_ptr*: 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MDExMTA1LC0yMDEyMjcwMTQyLC0xMD
-E5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2Mjgx
-NzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMT
-IsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwx
-Njg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNz
-Y0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3MjY1NSwt
-OTM4MjkxMDQxXX0=
+eyJoaXN0b3J5IjpbMjAxNDA2NTIzMSwtMjAxMjI3MDE0MiwtMT
+AxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4
+MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0Mz
+EyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIs
+MTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3MD
+c2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUs
+LTkzODI5MTA0MV19
 -->
