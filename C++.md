@@ -1206,9 +1206,9 @@ private:
 	std::string m_Name;
 	int m_Age;
 public:
-	explicit Entity (const std::string& name)
+	Entity (const std::string& name)
 		:m_Name(name), m_Age(-1){}
-	 explEntity(int age)
+	 Entity(int age)
 		: m_Name("Unknown"), m_Age(age){}
 };
 int main{
@@ -1220,11 +1220,30 @@ int main{
 
 > Doesn't look very clear when you use implicit conversion, try to avoid.
 
+~~~cpp
+class Entity{
+private:
+	std::string m_Name;
+	int m_Age;
+public:
+	explicit Entity (const std::string& name)
+		:m_Name(name), m_Age(-1){}
+	explicit Entity(int age)
+		: m_Name("Unknown"), m_Age(age){}
+};
+int main{
+	Entity a("Louis");
+	Entity b = Entity(22); 
+	Entity a = "Louis"; //Implicit conversion
+}
+~~~
+We use explicit, when we want
+
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTk5OTkyLC0xNDg3MDk5MjczLDE0Nz
+eyJoaXN0b3J5IjpbMzg3NTYxMzc4LC0xNDg3MDk5MjczLDE0Nz
 cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
 NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
 QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
