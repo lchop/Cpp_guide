@@ -1176,13 +1176,14 @@ int main{
 ### New_keyword 
 
 Allocate memory on the heap.
-Based on the memory you need (int, array, double,...)
-Needs to find an address where I can find the memory needed. 
+Based on the memory you need (int, array, double ,...),it needs to find an address where I can find the memory needed. 
+It's slower than using the stack
+
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk2OTE2NTAsLTE0ODcwOTkyNzMsMT
+eyJoaXN0b3J5IjpbLTEyOTE2MjA5MTQsLTE0ODcwOTkyNzMsMT
 Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
 NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
 gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
