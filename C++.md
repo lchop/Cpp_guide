@@ -1452,14 +1452,15 @@ Deep copy, copy the entire object, for example it will also copy the content of 
 
 *Copy_constructor*: used to do a deep copy, to 
 ~~~cpp
-String(const String& other){
-	memcpy(th
+String(const String& other){ // to add to the object construction;
+	memcpy(this, &other, sizeof(String));
+	}
 ~~~
  [TOC](#table_of_contents)
 
 ************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MDQ0NTY3LC05NTYxNTMyMjgsMTY2OD
+eyJoaXN0b3J5IjpbLTE0MDcyMTE5LC05NTYxNTMyMjgsMTY2OD
 czMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2
 MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5Ny
 wyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEz
