@@ -1439,7 +1439,8 @@ struct Vector 2{
 };
 
 int main(){
-	Vector2 a = {2,3};7
+	Vector2 a = {2,3};
+	Vector2 b = a; // a and b are 2 differents variables; 
 	Vector2* a = new Vector2();
 	Vector2* b = a;
 	b->x = 2; //will change a and b, because we are changing the value on the same memory address
@@ -1447,11 +1448,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTA2ODczNCwxNDUxMzYzMzcsLTEwMz
-I2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3
-MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1Mj
-AsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwy
-MDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0Nz
-cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
-NDMsLTE3MDc2NDg3NF19
+eyJoaXN0b3J5IjpbLTE1NTAwOTkxNDUsMTQ1MTM2MzM3LC0xMD
+MyNjM4OTIyLC0xODAyNTc0NjEwLDIxMTE1MTg4MzQsLTIwMTIy
+NzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIwNT
+IwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjks
+MjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxND
+c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
+MDQzLC0xNzA3NjQ4NzRdfQ==
 -->
