@@ -1399,6 +1399,8 @@ int main(){
 
 ~~~cpp
 int main(){
+	{
+		std::shared_ptr<En
 	std::shared_ptr<Entity> entity = std::make_shared<Entity>(); //create shared_ptr
 	}
 ~~~ 
@@ -1407,11 +1409,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMT
-AxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4
-MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0Mz
-EyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIs
-MTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwNDMsLTE3MD
-c2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQzNzI2NTUs
-LTkzODI5MTA0MV19
+eyJoaXN0b3J5IjpbLTE1NjMwMzM0MzMsMjExMTUxODgzNCwtMj
+AxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5
+MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMz
+MyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5Mjcz
+LDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MD
+c2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMz
+NSw4MzQzNzI2NTVdfQ==
 -->
