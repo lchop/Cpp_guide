@@ -1320,13 +1320,14 @@ public:
 	}
 	int GetX() const{
 		const Entity* e = this;
+		return this->x
 	}
 };
 int main(){
 	}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDU4MjQyNCwxNjgyMzEzMzI5LDIwNT
+eyJoaXN0b3J5IjpbMTQ5OTUwMDE4OSwxNjgyMzEzMzI5LDIwNT
 E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
 MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0My
 wtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3
