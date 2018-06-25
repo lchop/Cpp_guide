@@ -1176,16 +1176,17 @@ int main{
 ### New_keyword 
 
 Allocate memory on the heap.
+Based on the memory you need (int, array, double,...)
 Needs to find an address where I can find the memory needed. 
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjA2NTAxMSwtMTQ4NzA5OTI3MywxND
-c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
-MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
-M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
-NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC
-0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUw
-MDYxODY1NV19
+eyJoaXN0b3J5IjpbLTExMTk2OTE2NTAsLTE0ODcwOTkyNzMsMT
+Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
+NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
+gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
+OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2Ny
+wtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1
+MDA2MTg2NTVdfQ==
 -->
