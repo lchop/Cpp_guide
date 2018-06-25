@@ -1204,11 +1204,12 @@ int main(){
 class Entity{
 private:
 	std::string m_Name;
-	int m_Age
+	int m_Age;
 public:
-	Entity () : m_Name ("Unknown"){}
 	Entity (const std::string& name)
-		:m_Name(name){}
+		:m_Name(name), m_Age(-1){}
+	Entity(int age)
+		: m_Name("Unkno
 	const std::string& GetName() const { return m_Name;}
 };
 int main{
@@ -1224,11 +1225,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NTIzMzE1LC0xNDg3MDk5MjczLDE0Nz
-cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
-NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
-QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
-NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLT
-E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
-NjE4NjU1XX0=
+eyJoaXN0b3J5IjpbLTE0ODk4MTYzNDAsLTE0ODcwOTkyNzMsMT
+Q3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYz
+NzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LD
+gzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5
+OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMTUwNTkwMTg2Ny
+wtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0MzExMzMsLTE1
+MDA2MTg2NTVdfQ==
 -->
