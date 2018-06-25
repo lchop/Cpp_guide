@@ -1355,12 +1355,13 @@ public:
 	}
 };
 int main(){
+	Entity e;
 	
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODU3NzI5MywtMTY2MjgxNzYyMiwtMT
+eyJoaXN0b3J5IjpbMTAzOTg1NDkzNiwtMTY2MjgxNzYyMiwtMT
 MxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2
 MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4Nj
 M4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3
