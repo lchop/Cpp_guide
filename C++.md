@@ -1274,16 +1274,35 @@ int main(){
 	Vector2 result = position.Add(speed);
 }
 ~~~
+With:
+~~~cpp
+struct Vector2{
+	float x, y;
+	Vector2(float x, float y)
+		:x(x), y(y){}
+	Vector2 operator+(const Vector2& other) const //not going to modify the class so const, passing by reference avoid copying
+	{
+		return Vector2(x +other.x), y + other.y);
+	}
+};
+int main(){
+	Vector2 position (4.0f, 4.0f);
+	Vector2 speed(0.5f, 1.5f);
+	Vector2 result = position.Add(speed);
+}
+~~~
+
+
 
 Operator Overloading example: 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5OTQ1MjEyLC0xNzcyNjE1MjM4LC0xND
-g3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1
-MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMT
-M4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIz
-NTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLT
-E1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3
-NDMxMTMzXX0=
+eyJoaXN0b3J5IjpbMzA4ODQxODYsLTE3NzI2MTUyMzgsLTE0OD
+cwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUz
+NjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMz
+gyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4MjM1
+NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMiwtMT
+UwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04Nzc0
+MzExMzNdfQ==
 -->
