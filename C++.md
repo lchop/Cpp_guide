@@ -1451,15 +1451,19 @@ int main(){
 Deep copy, copy the entire object, for example it will also copy the content of pointers or where the pointer is pointing too.
 
 *Copy_constructor*: used to do a deep copy, to 
+~~~cpp
+String(const String& other){
+	memcpy(th
+~~~
  [TOC](#table_of_contents)
 
 ************
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA2NTg5NTYsLTk1NjE1MzIyOCwxNj
-Y4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3
-NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MD
-k3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwt
-MTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3Nz
-I2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4
-NjM4LC0xNzM5NTUzNjEwXX0=
+eyJoaXN0b3J5IjpbODM5MDQ0NTY3LC05NTYxNTMyMjgsMTY2OD
+czMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2
+MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5Ny
+wyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEz
+MTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNj
+E1MjM4LC0xNDg3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYz
+OCwtMTczOTU1MzYxMF19
 -->
