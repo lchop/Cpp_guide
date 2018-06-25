@@ -1440,20 +1440,20 @@ struct Vector 2{
 int main(){
 	Vector2 a = {2,3};
 	Vector2 b = a; // a and b are 2 differents variables, we are copying.
-	b.x = 2; // a will reama
+	b.x = 2; // a will reamain the same, we are copying the value into b.
 	Vector2* a = new Vector2();
-	Vector2* b = a;
+	Vector2* b = a; // we are copying the ptr t
 	b->x = 2; //will change a and b, because we are changing the value on the same memory address
 }
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0Mzc0MDYzLDE0NTEzNjMzNywtMTAzMj
-YzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcw
-MTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMC
-wtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIw
-NTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3Nz
-E5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0
-MywtMTcwNzY0ODc0XX0=
+eyJoaXN0b3J5IjpbMTA1NDkyODAxMCwxNDUxMzYzMzcsLTEwMz
+I2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3
+MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1Mj
+AsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwy
+MDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0Nz
+cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
+NDMsLTE3MDc2NDg3NF19
 -->
