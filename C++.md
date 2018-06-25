@@ -1447,10 +1447,11 @@ int main(){
 	b->x = 2; //will change a and b, because we are changing the value on the same memory address
 }
 ~~~
+>When we are writing variable = variable, we are always copying except for reference. 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQxNzU3OCwxNDUxMzYzMzcsLTEwMz
+eyJoaXN0b3J5IjpbLTIyMDQxMDM5OCwxNDUxMzYzMzcsLTEwMz
 I2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3
 MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1Mj
 AsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwy
