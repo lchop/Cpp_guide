@@ -1354,6 +1354,10 @@ public:
 		cout<<"destroyed"<<endl;
 	}
 };
+
+class ScopedPtr{
+	private:
+		
 int main(){
 	Entity e; //get destroyed at the end of scope
 	Entity* e = new Entity(); //doesn't get destroyed at the end of scope
@@ -1361,11 +1365,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwtMT
-MxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2
-MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4Nj
-M4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3
-MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMD
-QxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUy
-NDk1MzMzMl19
+eyJoaXN0b3J5IjpbLTEzNjU1NjI2NzYsLTU5MjkyMDUyMCwtMT
+Y2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3
+MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5Mz
+YzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNzYzNzA0Mywt
+MTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1LDgzNDM3Mj
+Y1NSwtOTM4MjkxMDQxLDEzMjY4MjM1NTksLTE0MDg5OTc1NDEs
+ODczMjE0NjA1XX0=
 -->
