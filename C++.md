@@ -1248,19 +1248,21 @@ It's not often used, can be used in some mathematical object for example when we
 
 **************
 
-### Operators_and_Operator_Overloading 
+### Operators_and_Operator_Overloading
 
-***Operator overloading*** : give a new meaning to an operator, adding to an operator, we are aload to change the behavior of operator. 
+Operators are just fonctions.  
 
+***Operator overloading*** : give a new meaning to an operator, adding to an operator, we are allowed to change the behavior of operator. 
+>operator overloading should be used as minimum as possi
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NjMwMTc4LC0xNzcyNjE1MjM4LC0xND
-g3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1
-MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMT
-M4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIz
-NTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLT
-E1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3
-NDMxMTMzXX0=
+eyJoaXN0b3J5IjpbLTI0NDY1NTE5NiwtMTc3MjYxNTIzOCwtMT
+Q4NzA5OTI3MywxNDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1
+NTM2MTAsOTA3NjM3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LD
+EzODI1MTEzMzUsODM0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgy
+MzU1OSwtMTQwODk5NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC
+0xNTA1OTAxODY3LC0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3
+NzQzMTEzM119
 -->
