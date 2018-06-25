@@ -1200,17 +1200,35 @@ int main(){
 ************
 ### Implicit_conversion_Explicit_keyword 
 
-
-
+~~~cpp
+class Entity{
+private:
+	std::string m_Name;
+	int m_Age
+public:
+	Entity () : m_Name ("Unknown"){}
+	Entity (const std::string& name)
+		:m_Name(name){}
+	const std::string& GetName() const { return m_Name;}
+};
+int main{
+	Entity* e;
+	{ //empty {}
+		Entity* entity = new Entity e("Louis"); //new allocate on the heap
+		e = entity;
+		e.GetName();
+	}
+}
+~~~
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDQxMzczMSwtMTQ4NzA5OTI3MywxND
-c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
-MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
-M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
-NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC
-0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUw
-MDYxODY1NV19
+eyJoaXN0b3J5IjpbODE5NTIzMzE1LC0xNDg3MDk5MjczLDE0Nz
+cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
+NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
+QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
+NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLT
+E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
+NjE4NjU1XX0=
 -->
