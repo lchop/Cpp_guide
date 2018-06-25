@@ -39,7 +39,8 @@ C++
 33. [Implicit_conversion_Explicit_keyword](#implicit_conversion_explicit_keyword)
 34. [Operators_and_Operator_Overloading](#operators_and_operator_overloading)
 35. [This_keyword](#this_keyword)
-36. 
+36. [Object_Lifetime](#object_lifetime)
+37. 
 
 
 *************
@@ -1338,13 +1339,16 @@ void PrintEntity(Entity* e){
 
 
 
+
+
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NTc1NjAxLDE2ODIzMTMzMjksMjA1MT
-cwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3MywxNDc3MTkz
-NjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3MDQzLC
-0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsODM0Mzcy
-NjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5NzU0MS
-w4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC0xOTIy
-ODAyMjczXX0=
+eyJoaXN0b3J5IjpbLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMD
+UxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5MjczLDE0Nzcx
+OTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2MzcwND
+MsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4MzQz
+NzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3NT
+QxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLTE5
+MjI4MDIyNzNdfQ==
 -->
