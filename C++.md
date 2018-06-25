@@ -1410,7 +1410,7 @@ int main(){
 ~~~ 
 > You can copy with shared pointers. 
 
-*weak_ptr* : When you assign shared ptr to weak ptr it won't count has a reference, so It won't keep shared ptr alive. 
+*weak_ptr* : When you assign shared ptr to weak ptr it won't count has a reference, so It won't keep shared ptr alive. It won't keep shared ptr alive. You can ask weak ptr: are you still being used, are you still alive
 
 ~~~cpp
 int main(){
@@ -1427,11 +1427,11 @@ int main(){
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzAyMTc0NSwyMTExNTE4ODM0LC0yMD
-EyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5Mjky
-MDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMz
-I5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMs
-MTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5NTUzNjEwLDkwNz
-YzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNSwxMzgyNTExMzM1
-LDgzNDM3MjY1NV19
+eyJoaXN0b3J5IjpbMjUwNDk5NjQ3LDIxMTE1MTg4MzQsLTIwMT
+IyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIw
+NTIwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMj
+ksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5OTI3Mywx
+NDc3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3Nj
+M3MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUs
+ODM0MzcyNjU1XX0=
 -->
