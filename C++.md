@@ -1206,13 +1206,14 @@ private:
 	std::string m_Name;
 	int m_Age;
 public:
-	Entity (const std::string& name)
+	explicit Entity (const std::string& name)
 		:m_Name(name), m_Age(-1){}
-	Entity(int age)
+	 explEntity(int age)
 		: m_Name("Unknown"), m_Age(age){}
 };
 int main{
-	Entity a("Louis"); 
+	Entity a("Louis");
+	Entity b = Entity(22); 
 	Entity a = "Louis"; //Implicit conversion
 }
 ~~~
@@ -1223,11 +1224,11 @@ int main{
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjM0ODkwNiwtMTQ4NzA5OTI3MywxND
-c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
-MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
-M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
-NzU0MSw4NzMyMTQ2MDUsNTI0OTUzMzMyLC0xNTA1OTAxODY3LC
-0xOTIyODAyMjczLDExOTI2OTE4MDQsLTg3NzQzMTEzMywtMTUw
-MDYxODY1NV19
+eyJoaXN0b3J5IjpbLTYwOTk5OTkyLC0xNDg3MDk5MjczLDE0Nz
+cxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1MzYxMCw5MDc2Mzcw
+NDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMTM4MjUxMTMzNSw4Mz
+QzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIzNTU5LC0xNDA4OTk3
+NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLTE1MDU5MDE4NjcsLT
+E5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3NDMxMTMzLC0xNTAw
+NjE4NjU1XX0=
 -->
