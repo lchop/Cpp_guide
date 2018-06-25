@@ -1187,12 +1187,12 @@ int main(){
 	Entity* e = new Entity[50]; //Allocate memory on the heap for 50 object Entity
 }
 ~~~
-
+> new call first malloc(50) behind the scene ( memory allocation)
 
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDEwOTUwNywtMTQ4NzA5OTI3MywxND
+eyJoaXN0b3J5IjpbLTIxNDc4NzY1OCwtMTQ4NzA5OTI3MywxND
 c3MTkzNjMyLDE2ODc4Njg2MzgsLTE3Mzk1NTM2MTAsOTA3NjM3
 MDQzLC0xNzA3NjQ4NzQsMjcyMzQxNDM1LDEzODI1MTEzMzUsOD
 M0MzcyNjU1LC05MzgyOTEwNDEsMTMyNjgyMzU1OSwtMTQwODk5
