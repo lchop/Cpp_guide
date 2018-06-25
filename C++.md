@@ -1256,6 +1256,8 @@ Operators are just fonctions.  Helps to clean the code.
 
 >operator overloading should be used as minimum as possible, and only used when It makes perfect sens, and not all the time.
 
+*Operator Overloading example*: 
+Without:
 ~~~cpp
 struct Vector2{
 	float x, y;
@@ -1270,17 +1272,18 @@ int main(){
 	Vector2 position (4.0f, 4.0f);
 	Vector2 speed(0.5f, 1.5f);
 	Vector2 result = position.Add(speed);
-	vecto
 }
 ~~~
 
+Operator Overloading example: 
+
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ1MDgwNTUsLTE3NzI2MTUyMzgsLT
-E0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4NjM4LC0xNzM5
-NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3MjM0MTQzNS
-wxMzgyNTExMzM1LDgzNDM3MjY1NSwtOTM4MjkxMDQxLDEzMjY4
-MjM1NTksLTE0MDg5OTc1NDEsODczMjE0NjA1LDUyNDk1MzMzMi
-wtMTUwNTkwMTg2NywtMTkyMjgwMjI3MywxMTkyNjkxODA0LC04
-Nzc0MzExMzNdfQ==
+eyJoaXN0b3J5IjpbOTE5OTQ1MjEyLC0xNzcyNjE1MjM4LC0xND
+g3MDk5MjczLDE0NzcxOTM2MzIsMTY4Nzg2ODYzOCwtMTczOTU1
+MzYxMCw5MDc2MzcwNDMsLTE3MDc2NDg3NCwyNzIzNDE0MzUsMT
+M4MjUxMTMzNSw4MzQzNzI2NTUsLTkzODI5MTA0MSwxMzI2ODIz
+NTU5LC0xNDA4OTk3NTQxLDg3MzIxNDYwNSw1MjQ5NTMzMzIsLT
+E1MDU5MDE4NjcsLTE5MjI4MDIyNzMsMTE5MjY5MTgwNCwtODc3
+NDMxMTMzXX0=
 -->
