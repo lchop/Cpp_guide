@@ -1346,13 +1346,21 @@ When you enter a scope({ }), you add a book to your stack and when you declare v
 class Entity{
 public:
 	Entity()
-	{}
-	~Entity(){
+	{
+		cout<<"Created"<<endl;
+	}
+	~Entity()
+	{
+		cout<<"destroyed"<<endl;
+	}
+};
+int main(){
+	
 ~~~
 
  [TOC](#table_of_contents)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDQwOTIzNSwtMTY2MjgxNzYyMiwtMT
+eyJoaXN0b3J5IjpbLTIxODU3NzI5MywtMTY2MjgxNzYyMiwtMT
 MxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2
 MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5MzYzMiwxNjg3ODY4Nj
 M4LC0xNzM5NTUzNjEwLDkwNzYzNzA0MywtMTcwNzY0ODc0LDI3
