@@ -1677,7 +1677,11 @@ int main(){
 We can use an array to store multiple values and return the array.
 We can also use a vector, array are created on the stack, vector will stored on line storage on the heap, so array will be faster.
 
-*Universal way*:
+*Struct way*:
+~~~cpp
+struct OutStrings{
+
+~~~
 
 
 
@@ -1685,11 +1689,11 @@ We can also use a vector, array are created on the stack, vector will stored on 
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2OD
-YyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLTY4MjM0
-NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0OD
-AsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4
-Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNj
-YsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1
-MjI0NzQzXX0=
+eyJoaXN0b3J5IjpbLTIwMzUxNjk5NjgsNTEwMTQwNzkzLC0xMj
+U3MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDky
+NzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1ND
+AsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIx
+MzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0Mj
+MsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIx
+MzI3ODgxNThdfQ==
 -->
