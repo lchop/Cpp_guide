@@ -1556,7 +1556,7 @@ int main() {
   std::cout<<v<<std::endl;  
   std::cout<<example[0]<<std::endl;//[] is overload for std::vector
   
-  for (Vertex& v : example2) //here we don't copy a new object all the time
+  for (Vertex& v : example2) //passing by reference here we don't copy a new object all the time
         std::cout<<v<<std::endl;  
   
   example.erase(example.begin() +1); //will delete the second element of the array  
@@ -1566,15 +1566,21 @@ int main() {
 }
 ~~~
 
+
+***Optimizing the usage of std::vector in C++***
+
+
 [TOC](#table_of_contents)
  
  **********
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyODUxNzc4LC0xMTU2MjQ1MTYsMTU2MT
-I5MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1
-MCw1NjE1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMT
-IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
-MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
-EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
-MjEwNzE5MTIxNV19
+eyJoaXN0b3J5IjpbLTE0NDQwNDU5NDYsLTExNTYyNDUxNiwxNT
+YxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3
+MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC
+0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2
+ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1Nz
+Q2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5
+NywyMTA3MTkxMjE1XX0=
 -->
