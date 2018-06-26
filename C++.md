@@ -1536,8 +1536,9 @@ example.push_back(1);
 example[0];
 for (int v : example) //here we copy
 	cout<<v<<endl;
-for (int& v : example) //we don't copy
+for (int& v : example) //we don't copy because we use a reference
 	cout<<v<<endl;
+example.clear();
 
 ~~~
 
@@ -1545,7 +1546,7 @@ for (int& v : example) //we don't copy
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTMyNTA4MCwxNTYxMjkzMDY1LDIxMz
+eyJoaXN0b3J5IjpbMjA4MTcyMDI1OCwxNTYxMjkzMDY1LDIxMz
 I3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMz
 NCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC
 0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUx
