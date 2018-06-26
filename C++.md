@@ -1531,9 +1531,6 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 It creates a new array bigger and delete the old one every time you add an element. It's not really optimized. 
 
 ~~~cpp
-struct vecteces{
-	float x,y,z;
-};
 std::vector<int> example;
 example.push_back(1);
 example.push_back(2);
@@ -1553,11 +1550,11 @@ void Function(const std::vector<int>& example){} //pass vector by reference in f
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMz
-I3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMz
-NCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC
-0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUx
-MzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxOD
-gzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1
-LC01OTI5MjA1MjBdfQ==
+eyJoaXN0b3J5IjpbMTk1MTYxMTI2NCwtMTE1NjI0NTE2LDE1Nj
+EyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcy
+NTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5NzI2MjEsLT
+EyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4
+NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3ND
+YxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3
+LDIxMDcxOTEyMTVdfQ==
 -->
