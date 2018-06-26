@@ -1,6 +1,6 @@
 C++  
 ***We are playing with data.*** 
-This guide is based on a Youtube serie about C++ made by TheChernoProject. (https://www.youtube.com/watchv=4p3grlSpWYA&index=46&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb). 
+This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link to the video tutorial](
 *************  
 # Table_of_Contents
 
@@ -1477,11 +1477,11 @@ String(const String& other){ // to add to the object declaration;
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MjU3MTI0LC0xMjM1OTY5MTczLC0xOD
-UxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYz
-MzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNC
-wtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01
-OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4Mj
-MxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5
-MjczLDE0NzcxOTM2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzEzMzczNTUsLTEyMzU5NjkxNzMsLT
+E4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEz
+NjMzNywtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4OD
+M0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUs
+LTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNj
+gyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcw
+OTkyNzMsMTQ3NzE5MzYzMl19
 -->
