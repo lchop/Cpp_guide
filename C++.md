@@ -52,7 +52,6 @@ C++
 * **srand()**: truly rand with a seed as arg  
 * **#include ** : to use time  
 * **srand(time(0))**: seed the time to rand  
-* **->**: it's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
   
    [TOC](#table_of_contents)
 *************************  
@@ -1465,7 +1464,7 @@ String(const String& other){ // to add to the object declaration;
 
 ### Arrow_Operator 
 
-
+ **->**: it's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
 
 
 
@@ -1474,11 +1473,11 @@ String(const String& other){ // to add to the object declaration;
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLT
-k1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYz
-ODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMT
-QyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwt
-MTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNT
-E3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcwOTkyNzMsMTQ3NzE5
-MzYzMiwxNjg3ODY4NjM4XX0=
+eyJoaXN0b3J5IjpbMTA2MzkyNTc2NywtMTIzNTk2OTE3MywtMT
+g1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2
+MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIxMTE1MTg4Mz
+QsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwt
+NTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMzEwNDkzNDExLDE2OD
+IzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYxNTIzOCwtMTQ4NzA5
+OTI3MywxNDc3MTkzNjMyXX0=
 -->
