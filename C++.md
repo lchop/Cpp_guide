@@ -1485,7 +1485,14 @@ public:
 	void Print() const { std::cout <<"Hello" << std::endl;}
 };
 class ScopedPtr{
-pri
+private: 
+	Entity* m_obj;
+public:
+	ScopedPtr(Entity* entity)
+		: m_obj(entity)
+		{
+		}
+	~ScopedPtr()
 int main(){
 	Entity e
 ~~~
@@ -1494,11 +1501,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTc2NTYyNywtMTI1MDk3MjYyMSwtMT
-IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
-MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
-EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
-MjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMz
-EwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYx
-NTIzOCwtMTQ4NzA5OTI3M119
+eyJoaXN0b3J5IjpbLTEyOTY5MzkyMzIsLTEyNTA5NzI2MjEsLT
+EyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4
+NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3ND
+YxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3
+LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwtMT
+MxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2
+MTUyMzgsLTE0ODcwOTkyNzNdfQ==
 -->
