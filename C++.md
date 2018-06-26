@@ -1575,39 +1575,42 @@ How can we avoid copying our object ?
 ~~~cpp
 #include <iostream>  
 #include <vector>  
-
+  
 struct Vertex{  
-    float x,y,z;
-    
+    float x,y,z;  
+  Vertex(float x, float y, float z) //default constructor  
+  : x(x), y(y), z(z) {  
+    }  
+    Vertex(const Vertex& vertex) //copy_constructor  
+  : x(vertex.x), y(vertex.y), z(vertex.z)  
+    {  
+        std::cout << "Copied " << std::endl;  
+  }  
 };  
   
 std::ostream& operator<<(std::ostream& stream, const Vertex& vertex){  
         stream << vertex.x << "" << vertex.y << "" << vertex.z;  
-  return stream;  //overloading << to make cout work with our struct
+  return stream;  
 }  
   
 int main() {  
-  std::vector<Vertex> example2;  
-  example2.push_back({1,2,3});  
-  example2.push_back({4,5,6});  
+    std::vector<Vertex> example2;  
+  example2.reserve(3); // 2) optimization, we are telling vector we would like  
+ // enough memory to store 3 objects  example2.emplace_back(1, 2, 3); // 1) optimization  
+  example2.emplace_back(5, 4, 6);  
+  example2.emplace_back(7, 8, 9);  
   
-  std::vector<int> example;  
-  example.push_back(1);  
-  example.push_back(2);  
-  
-  for (int v : example) //here we copy, but with int we don't care 
-  std::cout<<v<<std::endl;  
-  std::cout<<example[0]<<std::endl;//[] is overload for std::vector
-  
-  for (Vertex& v : example2) //passing by reference here we don't copy a new object all the time
-        std::cout<<v<<std::endl;  
-  
-  example.erase(example.begin() +1); //will delete the second element of the array  
-  example.clear();  
-  
-  void Function(const std::vector<int>& example){} //pass vector by reference in fct so we don't copy, by const if we don't modify.   
-}
-~~~
+}  
+~~~ 
+*Optimization strategy*:
+Using the c
+1) We are constructing in the stack memory of the main function, then we copied  
+main function to the actual vector class memory. We should construct this vector  
+in the actual memory that the vector has allocate for us.  
+
+2) We resized the vector twice so we copied twice more the object, if we know how  
+many element we are going to push, we can optimize the initial size of vector.
+
 
 [TOC](#table_of_contents)
  
@@ -1615,11 +1618,11 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1MT
-I4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1
-OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMT
-I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
-NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNy
-wtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0y
-MDEyMjcwMTQyXX0=
+eyJoaXN0b3J5IjpbNTE2NDgzNTkzLC0zMzg4MTkzNDksNzEwMD
+U0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1
+LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MT
+U3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5
+MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNC
+wxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjEx
+MTUxODgzNF19
 -->
