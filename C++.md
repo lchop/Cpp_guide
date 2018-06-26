@@ -44,10 +44,11 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 38. [Copying_and_Copy_Constructors](#copying_and_copy_constructors)
 39. [Arrow_Operator](#arrow_operator)
 40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
+41. [Using_Libraries](#Using_Libraries) 
 
 
 *************
-### Useful
+### UsefulUsing_Libraries 
 * **#include **:library to use random number (can call rand())  
 * **rand()%9** to call rand num between 1 and 9  
 * **srand()**: truly rand with a seed as arg  
@@ -1616,13 +1617,13 @@ many element we are going to push, we can optimize the initial size of vector.
  
  **********
 
-
+### Using_Libraries 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMz
-g4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUx
-NiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xOD
-IxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcy
-NjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMj
-gsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4
-MDI1NzQ2MTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNDAwOTU5MDksLTIxMzE4OTQ3NTksMT
+A4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEy
+NjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMz
+U1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5
+NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMz
+k3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEw
+MzI2Mzg5MjJdfQ==
 -->
