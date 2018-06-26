@@ -1532,17 +1532,18 @@ It creates a new array bigger and delete the old one every time you add an eleme
 
 ~~~cpp
 std::vector<int> example;
+example.push_back{1,2,3};
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4Mj
-E3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5NzI2
-MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOC
-wxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgw
-MjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5Nz
-E1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYy
-MiwtMTMxMDQ5MzQxMV19
+eyJoaXN0b3J5IjpbLTE0MzUxMzU3MTksMjEzMjc4ODE1OCwzNT
+UyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1
+OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOT
+csLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAz
+MjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMj
+cwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUy
+MCwtMTY2MjgxNzYyMl19
 -->
