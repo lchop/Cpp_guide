@@ -1649,6 +1649,8 @@ void Function (const std::string& outHello, const std::string& outHello2){
 int main(){
 	std::string hello, hello2;
 	Function(hello, hello2);
+	std::cout << hello << std::endl;
+	std::cout << hello2 << std::endl;
 ~~~
 
 
@@ -1657,11 +1659,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgyMDM5MDMsMjA5NzI5OTg1LC0xOT
-UwNTUyNTQwLC0xMDM1OTgyNDgwLC0xMjY1NjI3NTEsNDEyNzAz
-MjU4LC0yMTMxODk0NzU5LDEwODI3NzY3NywtMzM4ODE5MzQ5LD
-cxMDA1NDIzLC0xMzUxMjgxMjY2LC0xMTU2MjQ1MTYsMTU2MTI5
-MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1MC
-w1NjE1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMTIz
-NTk2OTE3M119
+eyJoaXN0b3J5IjpbLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NT
+A1NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMy
+NTgsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNz
+EwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkz
+MDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLD
+U2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1
+OTY5MTczXX0=
 -->
