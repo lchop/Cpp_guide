@@ -1522,16 +1522,17 @@ int main(){
 
 ### Dynamic_Arrays_std_vector
 
-It's an array list. 
+It's an array list, a dynamic array. 
 ***standard_template_library***: A library field with containers, contains certain type of data, the data type that the container contains is up to you. 
 
 > std::vector should not be called vector but array list, it has nothing to do with the mathematical array. 
 
+It's not like a raw array,  n
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkzMjQxOTYsNTYxNTc4MzM0LDIxMT
+eyJoaXN0b3J5IjpbLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMT
 I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
 NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNy
 wtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0y
