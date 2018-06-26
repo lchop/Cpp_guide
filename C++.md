@@ -1663,8 +1663,8 @@ void Function (std::string& outHello, std::string& outHello2){ //output argument
 	outHello2 = "bibi";
 }
 void Function2 (std::string* outHello, std::string* outHello2){ //output arguments.
-	outHello = "Blabla";
-	outHello2 = "bibi"; //with this method you can pass by argument a nullptr.
+	(*outHello) = "Blabla";
+	(*outHello2) = "bibi"; //with this method you can pass by argument a nullptr.
 }
 int main(){
 	std::string hello, hello2;
@@ -1685,11 +1685,11 @@ We can also use a vector, array are created on the stack, vector will stored on 
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMj
-AxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcy
-OTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNz
-UxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMz
-ODgxOTM0OSw3MTAwNTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0NT
-E2LDE1NjEyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4
-MjE3OTcyNTBdfQ==
+eyJoaXN0b3J5IjpbNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2OD
+YyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLTY4MjM0
+NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0OD
+AsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4
+Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNj
+YsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1
+MjI0NzQzXX0=
 -->
