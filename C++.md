@@ -1660,14 +1660,14 @@ int main(){
 
 *Using an array*
 We can use an array to store multiple values and return the array.
-We can also use a vector, array are on the stack, vector 
+We can also use a vector, array are created on the stack, vector will stored on line storage on the heap, so array will be faster.
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTgxMDEzOCwtMjAxMjkwMjkwNywtMT
+eyJoaXN0b3J5IjpbMTY2OTczMDQ1MiwtMjAxMjkwMjkwNywtMT
 A0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1
 MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OC
 wtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAw
