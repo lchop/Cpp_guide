@@ -1471,7 +1471,7 @@ Entity e;
 e.Print();
 
 Entity* ptr = &e;
-(*ptr).print();
+(*ptr).print();//de-reference first then call .print()
 
 ptr->print();
 
@@ -1483,7 +1483,7 @@ ptr->print();
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMjA0MjQ1LC0xMjM1OTY5MTczLC0xOD
+eyJoaXN0b3J5IjpbNzY2NzYxMjY5LC0xMjM1OTY5MTczLC0xOD
 UxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYz
 MzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNC
 wtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01
