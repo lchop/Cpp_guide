@@ -1468,7 +1468,12 @@ String(const String& other){ // to add to the object declaration;
 
 ~~~cpp
 Entity e;
-e.Print
+e.Print();
+
+Entity* ptr = &e;
+(*ptr).print();
+
+ptr->print();
 
 ~~~
 
@@ -1478,7 +1483,7 @@ e.Print
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMTQ2OTg1LC0xMjM1OTY5MTczLC0xOD
+eyJoaXN0b3J5IjpbMjgyMjA0MjQ1LC0xMjM1OTY5MTczLC0xOD
 UxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYz
 MzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNC
 wtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01
