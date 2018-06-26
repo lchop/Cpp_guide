@@ -1568,8 +1568,9 @@ int main() {
 
 ***Optimizing the usage of std::vector in C++***:
 We need to continuously re-allocate memory large enough to handle new elements and copy previous elements to the new location when we push_pack new element. 
+
 How can we avoid copying our object ? 
->  when copying happenned is very important for optimization ! 
+> Knowing when copying happened is very important for optimization ! 
 
 
 
@@ -1579,11 +1580,11 @@ How can we avoid copying our object ?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjMzNDY1OCwtMTM1MTI4MTI2NiwtMT
-E1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3
-NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLT
-EyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1
-NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzOD
-kyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQy
-LC0xMDE5NzE1MDk3XX0=
+eyJoaXN0b3J5IjpbNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNT
+YyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQz
+LC0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMj
+UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
+NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
+IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
+MTAxOTcxNTA5N119
 -->
