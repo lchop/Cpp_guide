@@ -1528,11 +1528,15 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 
 > std::vector should not be called vector but array list, it has nothing to do with the mathematical array. 
 
+
+
+
+
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTg1MzIzMiwtMTgyMTc5NzI1MCw1Nj
+eyJoaXN0b3J5IjpbLTE3ODg1Njk2OCwtMTgyMTc5NzI1MCw1Nj
 E1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMTIzNTk2
 OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMz
 QsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIx
