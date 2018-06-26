@@ -1532,7 +1532,7 @@ It creates a new array bigger and delete the old one every time you add an eleme
 
 ~~~cpp
 std::vector<int> example;
-example.push_back({1,2,3});
+example.push_back(1);
 example[0];
 for (int v : example) //here we copy
 	cout<<v<<endl;
@@ -1545,11 +1545,11 @@ for (int& v : example) //we don't copy
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzAzNzc3LDE1NjEyOTMwNjUsMjEzMj
-c4ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0
-LDIxMTI2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLT
-E4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEz
-NjMzNywtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4OD
-M0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUs
-LTU5MjkyMDUyMF19
+eyJoaXN0b3J5IjpbMTUyOTMyNTA4MCwxNTYxMjkzMDY1LDIxMz
+I3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMz
+NCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC
+0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUx
+MzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxOD
+gzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1
+LC01OTI5MjA1MjBdfQ==
 -->
