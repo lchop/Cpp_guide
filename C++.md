@@ -1253,6 +1253,7 @@ It's not often used, can be used in some mathematical object for example when we
 
  [TOC](#table_of_contents)
 
+
 **************
 
 ### Operators_and_Operator_Overloading
@@ -1531,7 +1532,10 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 
 *How does it work ?*
 It creates a new array bigger and delete the old one every time you add an element. It's not really optimized. 
-
+```
+vector<Type> vect;
+```
+will allocate the  `vector`, i.e. the header info, on the stack, but the elements on the free store ("heap").
 ~~~cpp
 #include <iostream>  
 #include <vector>  
@@ -1670,11 +1674,11 @@ We can also use a vector, array are created on the stack, vector will stored on 
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMT
-A0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1
-MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OC
-wtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAw
-NTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNj
-UsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYx
-NTc4MzM0XX0=
+eyJoaXN0b3J5IjpbLTIwNjY4OTA1MTQsMTY4NjI3MzEzMCwtMj
+AxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcy
+OTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNz
+UxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMz
+ODgxOTM0OSw3MTAwNTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0NT
+E2LDE1NjEyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4
+MjE3OTcyNTBdfQ==
 -->
