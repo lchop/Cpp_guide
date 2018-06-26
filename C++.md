@@ -1521,7 +1521,7 @@ int main(){
 
 ### Dynamic_Arrays_std_vector
 
-***standard_template_library***: A library field with containers, contains certain type of data. 
+***standard_template_library***: A library field with containers, contains certain type of data, the data type that the container contains is up to you. 
 
 
 
@@ -1529,11 +1529,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4NTEwOTYsNTYxNTc4MzM0LDIxMTI2OD
-k1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEz
-OTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMT
-AzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEy
-MjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMD
-UyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5
-LDIwNTE3MDQzMTJdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjc3MTY0NjYsNTYxNTc4MzM0LDIxMT
+I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
+NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNy
+wtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0y
+MDEyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5Mj
+kyMDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEz
+MzI5LDIwNTE3MDQzMTJdfQ==
 -->
