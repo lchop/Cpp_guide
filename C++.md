@@ -1528,15 +1528,15 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 
 > std::vector should not be called vector but array list, it has nothing to do with the mathematical array. 
 
-How does it work ?
-It creates a new array bigger and delete the old one every time you add an el
+*How does it work ?*
+It creates a new array bigger and delete the old one every time you add an element. It's not really optimized. 
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNjc2MDM4LC0xODIxNzk3MjUwLDU2MT
+eyJoaXN0b3J5IjpbMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MT
 U3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5
 MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNC
 wxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjEx
