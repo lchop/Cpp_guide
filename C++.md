@@ -1683,6 +1683,8 @@ struct OutStrings{
 	std::string Hello;
 	std::string Hello2;
 };
+OutStrings (arguments){
+	return (
 ~~~
 
 
@@ -1691,7 +1693,7 @@ struct OutStrings{
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODM1ODE3NCw1MTAxNDA3OTMsLTEyNT
+eyJoaXN0b3J5IjpbMTIyNzEzNTUxNiw1MTAxNDA3OTMsLTEyNT
 cxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3
 MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MC
 wtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEz
