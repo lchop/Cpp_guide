@@ -1540,7 +1540,7 @@ struct Vertex{
   
 std::ostream& operator<<(std::ostream& stream, const Vertex& vertex){  
         stream << vertex.x << "" << vertex.y << "" << vertex.z;  
-  return stream;  
+  return stream;  //overloading << to make cout work with our struct
 }  
   
 int main() {  
@@ -1552,12 +1552,11 @@ int main() {
   example.push_back(1);  
   example.push_back(2);  
   
-  for (int v : example) //here we copy  
+  for (int v : example) //here we copy, but with int we don't care 
   std::cout<<v<<std::endl;  
   std::cout<<example[0]<<std::endl;//[] is overload for std::vector
   
-  
-  for (Vertex& v : example2)  
+  for (Vertex& v : example2) //here we don't copy a new object all the time
         std::cout<<v<<std::endl;  
   
   example.erase(example.begin() +1); //will delete the second element of the array  
@@ -1571,7 +1570,7 @@ int main() {
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNzY3NzgxLC0xMTU2MjQ1MTYsMTU2MT
+eyJoaXN0b3J5IjpbNjMyODUxNzc4LC0xMTU2MjQ1MTYsMTU2MT
 I5MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1
 MCw1NjE1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMT
 IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
