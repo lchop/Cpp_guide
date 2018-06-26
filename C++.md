@@ -44,7 +44,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 38. [Copying_and_Copy_Constructors](#copying_and_copy_constructors)
 39. [Arrow_Operator](#arrow_operator)
 40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
-41. [Using_Libraries](#Using_Libraries) 
+41. [Using_Libraries](#using_libraries) 
 
 
 *************
@@ -1618,12 +1618,16 @@ many element we are going to push, we can optimize the initial size of vector.
  **********
 
 ### Using_Libraries 
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAwOTU5MDksLTIxMzE4OTQ3NTksMT
-A4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEy
-NjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMz
-U1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5
-NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMz
-k3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEw
-MzI2Mzg5MjJdfQ==
+eyJoaXN0b3J5IjpbNDEyNzAzMjU4LC0yMTMxODk0NzU5LDEwOD
+I3NzY3NywtMzM4ODE5MzQ5LDcxMDA1NDIzLC0xMzUxMjgxMjY2
+LC0xMTU2MjQ1MTYsMTU2MTI5MzA2NSwyMTMyNzg4MTU4LDM1NT
+IyNDc0MywtMTgyMTc5NzI1MCw1NjE1NzgzMzQsMjExMjY4OTU5
+NiwtMTI1MDk3MjYyMSwtMTIzNTk2OTE3MywtMTg1MTc2MTM5Ny
+wtOTU2MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2MzM3LC0xMDMy
+NjM4OTIyXX0=
 -->
