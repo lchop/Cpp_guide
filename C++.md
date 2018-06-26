@@ -43,6 +43,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 37. [Smart_Pointers](#smart_pointers)
 38. [Copying_and_Copy_Constructors](#copying_and_copy_constructors)
 39. [Arrow_Operator](#arrow_operator)
+40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
 
 
 *************
@@ -1518,13 +1519,20 @@ int main(){
  
  **********
 
-### Dynamic_Arrays(stdvector
+### Dynamic_Arrays_std_vector
+
+
+
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODM1MTAzMywyMTEyNjg5NTk2LC0xMj
-UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
-NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
-IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
-MTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2Nj
-I4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0
-MzEyLC0xNzcyNjE1MjM4XX0=
+eyJoaXN0b3J5IjpbNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNT
+A5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1
+MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMi
+wtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0x
+MDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2Mj
+gxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQz
+MTIsLTE3NzI2MTUyMzhdfQ==
 -->
