@@ -1567,12 +1567,47 @@ int main() {
 ~~~
 
 ***Optimizing the usage of std::vector in C++***:
-We need to continuously re-allocate memory large enough to handle new elements and copy previous elements to the new location when we push_pack new element. 
+We need to continuously re-allocate memory large enough to handle new elements and copy all previous existing elements to the new location when we push_pack new element. 
 
 How can we avoid copying our object ? 
 > Knowing when copying happened is very important for optimization ! 
 
+~~~cpp
+#include <iostream>  
+#include <vector>  
 
+struct Vertex{  
+    float x,y,z;
+    Ve	
+};  
+  
+std::ostream& operator<<(std::ostream& stream, const Vertex& vertex){  
+        stream << vertex.x << "" << vertex.y << "" << vertex.z;  
+  return stream;  //overloading << to make cout work with our struct
+}  
+  
+int main() {  
+  std::vector<Vertex> example2;  
+  example2.push_back({1,2,3});  
+  example2.push_back({4,5,6});  
+  
+  std::vector<int> example;  
+  example.push_back(1);  
+  example.push_back(2);  
+  
+  for (int v : example) //here we copy, but with int we don't care 
+  std::cout<<v<<std::endl;  
+  std::cout<<example[0]<<std::endl;//[] is overload for std::vector
+  
+  for (Vertex& v : example2) //passing by reference here we don't copy a new object all the time
+        std::cout<<v<<std::endl;  
+  
+  example.erase(example.begin() +1); //will delete the second element of the array  
+  example.clear();  
+  
+  void Function(const std::vector<int>& example){} //pass vector by reference in fct so we don't copy, by const if we don't modify.   
+}
+~~~
 
 [TOC](#table_of_contents)
  
@@ -1580,11 +1615,11 @@ How can we avoid copying our object ?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNT
-YyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQz
-LC0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMj
-UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
-NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
-IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
-MTAxOTcxNTA5N119
+eyJoaXN0b3J5IjpbMTQwNDQ0MzY4NCw3MTAwNTQyMywtMTM1MT
+I4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1
+OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMT
+I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
+NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNy
+wtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0y
+MDEyMjcwMTQyXX0=
 -->
