@@ -45,7 +45,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 39. [Arrow_Operator](#arrow_operator)
 40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
 41. [Using_Libraries](#using_libraries) 
-42. Multiple_return_values
+42. [Multiple_return_values](#multiple_return_values)
 
 
 *************
@@ -1637,12 +1637,16 @@ Lib files
  **********
 
 ### Multiple_return_values
+Usually a fonction can only return one type. (if we want to return a string and an int)
+
+
+
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjcxNzkwNiwtMTk1MDU1MjU0MCwtMT
+eyJoaXN0b3J5IjpbLTE1MjQxMzEyNCwtMTk1MDU1MjU0MCwtMT
 AzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5
 NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMT
 M1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4
