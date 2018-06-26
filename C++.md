@@ -1622,17 +1622,20 @@ How can we use external library in our project.
 Include files (header files)
 Lib files
 1) create Dependencies folder
-2) 
+2) create a folder with the name of the library
+3) include & lib
+
+
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5ODAxMDExLC0xMjY1NjI3NTEsNDEyNz
-AzMjU4LC0yMTMxODk0NzU5LDEwODI3NzY3NywtMzM4ODE5MzQ5
-LDcxMDA1NDIzLC0xMzUxMjgxMjY2LC0xMTU2MjQ1MTYsMTU2MT
-I5MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1
-MCw1NjE1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMT
-IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
-MzExMzRdfQ==
+eyJoaXN0b3J5IjpbLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MT
+I3MDMyNTgsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkz
+NDksNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNT
+YxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3
+MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC
+0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2
+ODczMTEzNF19
 -->
