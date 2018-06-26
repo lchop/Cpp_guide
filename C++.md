@@ -1506,7 +1506,7 @@ int main(){
 *Get the offset of value in memory*:
 ~~~cpp
 struct Vector3{
-	float x,y,z; //offset of 
+	float x,y,z; //offset of x =0, y= 4 z= 8 in the memory (float is 4 bits)
 };
 int main(){
 	int offset = (int)&((Vector3*)nullptr)->x;
@@ -1518,11 +1518,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNzE1NzMyLDIxMTI2ODk1OTYsLTEyNT
-A5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1
-MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMi
-wtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0x
-MDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2Mj
-gxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQz
-MTIsLTE3NzI2MTUyMzhdfQ==
+eyJoaXN0b3J5IjpbMTc0NTMyMTk4NCwyMTEyNjg5NTk2LC0xMj
+UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
+NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
+IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
+MTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2Nj
+I4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0
+MzEyLC0xNzcyNjE1MjM4XX0=
 -->
