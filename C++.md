@@ -1482,18 +1482,23 @@ ptr->print();//same effect as a line above but simpler and cleaner.
 ~~~cpp
 class Entity{
 public:
-	void Print() co
+	void Print() const { std::cout <<"Hello" << std::endl;}
+};
+class ScopedPtr{
+pri
+int main(){
+	Entity e
 ~~~
 
  [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNzYxNzQxLC0xMjUwOTcyNjIxLC0xMj
-M1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODcz
-MTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MT
-AsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5Nywy
-MTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMT
-A0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1
-MjM4LC0xNDg3MDk5MjczXX0=
+eyJoaXN0b3J5IjpbMTcxMTc2NTYyNywtMTI1MDk3MjYyMSwtMT
+IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
+MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
+EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
+MjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMz
+EwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYx
+NTIzOCwtMTQ4NzA5OTI3M119
 -->
