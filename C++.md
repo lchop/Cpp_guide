@@ -1531,30 +1531,51 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 It creates a new array bigger and delete the old one every time you add an element. It's not really optimized. 
 
 ~~~cpp
-std::vector<int> example;
-example.push_back(1);
-example.push_back(2);
-example[0];
-for (int v : example) //here we copy
-	cout<<v<<endl;
-for (int& v : example) //we don't copy because we use a reference
-	cout<<v<<endl;
-example.erase(example.begin() +1); //will delete the second element of the array
-example.clear();
+#include <iostream>  
+#include <vector>  
 
-void Function(const std::vector<int>& example){} //pass vector by reference in fct so we don't copy, by const if we don't modify. 
-
+struct Vertex{  
+    float x,y,z;  
+};  
+  
+std::ostream& operator<<(std::ostream& stream, const Vertex& vertex){  
+        stream << vertex.x << "" << vertex.y << "" << vertex.z;  
+  return stream;  
+}  
+  
+int main() {  
+  std::vector<Vertex> example2;  
+  example2.push_back({1,2,3});  
+  example2.push_back({4,5,6});  
+  
+  std::vector<int> example;  
+  example.push_back(1);  
+  example.push_back(2);  
+  
+  for (int v : example) //here we copy  
+  std::cout<<v<<std::endl;  
+  std::cout<<example[0]<<std::endl;//[] is overload for std::vector
+  
+  
+  for (Vertex& v : example2)  
+        std::cout<<v<<std::endl;  
+  
+  example.erase(example.begin() +1); //will delete the second element of the array  
+  example.clear();  
+  
+  void Function(const std::vector<int>& example){} //pass vector by reference in fct so we don't copy, by const if we don't modify.   
+}
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTYxMTI2NCwtMTE1NjI0NTE2LDE1Nj
-EyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcy
-NTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5NzI2MjEsLT
-EyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4
-NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3ND
-YxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3
-LDIxMDcxOTEyMTVdfQ==
+eyJoaXN0b3J5IjpbMzQwNzY3NzgxLC0xMTU2MjQ1MTYsMTU2MT
+I5MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1
+MCw1NjE1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMT
+IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
+MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
+EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
+MjEwNzE5MTIxNV19
 -->
