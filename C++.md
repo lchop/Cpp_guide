@@ -1618,6 +1618,7 @@ many element we are going to push, we can optimize the initial size of vector.
  **********
 
 ### Using_Libraries
+Cm
 How can we use external library in our project.
 Include files (header files)
 Lib files
@@ -1632,11 +1633,11 @@ Lib files
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA1NTI1NDAsLTEwMzU5ODI0ODAsLT
-EyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4Mjc3
-Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNjYsLT
-ExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0
-NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC
-0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05
-NTYxNTMyMjhdfQ==
+eyJoaXN0b3J5IjpbLTY2NzMxMjU3NiwtMTk1MDU1MjU0MCwtMT
+AzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5
+NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMT
+M1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4
+ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LD
+IxMTI2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4
+NTE3NjEzOTddfQ==
 -->
