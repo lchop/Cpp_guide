@@ -1567,8 +1567,7 @@ int main() {
 ~~~
 
 ***Optimizing the usage of std::vector in C++***:
-
-
+We need to continuously re-allocate memory and copy the previous element to the new location when we push_pack and  
 
 
 
@@ -1578,11 +1577,11 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNT
-YxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3
-MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC
-0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2
-ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1Nz
-Q2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5
-NywyMTA3MTkxMjE1XX0=
+eyJoaXN0b3J5IjpbNTQ4MzE2MTc5LC0xMzUxMjgxMjY2LC0xMT
+U2MjQ1MTYsMTU2MTI5MzA2NSwyMTMyNzg4MTU4LDM1NTIyNDc0
+MywtMTgyMTc5NzI1MCw1NjE1NzgzMzQsMjExMjY4OTU5NiwtMT
+I1MDk3MjYyMSwtMTIzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2
+MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OT
+IyLC0xODAyNTc0NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIs
+LTEwMTk3MTUwOTddfQ==
 -->
