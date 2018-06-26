@@ -1506,10 +1506,10 @@ int main(){
 *Get the offset of value in memory*:
 ~~~cpp
 struct Vector3{
-	float x,y,z;
+	float x,y,z; //offset of 
 };
 int main(){
-	int offset = (int)&(Vector3*)nullptr)->x;
+	int offset = (int)&((Vector3*)nullptr)->x;
 	cout<< offset<<endl;
 	}
 ~~~
@@ -1518,11 +1518,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzcxMzM0NjIsMjExMjY4OTU5NiwtMT
-I1MDk3MjYyMSwtMTIzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2
-MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OT
-IyLC0xODAyNTc0NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIs
-LTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNj
-YyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcw
-NDMxMiwtMTc3MjYxNTIzOF19
+eyJoaXN0b3J5IjpbMzczNzE1NzMyLDIxMTI2ODk1OTYsLTEyNT
+A5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1
+MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMi
+wtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0x
+MDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2Mj
+gxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEzMzI5LDIwNTE3MDQz
+MTIsLTE3NzI2MTUyMzhdfQ==
 -->
