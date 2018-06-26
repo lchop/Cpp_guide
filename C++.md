@@ -1522,21 +1522,21 @@ int main(){
 
 ### Dynamic_Arrays_std_vector
 
-It's an array list, a dynamic array. 
+It's an array list, a dynamic array. It can be resize, it doesn't have a fix size, putting element in the array will make it bigger. 
+
 ***standard_template_library***: A library field with containers, contains certain type of data, the data type that the container contains is up to you. 
 
 > std::vector should not be called vector but array list, it has nothing to do with the mathematical array. 
 
-It's not like a raw array,  n
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMT
-I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
-NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEzNjMzNy
-wtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4ODM0LC0y
-MDEyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUsLTU5Mj
-kyMDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNjgyMzEz
-MzI5LDIwNTE3MDQzMTJdfQ==
+eyJoaXN0b3J5IjpbMjEzMTg1MzIzMiwtMTgyMTc5NzI1MCw1Nj
+E1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMTIzNTk2
+OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMz
+QsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIx
+MTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNz
+E5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMzEwNDkz
+NDExLDE2ODIzMTMzMjldfQ==
 -->
