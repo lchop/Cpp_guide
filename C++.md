@@ -1,6 +1,6 @@
 C++  
 ***We are playing with data.*** 
-
+This guide is based on a Youtube serie about C++ (https://www.youtube.com/watch?v=4p3grlSpWYA&index=46&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 *************  
 # Table_of_Contents
 
@@ -1477,7 +1477,7 @@ String(const String& other){ // to add to the object declaration;
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjI3NTE0NSwtMTIzNTk2OTE3MywtMT
+eyJoaXN0b3J5IjpbLTYxNTY0MDI4MSwtMTIzNTk2OTE3MywtMT
 g1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2
 MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIxMTE1MTg4Mz
 QsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwt
