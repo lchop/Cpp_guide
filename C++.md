@@ -1639,6 +1639,7 @@ Lib files
 ### Multiple_return_values
 Usually a fonction can only return one type (if we want to return a string and an int we have a problem) and if want to return multiple variables of the same type we can use an array but it's not optimized.
 
+*Input parameters way*:
 We can pass by reference argument of the fonction and modified directly the value inside the memory address.
 Example:
 ~~~cpp
@@ -1646,9 +1647,13 @@ void Function (std::string& outHello, std::string& outHello2){ //output argument
 	outHello = "Blabla";
 	outHello2 = "bibi";
 }
+void Function2 (std::string* outHello, std::string* outHello2){ //output arguments.
+	outHello = "Blabla";
+	outHello2 = "bibi"; //w
+}
 int main(){
 	std::string hello, hello2;
-	Function(hello, hello2);
+	Function(&hello, nullptr);
 	std::cout << hello << std::endl;
 	std::cout << hello2 << std::endl;
 ~~~
@@ -1659,11 +1664,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk5NDcxMDEsLTY4MjM0NzA3MywyMD
-k3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2
-Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC
-0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYy
-NDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC
-0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUw
-OTcyNjIxXX0=
+eyJoaXN0b3J5IjpbMTMxODMxNzIxNCwtNjgyMzQ3MDczLDIwOT
+cyOTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYy
+NzUxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLT
+MzODgxOTM0OSw3MTAwNTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0
+NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLT
+E4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5
+NzI2MjFdfQ==
 -->
