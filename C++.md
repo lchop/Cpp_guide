@@ -1603,7 +1603,7 @@ int main() {
 }  
 ~~~ 
 *Optimization strategy*:
-Using the c
+Using the copy_constructor we know how many times we copied our object.
 1) We are constructing in the stack memory of the main function, then we copied  
 main function to the actual vector class memory. We should construct this vector  
 in the actual memory that the vector has allocate for us.  
@@ -1618,11 +1618,11 @@ many element we are going to push, we can optimize the initial size of vector.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NDgzNTkzLC0zMzg4MTkzNDksNzEwMD
-U0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1
-LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MT
-U3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5
-MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNC
-wxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjEx
-MTUxODgzNF19
+eyJoaXN0b3J5IjpbMTU3NDg5MDY3NSwtMzM4ODE5MzQ5LDcxMD
+A1NDIzLC0xMzUxMjgxMjY2LC0xMTU2MjQ1MTYsMTU2MTI5MzA2
+NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1MCw1Nj
+E1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMTIzNTk2
+OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMz
+QsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIx
+MTE1MTg4MzRdfQ==
 -->
