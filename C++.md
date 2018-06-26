@@ -1644,6 +1644,8 @@ We can pass by reference argument of the fonction and modified directly the valu
 ~~~cpp
 void Function (const std::string& outHello, const std::string& outHello2)
 int main(){
+	std::string hello, hello2;
+	Function(hello, 
 	
 ~~~
 
@@ -1653,7 +1655,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODEwNDQyMSwyMDk3Mjk5ODUsLTE5NT
+eyJoaXN0b3J5IjpbLTYwMTgzOTIxNiwyMDk3Mjk5ODUsLTE5NT
 A1NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMy
 NTgsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNz
 EwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkz
