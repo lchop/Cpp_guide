@@ -1517,8 +1517,10 @@ int main(){
  [TOC](#table_of_contents)
  
  **********
+
+### Dynamic_Arrays(stdvector
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTMyMTk4NCwyMTEyNjg5NTk2LC0xMj
+eyJoaXN0b3J5IjpbLTgxODM1MTAzMywyMTEyNjg5NTk2LC0xMj
 UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
 NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
 IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
