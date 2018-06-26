@@ -45,6 +45,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 39. [Arrow_Operator](#arrow_operator)
 40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
 41. [Using_Libraries](#using_libraries) 
+42. Multiple_return_values
 
 
 *************
@@ -1618,7 +1619,9 @@ many element we are going to push, we can optimize the initial size of vector.
  **********
 
 ### Using_Libraries
-Cm
+CmakeList 
+***Needs to be completed !!!***
+
 How can we use external library in our project.
 Include files (header files)
 Lib files
@@ -1632,8 +1635,14 @@ Lib files
 [TOC](#table_of_contents)
  
  **********
+
+### Multiple_return_values
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzMxMjU3NiwtMTk1MDU1MjU0MCwtMT
+eyJoaXN0b3J5IjpbMTY1NjcxNzkwNiwtMTk1MDU1MjU0MCwtMT
 AzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5
 NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMT
 M1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4
