@@ -1496,7 +1496,8 @@ public:
 	{
 		delete m_obj;
 	}
-	Entity* GetObj(){ return m_obj;}
+	Entity* operator->(){ return m_obj;} //overload 
+};
 int main(){
 	Entity e
 ~~~
@@ -1505,7 +1506,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mzk0MjYxMSwtMTI1MDk3MjYyMSwtMT
+eyJoaXN0b3J5IjpbMTcwMzYzMjM5MywtMTI1MDk3MjYyMSwtMT
 IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
 MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
 EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
