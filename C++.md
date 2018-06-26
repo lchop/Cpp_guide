@@ -1566,8 +1566,10 @@ int main() {
 }
 ~~~
 
+***Optimizing the usage of std::vector in C++***:
 
-***Optimizing the usage of std::vector in C++***
+
+
 
 
 [TOC](#table_of_contents)
@@ -1576,7 +1578,7 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwNDU5NDYsLTExNTYyNDUxNiwxNT
+eyJoaXN0b3J5IjpbLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNT
 YxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3
 MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC
 0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2
