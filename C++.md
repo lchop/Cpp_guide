@@ -1578,7 +1578,7 @@ How can we avoid copying our object ?
 
 struct Vertex{  
     float x,y,z;
-    Ve	
+    
 };  
   
 std::ostream& operator<<(std::ostream& stream, const Vertex& vertex){  
@@ -1615,7 +1615,7 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDQ0MzY4NCw3MTAwNTQyMywtMTM1MT
+eyJoaXN0b3J5IjpbLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1MT
 I4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1
 OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMT
 I2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4NTE3
