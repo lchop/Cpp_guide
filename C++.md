@@ -1566,7 +1566,7 @@ int main() {
 }
 ~~~
 
-***Optimizing the usage of std::vector in C++***:
+*Optimizing the usage of std::vector in C++ *
 We need to continuously re-allocate memory large enough to handle new elements and copy all previous existing elements to the new location when we push_pack new element. 
 
 How can we avoid copying our object ? 
@@ -1618,11 +1618,11 @@ many element we are going to push, we can optimize the initial size of vector.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDg5MDY3NSwtMzM4ODE5MzQ5LDcxMD
-A1NDIzLC0xMzUxMjgxMjY2LC0xMTU2MjQ1MTYsMTU2MTI5MzA2
-NSwyMTMyNzg4MTU4LDM1NTIyNDc0MywtMTgyMTc5NzI1MCw1Nj
-E1NzgzMzQsMjExMjY4OTU5NiwtMTI1MDk3MjYyMSwtMTIzNTk2
-OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMz
-QsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIx
-MTE1MTg4MzRdfQ==
+eyJoaXN0b3J5IjpbMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMD
+U0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1
+LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MT
+U3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5
+MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNC
+wxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjEx
+MTUxODgzNF19
 -->
