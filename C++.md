@@ -1536,6 +1536,17 @@ It creates a new array bigger and delete the old one every time you add an eleme
 vector<Type> vect;
 ```
 will allocate the  `vector`, i.e. the header info, on the stack, but the elements on the free store ("heap").
+```
+vector<Type> *vect = new vector<Type>;
+```
+
+allocates everything on the free store.
+
+```
+vector<Type*> vect;
+```
+
+will allocate the  `vector`  on the stack and a bunch of pointers on the free store
 ~~~cpp
 #include <iostream>  
 #include <vector>  
@@ -1674,7 +1685,7 @@ We can also use a vector, array are created on the stack, vector will stored on 
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjY4OTA1MTQsMTY4NjI3MzEzMCwtMj
+eyJoaXN0b3J5IjpbLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMj
 AxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcy
 OTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNz
 UxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMz
