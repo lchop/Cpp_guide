@@ -1642,7 +1642,7 @@ Usually a fonction can only return one type (if we want to return a string and a
 We can pass by reference argument of the fonction and modified directly the value inside the memory address.
 Example:
 ~~~cpp
-void Function (std::string& outHello, std::string& outHello2){
+void Function (std::string& outHello, std::string& outHello2){ //output arguments.
 	outHello = "Blabla";
 	outHello2 = "bibi";
 }
@@ -1659,11 +1659,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTMwMjYxOCwtNjgyMzQ3MDczLDIwOT
-cyOTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYy
-NzUxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLT
-MzODgxOTM0OSw3MTAwNTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0
-NTE2LDE1NjEyOTMwNjUsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLT
-E4MjE3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5
-NzI2MjFdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk5NDcxMDEsLTY4MjM0NzA3MywyMD
+k3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2
+Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC
+0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEyODEyNjYsLTExNTYy
+NDUxNiwxNTYxMjkzMDY1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC
+0xODIxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUw
+OTcyNjIxXX0=
 -->
