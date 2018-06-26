@@ -1637,7 +1637,7 @@ Lib files
  **********
 
 ### Multiple_return_values
-Usually a fonction can only return one type. (if we want to return a string and an int)
+Usually a fonction can only return one type (if we want to return a string and an int we have a problem) and if want to return multiple variables of the same type we can use 
 
 
 
@@ -1646,11 +1646,11 @@ Usually a fonction can only return one type. (if we want to return a string and 
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQxMzEyNCwtMTk1MDU1MjU0MCwtMT
-AzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5
-NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMT
-M1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEzMjc4
-ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYxNTc4MzM0LD
-IxMTI2ODk1OTYsLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLTE4
-NTE3NjEzOTddfQ==
+eyJoaXN0b3J5IjpbLTE5MTMyMjYxNDcsLTE5NTA1NTI1NDAsLT
+EwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4
+OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLT
+EzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMzI3
+ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMzNC
+wyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC0x
+ODUxNzYxMzk3XX0=
 -->
