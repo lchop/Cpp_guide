@@ -1531,18 +1531,18 @@ It's an array list, a dynamic array. It can be resize, it doesn't have a fix siz
 It creates a new array bigger and delete the old one every time you add an element. It's not really optimized. 
 
 ~~~cpp
-std::vector<int> 
+std::vector<int> example;
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk5ODE4NDEsMzU1MjI0NzQzLC0xOD
-IxNzk3MjUwLDU2MTU3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcy
-NjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMj
-gsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4
-MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOT
-cxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2
-MjIsLTEzMTA0OTM0MTFdfQ==
+eyJoaXN0b3J5IjpbMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4Mj
+E3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5NzI2
+MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOC
+wxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgw
+MjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5Nz
+E1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYy
+MiwtMTMxMDQ5MzQxMV19
 -->
