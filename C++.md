@@ -1533,7 +1533,7 @@ It creates a new array bigger and delete the old one every time you add an eleme
 ~~~cpp
 struct vecteces{
 	float x,y,z;
-
+};
 std::vector<int> example;
 example.push_back(1);
 example.push_back(2);
@@ -1553,7 +1553,7 @@ void Function(const std::vector<int>& example){} //pass vector by reference in f
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjI1MjA2MiwxNTYxMjkzMDY1LDIxMz
+eyJoaXN0b3J5IjpbLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIxMz
 I3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MTU3ODMz
 NCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5MTczLC
 0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUx
