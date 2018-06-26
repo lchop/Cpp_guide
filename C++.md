@@ -1658,22 +1658,20 @@ int main(){
 	std::cout << hello2 << std::endl;
 ~~~
 
-*Using an array*:
-~~~cpp
-static std::array<std::string,2> (arguments){
-static std::array<std::string,2> 
-~~~
+*Using an array*
+We can use an array to store multiple values and return the array.
+We can also use a vector, array are on the stack, vector 
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY3NzU2MjUsLTIwMTI5MDI5MDcsLT
-EwNDkyNzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1
-NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNT
-gsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEw
-MDU0MjMsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMD
-Y1LDIxMzI3ODgxNTgsMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2
-MTU3ODMzNF19
+eyJoaXN0b3J5IjpbMTY5MTgxMDEzOCwtMjAxMjkwMjkwNywtMT
+A0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1
+MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OC
+wtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAw
+NTQyMywtMTM1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNj
+UsMjEzMjc4ODE1OCwzNTUyMjQ3NDMsLTE4MjE3OTcyNTAsNTYx
+NTc4MzM0XX0=
 -->
