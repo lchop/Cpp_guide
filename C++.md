@@ -1680,7 +1680,9 @@ We can also use a vector, array are created on the stack, vector will stored on 
 *Struct way*:
 ~~~cpp
 struct OutStrings{
-
+	std::string Hello;
+	std::string Hello2;
+};
 ~~~
 
 
@@ -1689,11 +1691,11 @@ struct OutStrings{
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUxNjk5NjgsNTEwMTQwNzkzLC0xMj
-U3MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDky
-NzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1ND
-AsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIx
-MzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0Mj
-MsLTEzNTEyODEyNjYsLTExNTYyNDUxNiwxNTYxMjkzMDY1LDIx
-MzI3ODgxNThdfQ==
+eyJoaXN0b3J5IjpbMTk5ODM1ODE3NCw1MTAxNDA3OTMsLTEyNT
+cxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3
+MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MC
+wtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEz
+MTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMy
+wtMTM1MTI4MTI2NiwtMTE1NjI0NTE2LDE1NjEyOTMwNjUsMjEz
+Mjc4ODE1OF19
 -->
