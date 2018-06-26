@@ -1472,10 +1472,11 @@ e.Print();
 
 Entity* ptr = &e;
 (*ptr).print();//de-reference first then call .print()
-
-ptr->print();
-
+ptr->print();//same effect as a line above but simpler and cleaner.
 ~~~
+
+> It's possible to overload the array operator
+
 
 
 
@@ -1483,11 +1484,11 @@ ptr->print();
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2NzYxMjY5LC0xMjM1OTY5MTczLC0xOD
-UxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNCwxNDUxMzYz
-MzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjExMTUxODgzNC
-wtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MTkxMjE1LC01
-OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0MTEsMTY4Mj
-MxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1MjM4LC0xNDg3MDk5
-MjczLDE0NzcxOTM2MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTA5NzI2MjEsLTEyMzU5NjkxNzMsLT
+E4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4NzMxMTM0LDE0NTEz
+NjMzNywtMTAzMjYzODkyMiwtMTgwMjU3NDYxMCwyMTExNTE4OD
+M0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3LDIxMDcxOTEyMTUs
+LTU5MjkyMDUyMCwtMTY2MjgxNzYyMiwtMTMxMDQ5MzQxMSwxNj
+gyMzEzMzI5LDIwNTE3MDQzMTIsLTE3NzI2MTUyMzgsLTE0ODcw
+OTkyNzMsMTQ3NzE5MzYzMl19
 -->
