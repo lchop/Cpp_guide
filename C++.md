@@ -1519,7 +1519,6 @@ int main(){
  
  **********
 
-
 ### Dynamic_Arrays_std_vector
 
 It's an array list, a dynamic array. It can be resize, it doesn't have a fix size, putting element in the array will make it bigger. 
@@ -1536,11 +1535,11 @@ It creates a new array bigger and delete the old one every time you add an eleme
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1MjI0NzQzLC0xODIxNzk3MjUwLDU2MT
-U3ODMzNCwyMTEyNjg5NTk2LC0xMjUwOTcyNjIxLC0xMjM1OTY5
-MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODczMTEzNC
-wxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MTAsMjEx
-MTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5NywyMTA3MT
-kxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMTA0OTM0
-MTEsMTY4MjMxMzMyOV19
+eyJoaXN0b3J5IjpbLTU3NDYzNzE2MywzNTUyMjQ3NDMsLTE4Mj
+E3OTcyNTAsNTYxNTc4MzM0LDIxMTI2ODk1OTYsLTEyNTA5NzI2
+MjEsLTEyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOC
+wxNjY4NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgw
+MjU3NDYxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5Nz
+E1MDk3LDIxMDcxOTEyMTUsLTU5MjkyMDUyMCwtMTY2MjgxNzYy
+MiwtMTMxMDQ5MzQxMV19
 -->
