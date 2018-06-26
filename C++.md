@@ -263,7 +263,7 @@ delete[] buffer; //( delete the memory used)
 **Pointers are variables** :  
 double pointer, ptr to ptr , variable storing memory adress pointing to an other variable stroing an another address that as the data  
 
-  >*ref is called de-reference  
+  >(*ref) is called de-reference  
 
 **char** ptr** : a ptr to a ptr  
 ~~~cpp
@@ -1466,6 +1466,10 @@ String(const String& other){ // to add to the object declaration;
 
  **->**: it's to access a member function or a member variable or reference of an object through a pointer (with a regular variable or reference you would use . )  
 
+~~~cpp
+
+
+~~~
 
 
 
@@ -1473,7 +1477,7 @@ String(const String& other){ // to add to the object declaration;
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzkyNTc2NywtMTIzNTk2OTE3MywtMT
+eyJoaXN0b3J5IjpbLTY0NjI3NTE0NSwtMTIzNTk2OTE3MywtMT
 g1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2
 MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0NjEwLDIxMTE1MTg4Mz
 QsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwt
