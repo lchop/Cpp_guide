@@ -1507,17 +1507,22 @@ int main(){
 ~~~cpp
 struct Vector3{
 	float x,y,z;
+};
+int main(){
+	int offset = (int)&(Vector3*)nullptr)->x;
+	cout<< offset<<endl;
+	}
 ~~~
 
  [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTkyNDgyOSwyMTEyNjg5NTk2LC0xMj
-UwOTcyNjIxLC0xMjM1OTY5MTczLC0xODUxNzYxMzk3LC05NTYx
-NTMyMjgsMTY2ODczMTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5Mj
-IsLTE4MDI1NzQ2MTAsMjExMTUxODgzNCwtMjAxMjI3MDE0Miwt
-MTAxOTcxNTA5NywyMTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2Nj
-I4MTc2MjIsLTEzMTA0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0
-MzEyLC0xNzcyNjE1MjM4XX0=
+eyJoaXN0b3J5IjpbLTE2NzcxMzM0NjIsMjExMjY4OTU5NiwtMT
+I1MDk3MjYyMSwtMTIzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2
+MTUzMjI4LDE2Njg3MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OT
+IyLC0xODAyNTc0NjEwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIs
+LTEwMTk3MTUwOTcsMjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNj
+YyODE3NjIyLC0xMzEwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcw
+NDMxMiwtMTc3MjYxNTIzOF19
 -->
