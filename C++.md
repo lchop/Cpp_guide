@@ -1496,21 +1496,21 @@ public:
 	{
 		delete m_obj;
 	}
-	Entity* operator->(){ return m_obj;} //overload 
+	Entity* operator->(){ return m_obj;} //overload the -> operator
 };
 int main(){
-	Entity e
+	ScopedPtr entity = new Entity();
 ~~~
 
  [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzYzMjM5MywtMTI1MDk3MjYyMSwtMT
-IzNTk2OTE3MywtMTg1MTc2MTM5NywtOTU2MTUzMjI4LDE2Njg3
-MzExMzQsMTQ1MTM2MzM3LC0xMDMyNjM4OTIyLC0xODAyNTc0Nj
-EwLDIxMTE1MTg4MzQsLTIwMTIyNzAxNDIsLTEwMTk3MTUwOTcs
-MjEwNzE5MTIxNSwtNTkyOTIwNTIwLC0xNjYyODE3NjIyLC0xMz
-EwNDkzNDExLDE2ODIzMTMzMjksMjA1MTcwNDMxMiwtMTc3MjYx
-NTIzOCwtMTQ4NzA5OTI3M119
+eyJoaXN0b3J5IjpbNDM1NTAxNDI2LC0xMjUwOTcyNjIxLC0xMj
+M1OTY5MTczLC0xODUxNzYxMzk3LC05NTYxNTMyMjgsMTY2ODcz
+MTEzNCwxNDUxMzYzMzcsLTEwMzI2Mzg5MjIsLTE4MDI1NzQ2MT
+AsMjExMTUxODgzNCwtMjAxMjI3MDE0MiwtMTAxOTcxNTA5Nywy
+MTA3MTkxMjE1LC01OTI5MjA1MjAsLTE2NjI4MTc2MjIsLTEzMT
+A0OTM0MTEsMTY4MjMxMzMyOSwyMDUxNzA0MzEyLC0xNzcyNjE1
+MjM4LC0xNDg3MDk5MjczXX0=
 -->
