@@ -1488,11 +1488,15 @@ class ScopedPtr{
 private: 
 	Entity* m_obj;
 public:
-	ScopedPtr(Entity* entity)
+	ScopedPtr(Entity* entity)//construc
 		: m_obj(entity)
 		{
 		}
 	~ScopedPtr()
+	{
+		delete m_obj;
+	}
+	Entity* GetObj
 int main(){
 	Entity e
 ~~~
@@ -1501,7 +1505,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY5MzkyMzIsLTEyNTA5NzI2MjEsLT
+eyJoaXN0b3J5IjpbLTExNjAwNzEzMTAsLTEyNTA5NzI2MjEsLT
 EyMzU5NjkxNzMsLTE4NTE3NjEzOTcsLTk1NjE1MzIyOCwxNjY4
 NzMxMTM0LDE0NTEzNjMzNywtMTAzMjYzODkyMiwtMTgwMjU3ND
 YxMCwyMTExNTE4ODM0LC0yMDEyMjcwMTQyLC0xMDE5NzE1MDk3
