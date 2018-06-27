@@ -1723,12 +1723,13 @@ int main(){
 	print ("hello");
 }
 ~~~
+>The template doesn't exist before we called it. 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjcwOTM4OSwxNTk1NzM0NjM5LDE4ND
+eyJoaXN0b3J5IjpbLTc3NTM4ODY2NiwxNTk1NzM0NjM5LDE4ND
 c3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkz
 NDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMC
 wtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAz
