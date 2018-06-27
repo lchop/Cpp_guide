@@ -1758,8 +1758,8 @@ The performance difference is done during the allocation. Allocating on the stac
 [TOC](#table_of_contents)
  
  **********
-### Macros 
-GPre-processing 
+### Macros
+Get evaluated during pre-processing 
  
 
 
@@ -1767,7 +1767,7 @@ GPre-processing
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzE3NzE2OSwtMTMyMzI5MjM4NSwzNj
+eyJoaXN0b3J5IjpbLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNj
 U5ODI0MTcsMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2
 MzksMTg0NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMT
 I1NzE4OTM0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5
