@@ -1728,16 +1728,16 @@ int main(){
 
 *Example for a class*:
 ~~~cpp
-template<int N>
+template<typename T,int N>
 class Array
 {
 private:
-	int m_array[N];
+	T m_array[N];
 public:
 	int getSize() const {return N;}
 };
 int main(){
-	Array<5> array;
+	Array<int,5> array;
 	std::cout << array << std::endl;
 	}
 ~~~
@@ -1746,7 +1746,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NzA2Njc0LDE1OTU3MzQ2MzksMTg0Nz
+eyJoaXN0b3J5IjpbOTM5OTQwNTg1LDE1OTU3MzQ2MzksMTg0Nz
 czNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0
 OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC
 02ODIzNDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0xMDM1
