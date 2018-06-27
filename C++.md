@@ -1758,21 +1758,21 @@ The performance difference is done during the allocation. Allocating on the stac
 [TOC](#table_of_contents)
  
  **********
+ 
 ### Macros
 Get evaluated during pre-processing 
- ~~~cpp
- 
+
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MTM4Nzg1LC00ODM1MDUwMjIsLTEzMj
-MyOTIzODUsMzY1OTgyNDE3LDE1MDI1NzMxMzcsLTc2NTk2NTA0
-MywxNTk1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MT
-AxNDA3OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkw
-MjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NS
-wtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQx
-MjcwMzI1OF19
+eyJoaXN0b3J5IjpbLTE1NTA2NTI4NTQsLTQ4MzUwNTAyMiwtMT
+MyMzI5MjM4NSwzNjU5ODI0MTcsMTUwMjU3MzEzNywtNzY1OTY1
+MDQzLDE1OTU3MzQ2MzksMTg0NzczNjUyMywxODY2NjYzMjQ2LD
+UxMDE0MDc5MywtMTI1NzE4OTM0OSwxNjg2MjczMTMwLC0yMDEy
+OTAyOTA3LC0xMDQ5MjcxMzAwLC02ODIzNDcwNzMsMjA5NzI5OT
+g1LC0xOTUwNTUyNTQwLC0xMDM1OTgyNDgwLC0xMjY1NjI3NTEs
+NDEyNzAzMjU4XX0=
 -->
