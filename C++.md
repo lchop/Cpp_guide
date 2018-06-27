@@ -46,6 +46,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 40. [Dynamic_Arrays_std_vector](#dynamic_arrays_std_vector)
 41. [Using_Libraries](#using_libraries) 
 42. [Multiple_return_values](#multiple_return_values)
+43. [Templates](#templates)
 
 
 *************
@@ -1714,7 +1715,7 @@ int main(){
 ==
 ~~~cpp
 template<typename T> // template parameters
-void print (T value){ //templatee
+void print (T value){ //template
 	std::cout << value << std::endl;
 }
 int main(){
@@ -1741,18 +1742,16 @@ int main(){
 	std::cout << array << std::endl;
 	}
 ~~~
-When to use templates ?
-
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4ND
-c3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkz
-NDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMC
-wtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAz
-NTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5ND
-c1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1
-MTI4MTI2Nl19
+eyJoaXN0b3J5IjpbLTE3MjE5NDM5MTEsLTc2NTk2NTA0MywxNT
+k1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3
+OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNy
+wtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1
+MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMz
+I1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3
+MTAwNTQyM119
 -->
