@@ -1760,7 +1760,8 @@ The performance difference is done during the allocation. Allocating on the stac
  **********
  
 ### Macros
-Get evaluated during pre-processing 
+Get evaluated during pre-processing
+Used to define const, or fonction or other stuff at the beginning of the script.
 ~~~cpp
 #define LOG(x) std::cout << x << std::endl
 #if ==1
@@ -1774,16 +1775,17 @@ int main(){
 }
 ~~~
 > \ to go to the line in a macro instruction.
+> used a lot for debug
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTM5MjI2LC0xNzA0OTQ1MjAzLDE5MT
-QxNTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0
-MTcsMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMT
-g0NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4
-OTM0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMz
-AwLC02ODIzNDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0x
-MDM1OTgyNDgwXX0=
+eyJoaXN0b3J5IjpbLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMT
+kxNDE1OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4
+MjQxNywxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOS
+wxODQ3NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3
+MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNz
+EzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAs
+LTEwMzU5ODI0ODBdfQ==
 -->
