@@ -1696,7 +1696,15 @@ OutStrings (arguments){
 You can get the compiler writing code for you based on a set of rules. 
 
 ~~~cpp
-void Pri
+void Print (int value){
+	std::cout << value << std::endl;
+}
+void Print (std::string value){
+	std::cout << value << std::endl;
+}
+void Print (int value){
+	std::cout << value << std::endl;
+}
 int main(){
 	
 ~~~
@@ -1705,11 +1713,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAyNDIyMTYsMTU5NTczNDYzOSwxOD
-Q3NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5
-MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMD
-AsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEw
-MzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OT
-Q3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEz
-NTEyODEyNjZdfQ==
+eyJoaXN0b3J5IjpbMTE0MjQwMzgsMTU5NTczNDYzOSwxODQ3Nz
+M2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5
+LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLT
+Y4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5
+ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NT
+ksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEy
+ODEyNjZdfQ==
 -->
