@@ -1717,17 +1717,22 @@ template<typename T>
 void Print (T value){
 	std::cout << value << std::endl;
 }
+int main(){
+	print(5);
+	print(5.2f);
+	print ("hello");
+}
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5MzY0MzQsMTU5NTczNDYzOSwxODQ3Nz
-M2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5
-LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLT
-Y4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5
-ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NT
-ksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEy
-ODEyNjZdfQ==
+eyJoaXN0b3J5IjpbMTI5MTA5NDEzMCwxNTk1NzM0NjM5LDE4ND
+c3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkz
+NDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMC
+wtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAz
+NTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5ND
+c1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1
+MTI4MTI2Nl19
 -->
