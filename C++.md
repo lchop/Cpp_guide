@@ -1751,7 +1751,7 @@ int main(){
 ### Stack_vs_Heap_Memory
 The stack and heap are two areas of memory we have in our ram. 
  
-The performance difference is done during the allocation. Allocating on the stack is much faster, you just stack one above the other in memory. Allocating on the heap is much more heavy, using new called malloc() that go throw the free list of memory, search for a block of memory of the size we need allocate it, reserved it (no one can use it after), lot of cpu instructions. Delete also is very heavy in cpu instructions. 
+The performance difference is done during the allocation. Allocating on the stack is much faster, you just stack one above the other in memory, just one line a CPU instruction. Allocating on the heap is much more heavy, using new called malloc()that go throw the free list of memory, search for a block of memory of the size we need allocate it, reserved it (no one can use it after), lot of CPU instructions. Delete also is very heavy in CPU instructions. 
 
 
 
@@ -1759,11 +1759,11 @@ The performance difference is done during the allocation. Allocating on the stac
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMzk4MTA0LDM2NTk4MjQxNywxNTAyNT
-czMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3NzM2NTIz
-LDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2OD
-YyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLTY4MjM0
-NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0OD
-AsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NTksMTA4
-Mjc3Njc3XX0=
+eyJoaXN0b3J5IjpbMjExMzA0NTEwNywzNjU5ODI0MTcsMTUwMj
+U3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0NzczNjUy
+MywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0OSwxNj
+g2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC02ODIz
+NDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0xMDM1OTgyND
+gwLC0xMjY1NjI3NTEsNDEyNzAzMjU4LC0yMTMxODk0NzU5LDEw
+ODI3NzY3N119
 -->
