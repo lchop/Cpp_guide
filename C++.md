@@ -1764,7 +1764,8 @@ Get evaluated during pre-processing
 ~~~cpp
 #define LOG(x) std::cout << x << std::endl
 #if ==1
-#ifdef
+	#define 
+#ifdef blabla
 #elif
 #else
 #endif
@@ -1774,16 +1775,15 @@ int main(){
 ~~~
 
 
-
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTg0Mjk1NSwtMTcwNDk0NTIwMywxOT
-E0MTU5OTA0LC00ODM1MDUwMjIsLTEzMjMyOTIzODUsMzY1OTgy
-NDE3LDE1MDI1NzMxMzcsLTc2NTk2NTA0MywxNTk1NzM0NjM5LD
-E4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcx
-ODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MT
-MwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwt
-MTAzNTk4MjQ4MF19
+eyJoaXN0b3J5IjpbLTE4MjY3NDM1NjMsLTE3MDQ5NDUyMDMsMT
+kxNDE1OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4
+MjQxNywxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOS
+wxODQ3NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3
+MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNz
+EzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAs
+LTEwMzU5ODI0ODBdfQ==
 -->
