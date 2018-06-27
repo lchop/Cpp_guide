@@ -1693,20 +1693,23 @@ OutStrings (arguments){
  **********
 
 ### Templates
+You can get the compiler writing code for you based on a set of rules. 
 
-You can get the compiler writing code for you 
-
-
+~~~cpp
+void Pri
+int main(){
+	
+~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTYyMzIzMywxNTk1NzM0NjM5LDE4ND
-c3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkz
-NDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMC
-wtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAz
-NTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5ND
-c1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1
-MTI4MTI2Nl19
+eyJoaXN0b3J5IjpbLTE0OTAyNDIyMTYsMTU5NTczNDYzOSwxOD
+Q3NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5
+MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMD
+AsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEw
+MzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OT
+Q3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEz
+NTEyODEyNjZdfQ==
 -->
