@@ -1739,19 +1739,28 @@ public:
 };
 int main(){
 	Array<int,5> array;
-	std::cout << array << std::endl;
+	std::cout << array.getSize() << std::endl;
 	}
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
+ 
+### Stack_vs_Heap_Memory
+
+
+
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE5NDM5MTEsLTc2NTk2NTA0MywxNT
-k1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3
-OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNy
-wtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1
-MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMz
-I1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3
-MTAwNTQyM119
+eyJoaXN0b3J5IjpbNDIzOTgxNDcyLC03NjU5NjUwNDMsMTU5NT
+czNDYzOSwxODQ3NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkz
+LC0xMjU3MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLT
+EwNDkyNzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1
+NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNT
+gsLTIxMzE4OTQ3NTksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEw
+MDU0MjNdfQ==
 -->
