@@ -1763,6 +1763,7 @@ The performance difference is done during the allocation. Allocating on the stac
 Get evaluated during pre-processing 
 ~~~cpp
 #define LOG(x) std::cout << x << std::endl
+
 int main(){
 	LOG("Hello");
 }
@@ -1774,11 +1775,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ5NDUyMDMsMTkxNDE1OTkwNCwtND
-gzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNywxNTAyNTcz
-MTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3NzM2NTIzLD
-E4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2ODYy
-NzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLTY4MjM0Nz
-A3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5ODI0ODAs
-LTEyNjU2Mjc1MV19
+eyJoaXN0b3J5IjpbMjYwMzM1Nzc1LC0xNzA0OTQ1MjAzLDE5MT
+QxNTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0
+MTcsMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMT
+g0NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4
+OTM0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMz
+AwLC02ODIzNDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0x
+MDM1OTgyNDgwXX0=
 -->
