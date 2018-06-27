@@ -48,6 +48,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 42. [Multiple_return_values](#multiple_return_values)
 43. [Templates](#templates)
 44. [Stack_vs_Heap_Memory](#stack_vs_heap_memory)
+45. [Macros](#macros)
 
 
 *************
@@ -1754,12 +1755,18 @@ The stack and heap are two areas of memory we have in our ram.
 The performance difference is done during the allocation. Allocating on the stack is much faster, you just stack one above the other in memory, just one line a CPU instruction. Allocating on the heap is much more heavy, using new called malloc()that go throw the free list of memory, search for a block of memory of the size we need allocate it, reserved it (no one can use it after), lot of CPU instructions. Delete also is very heavy in CPU instructions. 
 
 
+[TOC](#table_of_contents)
+ 
+ **********
+### Macros 
+
+
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzA0NTEwNywzNjU5ODI0MTcsMTUwMj
+eyJoaXN0b3J5IjpbLTM5NjI3NDU2NSwzNjU5ODI0MTcsMTUwMj
 U3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0NzczNjUy
 MywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0OSwxNj
 g2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC02ODIz
