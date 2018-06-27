@@ -1,6 +1,7 @@
 C++  
 ***We are playing with data.*** 
 This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link to the video tutorial](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+www.cplus-cplus.com
 *************  
 # Table_of_Contents
 
@@ -1792,11 +1793,11 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDUzMzc1NiwtMTk1ODA4ODYyOSwtMT
-cwNDk0NTIwMywxOTE0MTU5OTA0LC00ODM1MDUwMjIsLTEzMjMy
-OTIzODUsMzY1OTgyNDE3LDE1MDI1NzMxMzcsLTc2NTk2NTA0My
-wxNTk1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAx
-NDA3OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMj
-kwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwt
-MTk1MDU1MjU0MF19
+eyJoaXN0b3J5IjpbLTE2NDkwODcwOTMsMTQ0MDUzMzc1NiwtMT
+k1ODA4ODYyOSwtMTcwNDk0NTIwMywxOTE0MTU5OTA0LC00ODM1
+MDUwMjIsLTEzMjMyOTIzODUsMzY1OTgyNDE3LDE1MDI1NzMxMz
+csLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4NDc3MzY1MjMsMTg2
+NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkzNDksMTY4NjI3Mz
+EzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDcz
+LDIwOTcyOTk4NV19
 -->
