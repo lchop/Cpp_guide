@@ -1728,21 +1728,26 @@ int main(){
 
 *Example for a class*:
 ~~~cpp
+template<int N>
 class Array
 {
 private:
-	int m_array
+	int m_array[N];
+public:
+	int getSize() const {return N;
+};
+
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mzg4MDI1OSwxNTk1NzM0NjM5LDE4ND
-c3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkz
-NDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMC
-wtNjgyMzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAz
-NTk4MjQ4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5ND
-c1OSwxMDgyNzc2NzcsLTMzODgxOTM0OSw3MTAwNTQyMywtMTM1
-MTI4MTI2Nl19
+eyJoaXN0b3J5IjpbNzY0OTI1MTk2LDE1OTU3MzQ2MzksMTg0Nz
+czNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0
+OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC
+02ODIzNDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0xMDM1
+OTgyNDgwLC0xMjY1NjI3NTEsNDEyNzAzMjU4LC0yMTMxODk0Nz
+U5LDEwODI3NzY3NywtMzM4ODE5MzQ5LDcxMDA1NDIzLC0xMzUx
+MjgxMjY2XX0=
 -->
