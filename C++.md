@@ -1751,7 +1751,7 @@ int main(){
 ### Stack_vs_Heap_Memory
 The stack and heap are two areas of memory we have in our ram. 
  
-The
+The performance difference is done during the allocation. Allocating on the stack is much faster, you just stack in a memory variables. Allocating on the heap is much more heavy, using new called
 
 
 
@@ -1759,11 +1759,11 @@ The
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAwMzAzNzAsMzY1OTgyNDE3LDE1MD
-I1NzMxMzcsLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4NDc3MzY1
-MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkzNDksMT
-Y4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgy
-MzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4Mj
-Q4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwx
-MDgyNzc2NzddfQ==
+eyJoaXN0b3J5IjpbMTE1ODg4NDQ2OCwzNjU5ODI0MTcsMTUwMj
+U3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0NzczNjUy
+MywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0OSwxNj
+g2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC02ODIz
+NDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0xMDM1OTgyND
+gwLC0xMjY1NjI3NTEsNDEyNzAzMjU4LC0yMTMxODk0NzU5LDEw
+ODI3NzY3N119
 -->
