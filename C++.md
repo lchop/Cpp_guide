@@ -1762,9 +1762,9 @@ The performance difference is done during the allocation. Allocating on the stac
 ### Macros
 Get evaluated during pre-processing 
 ~~~cpp
-#define WAIT std::cin.get();
+#define WAIT std::cin.get()
 int main{
-	WAIT
+	WAIT;
 }
 ~~~
 
@@ -1774,11 +1774,11 @@ int main{
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg5OTgwMTAsLTQ4MzUwNTAyMiwtMT
-MyMzI5MjM4NSwzNjU5ODI0MTcsMTUwMjU3MzEzNywtNzY1OTY1
-MDQzLDE1OTU3MzQ2MzksMTg0NzczNjUyMywxODY2NjYzMjQ2LD
-UxMDE0MDc5MywtMTI1NzE4OTM0OSwxNjg2MjczMTMwLC0yMDEy
-OTAyOTA3LC0xMDQ5MjcxMzAwLC02ODIzNDcwNzMsMjA5NzI5OT
-g1LC0xOTUwNTUyNTQwLC0xMDM1OTgyNDgwLC0xMjY1NjI3NTEs
-NDEyNzAzMjU4XX0=
+eyJoaXN0b3J5IjpbMTkxNDE1OTkwNCwtNDgzNTA1MDIyLC0xMz
+IzMjkyMzg1LDM2NTk4MjQxNywxNTAyNTczMTM3LC03NjU5NjUw
+NDMsMTU5NTczNDYzOSwxODQ3NzM2NTIzLDE4NjY2NjMyNDYsNT
+EwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5
+MDI5MDcsLTEwNDkyNzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5OD
+UsLTE5NTA1NTI1NDAsLTEwMzU5ODI0ODAsLTEyNjU2Mjc1MSw0
+MTI3MDMyNThdfQ==
 -->
