@@ -1751,7 +1751,7 @@ int main(){
 ### Stack_vs_Heap_Memory
 The stack and heap are two areas of memory we have in our ram. 
  
-
+The
 
 
 
@@ -1759,11 +1759,11 @@ The stack and heap are two areas of memory we have in our ram.
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1OTgyNDE3LDE1MDI1NzMxMzcsLTc2NT
-k2NTA0MywxNTk1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0
-Niw1MTAxNDA3OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMj
-AxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcy
-OTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4MjQ4MCwtMTI2NTYyNz
-UxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwxMDgyNzc2NzcsLTMz
-ODgxOTM0OV19
+eyJoaXN0b3J5IjpbLTE3MDAwMzAzNzAsMzY1OTgyNDE3LDE1MD
+I1NzMxMzcsLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4NDc3MzY1
+MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxODkzNDksMT
+Y4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMwMCwtNjgy
+MzQ3MDczLDIwOTcyOTk4NSwtMTk1MDU1MjU0MCwtMTAzNTk4Mj
+Q4MCwtMTI2NTYyNzUxLDQxMjcwMzI1OCwtMjEzMTg5NDc1OSwx
+MDgyNzc2NzddfQ==
 -->
