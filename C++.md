@@ -49,6 +49,9 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject. [Link
 43. [Templates](#templates)
 44. [Stack_vs_Heap_Memory](#stack_vs_heap_memory)
 45. [Macros](#macros)
+46. [Auto_keyword](#Auto_keyword)
+
+
 
 
 *************
@@ -1781,13 +1784,19 @@ int main(){
  
  **********
 
-### Auto 
+### Auto_keyword
+
+
+[TOC](#table_of_contents)
+ 
+ **********
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTQwNzc1MSwtMTk1ODA4ODYyOSwtMT
-cwNDk0NTIwMywxOTE0MTU5OTA0LC00ODM1MDUwMjIsLTEzMjMy
-OTIzODUsMzY1OTgyNDE3LDE1MDI1NzMxMzcsLTc2NTk2NTA0My
-wxNTk1NzM0NjM5LDE4NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAx
-NDA3OTMsLTEyNTcxODkzNDksMTY4NjI3MzEzMCwtMjAxMjkwMj
-kwNywtMTA0OTI3MTMwMCwtNjgyMzQ3MDczLDIwOTcyOTk4NSwt
-MTk1MDU1MjU0MF19
+eyJoaXN0b3J5IjpbLTE0NDE3MjkzMTYsLTE5NTgwODg2MjksLT
+E3MDQ5NDUyMDMsMTkxNDE1OTkwNCwtNDgzNTA1MDIyLC0xMzIz
+MjkyMzg1LDM2NTk4MjQxNywxNTAyNTczMTM3LC03NjU5NjUwND
+MsMTU5NTczNDYzOSwxODQ3NzM2NTIzLDE4NjY2NjMyNDYsNTEw
+MTQwNzkzLC0xMjU3MTg5MzQ5LDE2ODYyNzMxMzAsLTIwMTI5MD
+I5MDcsLTEwNDkyNzEzMDAsLTY4MjM0NzA3MywyMDk3Mjk5ODUs
+LTE5NTA1NTI1NDBdfQ==
 -->
