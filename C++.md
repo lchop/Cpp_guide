@@ -1699,25 +1699,29 @@ You can get the compiler writing code for you based on a set of rules.
 void Print (int value){
 	std::cout << value << std::endl;
 }
+void Print (float value){
+	std::cout << value << std::endl;
+}
 void Print (std::string value){
 	std::cout << value << std::endl;
 }
-void Print (int value){
-	std::cout << value << std::endl;
-}
 int main(){
-	
+}
+~~~
+==
+~~~cpp
+templat
 ~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjQwMzgsMTU5NTczNDYzOSwxODQ3Nz
-M2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5
-LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAsLT
-Y4MjM0NzA3MywyMDk3Mjk5ODUsLTE5NTA1NTI1NDAsLTEwMzU5
-ODI0ODAsLTEyNjU2Mjc1MSw0MTI3MDMyNTgsLTIxMzE4OTQ3NT
-ksMTA4Mjc3Njc3LC0zMzg4MTkzNDksNzEwMDU0MjMsLTEzNTEy
-ODEyNjZdfQ==
+eyJoaXN0b3J5IjpbMTMyNDIzOTY0LDE1OTU3MzQ2MzksMTg0Nz
+czNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OTM0
+OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAwLC
+02ODIzNDcwNzMsMjA5NzI5OTg1LC0xOTUwNTUyNTQwLC0xMDM1
+OTgyNDgwLC0xMjY1NjI3NTEsNDEyNzAzMjU4LC0yMTMxODk0Nz
+U5LDEwODI3NzY3NywtMzM4ODE5MzQ5LDcxMDA1NDIzLC0xMzUx
+MjgxMjY2XX0=
 -->
