@@ -1905,14 +1905,27 @@ int main(){
 ~~~
 Example:
 ~~~cpp
+void PrintValues(int value)  
+{  
+    std::cout << "Value: " << value << std::endl;  
+}  
+void ForEach(const std::vector<int>& values, void(*func)(int)){  
+    for (int value : values){  
+            func(value);  
+  }  
+}  
+int main() {  
+  std::vector<int> values = { 1, 2, 3 ,4, 5};  
+  ForEach(values, PrintValues);  
+}
 ~~~
-
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5OD
-YwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwx
-MDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbLTQyMjcyMjQ1LC01NTIwNTE0NSw3Nzc4Nz
+M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
+MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
+Q5ODZdfQ==
 -->
