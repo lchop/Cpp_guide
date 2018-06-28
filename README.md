@@ -1976,10 +1976,11 @@ Namespace exist to avoid naming conflict. W can have two fonctions that have the
 Example:
 ~~~cpp
 namespace apple{
-	void print(std::string text)
-	{
-		std::cout << text << std::endl;
-	}
+	namespace function{
+		void print(std::string text)
+		{
+			std::cout << text << std::endl;
+		}
 }
 namespace orange{
 	void print(std::string text)
@@ -1995,8 +1996,7 @@ int main(){
 	using apple::print; //will be applied only to the fonction print of apple
 	print("hello");//will use apple namespace because of using namespace
 	orange::print("Hello")
-
-	
+}
 ~~~
 > a class is a namespace on his own.
 
@@ -2008,7 +2008,7 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMjA1MzM2LC0xNjgxNzQ3MjUzLC0xMT
+eyJoaXN0b3J5IjpbMzE4OTYwODY3LC0xNjgxNzQ3MjUzLC0xMT
 AwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4
 NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NC
 wxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2
