@@ -1850,6 +1850,7 @@ Array that don't grow, you cannot touch the size of this array
 ~~~cpp
 int main(){
 	std::array<int,5> data; //new style
+	data.size();
 	int data[5]; //old style, same meaning
 ~~~
 
@@ -1858,6 +1859,6 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjMzMTgxMSwxODI3ODMzMzM0LC02MT
-A2MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwOTczNzc1MDAsMTgyNzgzMzMzNCwtNj
+EwNjE0OTg2XX0=
 -->
