@@ -1899,9 +1899,12 @@ typedef void(*HelloWorldFunction);
 int main(){
 	auto function = &Hello;
 	auto function = Hello; //working the same as above, implicit conversion
-	HelloWordFunction function = Hello; //working the same using type
+	HelloWordFunction function = Hello; //working the same using typedef
 	function(); // print "Hello"
 	}
+~~~
+Example:
+~~~cpp
 ~~~
 
 
@@ -1909,7 +1912,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjY1ODgyMyw3Nzc4NzM2OTEsMjA5OT
-g2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQs
-MTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5OD
+YwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwx
+MDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
 -->
