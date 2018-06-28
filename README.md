@@ -1851,14 +1851,15 @@ Array that don't grow, you cannot touch the size of this array
 int main(){
 	std::array<int,5> data; //new style
 	data.size();
-	int data[5]; //old style, same meaning
+	int data[5]; //old style, same meaning, but we need to maintain the size.
 ~~~
-
+> Array are stored on the stack.
+> 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTczNzc1MDAsMTgyNzgzMzMzNCwtNj
-EwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbLTIyNDQ5MTkyMywxODI3ODMzMzM0LC02MT
+A2MTQ5ODZdfQ==
 -->
