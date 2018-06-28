@@ -1949,16 +1949,22 @@ auto lambda = [](int value){ std::cout << "Value: " << value << std::endl;});
 ~~~
 [] = the captures, it say how we want to pass the variable to the function, by value or by reference if we want to put outside variable inside our lambda function. (= by value, & = by reference) 
 
+Example of lambda use:
 *std::find_if*:
-~~
+~~~cpp
+int main() {  
+  std::vector<int> values = { 1, 2, 3 ,4, 5};
+  ForEach(values, [](int value){ std::cout << "Value: " << value << std::endl;}); //lambda
+}
+~~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3OTMwNTQsLTE1MDY3ODkzMjUsLTIwNT
-g3OTIyNTQsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkx
-LDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3OD
-A1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjg2MjEwMCwtMTUwNjc4OTMyNSwtMj
+A1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2
+OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MD
+c4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5
+ODZdfQ==
 -->
