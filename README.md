@@ -1938,7 +1938,7 @@ When we have a fonction pointer, we can use a lambda. A lambda is a way to defin
 }  
 int main() {  
   std::vector<int> values = { 1, 2, 3 ,4, 5};  
-  ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;  
+  ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;}); //lambda
 }
 ~~~
 
@@ -1946,8 +1946,8 @@ int main() {
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzY3NTM2MywtNTUyMDUxNDUsNzc3OD
-czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
-NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
-E0OTg2XX0=
+eyJoaXN0b3J5IjpbODI3MzIxNDkzLC01NTIwNTE0NSw3Nzc4Nz
+M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
+MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
+Q5ODZdfQ==
 -->
