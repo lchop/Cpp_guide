@@ -1927,13 +1927,15 @@ int main() {
  **********
 
 ### Lambdas 
+Anonymous functions. Using a function without declaring it forma
+
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMzIxNzQ0LC01NTIwNTE0NSw3Nzc4Nz
+eyJoaXN0b3J5IjpbLTQ1NTMyMzg0LC01NTIwNTE0NSw3Nzc4Nz
 M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
 MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
 Q5ODZdfQ==
