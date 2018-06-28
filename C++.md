@@ -1786,9 +1786,12 @@ int main(){
  **********
 
 ### Auto_keyword
-
+Will automaticaly detect the type (class, int, float, string, ...)
 ~~~cpp
-
+int main(){
+	int a =5;
+	int b = a;
+	auto b = a;
 ~~~
 
 
@@ -1798,7 +1801,7 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzI4Njk2MiwtMTY0OTA4NzA5MywxND
+eyJoaXN0b3J5IjpbLTUzNDUyMjE5NywtMTY0OTA4NzA5MywxND
 QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
 NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
 csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
