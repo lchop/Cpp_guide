@@ -1931,18 +1931,14 @@ Anonymous functions. Using a function without declaring it formally.
 When we have a fonction pointer, we can use a lambda. A lambda is a way to define a function without declaring a function. 
 
 ~~~cpp
-void PrintValues(int value)  
-{  
-    std::cout << "Value: " << value << std::endl;  
-}  
-void ForEach(const std::vector<int>& values, void(*func)(int)){  
+ void ForEach(const std::vector<int>& values, void(*func)(int)){  
     for (int value : values){  
             func(value);  
   }  
 }  
 int main() {  
   std::vector<int> values = { 1, 2, 3 ,4, 5};  
-  ForEach(values, PrintValues);  
+  ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;  
 }
 ~~~
 
@@ -1950,7 +1946,7 @@ int main() {
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTE4MjEyNCwtNTUyMDUxNDUsNzc3OD
+eyJoaXN0b3J5IjpbLTkxMzY3NTM2MywtNTUyMDUxNDUsNzc3OD
 czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
 NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
 E0OTg2XX0=
