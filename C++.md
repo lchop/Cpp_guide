@@ -1796,18 +1796,24 @@ int main(){
 	auto c = "Louis"; // c will be a char ptr*	
 ~~~
 Auto will be able to adapt if you change code.
-
+Example:
+~~~cpp
+char* getName(const char* name){
+	return name;}
+int main(){
+	auto name =getName
+~~~
 
 [TOC](#table_of_contents)
  
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjY1NjIzNSwtMTY0OTA4NzA5MywxND
-QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
-NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
-csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
-NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OT
-M0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAw
-LC02ODIzNDcwNzNdfQ==
+eyJoaXN0b3J5IjpbOTE4ODc2NjY2LC0xNjQ5MDg3MDkzLDE0ND
+A1MzM3NTYsLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1
+OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNy
+wxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3
+NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5Mz
+Q5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAs
+LTY4MjM0NzA3M119
 -->
