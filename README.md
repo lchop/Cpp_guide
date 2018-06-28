@@ -1848,16 +1848,10 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
 ### Static_Arrays
 
 
-
+gggg
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzgzMzMzNCwtMTE4NDc5NDM2NywxMz
-Q5NDY1ODkzLC0xNjQ5MDg3MDkzLDE0NDA1MzM3NTYsLTE5NTgw
-ODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1OTkwNCwtNDgzNTA1MD
-IyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNywxNTAyNTczMTM3LC03
-NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3NzM2NTIzLDE4NjY2Nj
-MyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2ODYyNzMxMzAs
-LTIwMTI5MDI5MDddfQ==
+eyJoaXN0b3J5IjpbLTYxMDYxNDk4Nl19
 -->
