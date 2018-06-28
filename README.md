@@ -1858,10 +1858,32 @@ int main(){
 
 >Standard array: It doesn't store the size, it's a template argument, same memory usage. 
 
+*Exercice*:
+~~~cpp
+#include <iostream>  
+#include <vector>  
+#include <array>  
+template<typename T, size_t Size>  
+void PrintArray(const std::array<T, Size>& array){  
+    for (decltype(array.size()) i = 0; i < Size ; i++) {  //decltype very usefu
+        std::cout<<array[i]<<std::endl;  
+  }  
+}  
+int main(){  
+  
+    std::array<double, 6> a;  
+  a[0] =1;  
+  PrintArray(a);  
+  for (auto &item : a) {  
+        std::cout<<item<<std::endl;  
+  }  
+}
+~~~
+
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mj
-c4MzMzMzQsLTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbNjczNTg1MzM2LDE0MDc4MDU4OTQsMTA4OT
+ExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
