@@ -1972,7 +1972,13 @@ int main() {
  
  **********
 ### Namespaces
-Namespace exist to avoid naming conflict. W can have two fonctions that have the same name
+Namespace exist to avoid naming conflict. W can have two fonctions that have the same name but in different namespace.
+Example:
+~~~cpp
+namespace apple{
+	void print(std::string name)
+~~~
+> a class is a namespace on his own.
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
 > Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
@@ -1982,7 +1988,7 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDE0OTMwNCwtMTY4MTc0NzI1MywtMT
+eyJoaXN0b3J5IjpbLTcwNzcyODUxNiwtMTY4MTc0NzI1MywtMT
 EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
 ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
 QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
