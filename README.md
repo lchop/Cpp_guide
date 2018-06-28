@@ -1855,12 +1855,12 @@ int main(){
 ~~~
 > Static Arrays are stored on the stack.
 
->
+>Standard array: It doesn't store the size, it's a template argument, same memory usage. 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDMxMjEwNiwxODI3ODMzMzM0LC02MT
+eyJoaXN0b3J5IjpbMTA4OTExNTExOSwxODI3ODMzMzM0LC02MT
 A2MTQ5ODZdfQ==
 -->
