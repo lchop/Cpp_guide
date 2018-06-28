@@ -1849,7 +1849,7 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
 Array that don't grow, you cannot touch the size of this array
 ~~~cpp
 int main(){
-	std::array<int,5> data; //new style
+	std::array<int,5> data; //standard array, new style
 	data.size();
 	int data[5]; //old style, same meaning, but we need to maintain the size.
 ~~~
@@ -1861,6 +1861,6 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTExNTExOSwxODI3ODMzMzM0LC02MT
-A2MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbMTUxODI0NTkxMywxMDg5MTE1MTE5LDE4Mj
+c4MzMzMzQsLTYxMDYxNDk4Nl19
 -->
