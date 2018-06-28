@@ -1890,13 +1890,21 @@ int main(){
 ### Function_Pointers
 Raw functions pointers, a way to assign a function to a variable.
 
+~~~cpp
+void Hello()
+{
+	cout << "Hello" << endl;
+}
+int main(){
+	
+~~~
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5Mj
-EyODA4LDE0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0
-LC02MTA2MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg1NzA4MTgsMjA5OTg2MDg1MywyNT
+c1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OTExNTEx
+OSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
