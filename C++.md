@@ -1814,8 +1814,11 @@ int main(){
 	std::vector<std::string> strings;
 	string.push_back("Apple");
 	string.push_back("Orange");
-	for (std::vector<std::string>::iterator it = strings.begin());
-		it!= strings.end(); i
+	for (std::vector<std::string>::iterator it = strings.begin(); it!= strings.end(); i++)
+	{
+		std::cout<< *it<< std::endl;
+	}
+	
 ~~~
 
 
@@ -1824,7 +1827,7 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjk4MDI5NCwtMTY0OTA4NzA5MywxND
+eyJoaXN0b3J5IjpbMTUxMDk1MjMwOCwtMTY0OTA4NzA5MywxND
 QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
 NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
 csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
