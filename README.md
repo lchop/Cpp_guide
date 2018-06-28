@@ -1981,6 +1981,12 @@ namespace apple{
 		std::cout << text << std::endl;
 	}
 }
+namespace orange{
+	void print(std::string text)
+	{
+		std::cout << text << std::endl;
+	}
+}
 int main(){
 	apple::print("hello");
 ~~~
@@ -1994,7 +2000,7 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTU0ODAzOCwtMTY4MTc0NzI1MywtMT
+eyJoaXN0b3J5IjpbMTk5MjgxNDY3MiwtMTY4MTc0NzI1MywtMT
 EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
 ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
 QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
