@@ -1846,12 +1846,17 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
  **********
 
 ### Static_Arrays
-
+Array that don't grow, you cannot touch the size of this array
+~~~cpp
+int main(){
+	stad::array<int, >=
+~~~
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbNDY4MDg5Njk4LDE4Mjc4MzMzMzQsLTYxMD
+YxNDk4Nl19
 -->
