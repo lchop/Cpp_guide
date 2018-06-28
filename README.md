@@ -1,6 +1,7 @@
 C++  
 ***We are playing with data.*** 
 This guide is based on a Youtube serie about C++ made by TheChernoProject.
+
  [Link to the video tutorial](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 www.cplus-cplus.com
 *************  
@@ -1885,7 +1886,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMxNTExMCwyOTkyMTI4MDgsMTQwNz
+eyJoaXN0b3J5IjpbMTQ3MDM0NjkyNCwyOTkyMTI4MDgsMTQwNz
 gwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4
 Nl19
 -->
