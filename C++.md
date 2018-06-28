@@ -1838,18 +1838,19 @@ int main(){
 using iterator = std::vector<std::string>::iterator;
 for (iterator it = strings.begin(); it!= strings.end(); i++)
 ~~~
-when 
+>When you use auto, you still have to specify the reference.
+
 [TOC](#table_of_contents)
  
  **********
 
 ### Static_Array
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk0MzQ4MzMsLTE2NDkwODcwOTMsMT
-Q0MDUzMzc1NiwtMTk1ODA4ODYyOSwtMTcwNDk0NTIwMywxOTE0
-MTU5OTA0LC00ODM1MDUwMjIsLTEzMjMyOTIzODUsMzY1OTgyND
-E3LDE1MDI1NzMxMzcsLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4
-NDc3MzY1MjMsMTg2NjY2MzI0Niw1MTAxNDA3OTMsLTEyNTcxOD
-kzNDksMTY4NjI3MzEzMCwtMjAxMjkwMjkwNywtMTA0OTI3MTMw
-MCwtNjgyMzQ3MDczXX0=
+eyJoaXN0b3J5IjpbMTM0OTQ2NTg5MywtMTY0OTA4NzA5MywxND
+QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
+NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
+csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
+NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OT
+M0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAw
+LC02ODIzNDcwNzNdfQ==
 -->
