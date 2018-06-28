@@ -2002,14 +2002,15 @@ int main(){
 > a class is a namespace on his own.
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
-> Never use namespace in a header file, very hard to debug and you never know where it will be applied.
+
+> Never use namespace in a header file, very hard to debug and you never know where it will be applied, you will have naming conflict.
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mjg2NjQ3NiwtMTY4MTc0NzI1MywtMT
+eyJoaXN0b3J5IjpbLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMT
 EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
 ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
 QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
