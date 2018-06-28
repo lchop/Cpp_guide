@@ -1946,13 +1946,13 @@ int main() {
 ~~~cpp
 auto lambda = [](int value){ std::cout << "Value: " << value << std::endl;});
 ~~~
-
+[] = the captures, if we want to put outside variable inside our lambda function.
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU3Nzg0OTgsMTIxNjMyMjcyMiwtNT
+eyJoaXN0b3J5IjpbLTE2MTUzNzI0MDYsMTIxNjMyMjcyMiwtNT
 UyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4
 LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNz
 gzMzMzNCwtNjEwNjE0OTg2XX0=
