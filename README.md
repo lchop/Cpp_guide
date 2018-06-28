@@ -1938,19 +1938,21 @@ When we have a fonction pointer, we can use a lambda. A lambda is a way to defin
 }  
 int main() {  
   std::vector<int> values = { 1, 2, 3 ,4, 5};  
-  ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;}); //lambda
+  ForEach(values, [](int value){ std::cout << "Value: " << value << std::endl;}); //lambda
 }
 ~~~
 > A lambda function is a good way to specify code that we want to run some time in the future, we run the code when we run throw the elements of our vector.
 
+~~~cpp
+auto lambda = [](int value){ std::cout << "Value: " << value << std::endl;});
 ~~~
-~~
+
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM3MDE4NTIsMTIxNjMyMjcyMiwtNT
+eyJoaXN0b3J5IjpbLTEwMDU3Nzg0OTgsMTIxNjMyMjcyMiwtNT
 UyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4
 LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNz
 gzMzMzNCwtNjEwNjE0OTg2XX0=
