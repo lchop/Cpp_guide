@@ -1946,14 +1946,14 @@ int main() {
 ~~~cpp
 auto lambda = [](int value){ std::cout << "Value: " << value << std::endl;});
 ~~~
-[] = the captures, it say how we want to pass the variable, by value or by reference if we want to put outside variable inside our lambda function.
+[] = the captures, it say how we want to pass the variable, by value or by reference if we want to put outside variable inside our lambda function. (= by value, & = by reference) 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNT
-UyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4
-LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNz
-gzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbMTE4MDEwMjMsLTIwNTg3OTIyNTQsMTIxNj
+MyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMs
+MjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMT
+UxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
