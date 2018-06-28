@@ -1896,6 +1896,8 @@ void Hello()
 	cout << "Hello" << endl;
 }
 int main(){
+	auto function = Hello;
+	function(); // "Hello"
 	
 ~~~
 
@@ -1904,7 +1906,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg1NzA4MTgsMjA5OTg2MDg1MywyNT
+eyJoaXN0b3J5IjpbLTE2MzEyMjE4MDEsMjA5OTg2MDg1MywyNT
 c1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OTExNTEx
 OSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
