@@ -1959,6 +1959,7 @@ int main() {
     std::vector<int> values = { 1, 2, 3 ,4, 5};  
   auto it = std::find_if(values.begin(), values.end(), [](int value){ return value >3;});  
   std::cout << *it << std::endl;
+  }
 ~~~
 
 [TOC](#table_of_contents)
@@ -1967,9 +1968,9 @@ int main() {
 ### Namespaces
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNT
-A2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1
-MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOT
-kyMTI4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMz
-MzQsLTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbLTMwNDcwMzQxNCwxMzMxMTQ3ODQ3LC0yMz
+kyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMy
+MjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMj
+U3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUx
+MTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
