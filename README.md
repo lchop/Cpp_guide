@@ -1972,8 +1972,7 @@ int main() {
  
  **********
 ### Namespaces
-Namespace exist to avoid naming conflict.
-
+Namespace exist to avoid naming conflict. W can have two fonctions that have the same name
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
 > Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
@@ -1983,10 +1982,10 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsND
-c3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0
-MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3Mj
-IsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUy
-NDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LD
-E4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbMTkxMDE0OTMwNCwtMTY4MTc0NzI1MywtMT
+EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
+ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
+QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
+NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LD
+EwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
