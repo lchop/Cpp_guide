@@ -1954,7 +1954,7 @@ Example of lambda use:
 ~~~cpp
 int main() {  
   std::vector<int> values = { 1, 2, 3 ,4, 5};
-  st
+  std::find_if(values.begin(), values.end(), [](int value) return value >3;};
 }
 ~~~
 
@@ -1962,9 +1962,9 @@ int main() {
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjI5MzM4LC0xNTA2Nzg5MzI1LC0yMD
-U4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5
-MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNz
-gwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4
-Nl19
+eyJoaXN0b3J5IjpbMTM1OTYwNzMwMywtMTUwNjc4OTMyNSwtMj
+A1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2
+OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MD
+c4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5
+ODZdfQ==
 -->
