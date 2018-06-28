@@ -1972,11 +1972,16 @@ int main() {
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
 > Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
+
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03Mj
-Y0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5
-MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LD
-c3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4
-MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLT
-YxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbLTUwNzYxMzgwMCwtMTEwMDUyMDMzNyw0Nz
+cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
+MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
+wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
+NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMT
+gyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
