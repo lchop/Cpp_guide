@@ -2001,7 +2001,7 @@ int main(){
 ~~~
 > a class is a namespace on his own.
 
-We can use namespaces inside a function, and will be delete when we reach the end of scope.
+We can use namespaces inside a function, and it will be deleted when we reach the end of scope.
 
 > Never use namespace in a header file, very hard to debug and you never know where it will be applied, you will have naming conflict.
 
@@ -2010,10 +2010,11 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMT
-EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
-ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
-QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
-NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LD
-EwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbMTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNj
+gxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDky
+MzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNS
+wtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4
+NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LD
+E0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2
+MTQ5ODZdfQ==
 -->
