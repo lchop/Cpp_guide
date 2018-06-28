@@ -1836,14 +1836,16 @@ int main(){
 > You can also use:
 ~~~cpp
 using iterator = std::vector<std::string>::iterator;
+for (iterator it = strings.begin(); it!= strings.end(); i++)
 ~~~
-
+when 
 [TOC](#table_of_contents)
  
  **********
 
+### Static_Array
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIyMzIyODAsLTE2NDkwODcwOTMsMT
+eyJoaXN0b3J5IjpbLTE1OTk0MzQ4MzMsLTE2NDkwODcwOTMsMT
 Q0MDUzMzc1NiwtMTk1ODA4ODYyOSwtMTcwNDk0NTIwMywxOTE0
 MTU5OTA0LC00ODM1MDUwMjIsLTEzMjMyOTIzODUsMzY1OTgyND
 E3LDE1MDI1NzMxMzcsLTc2NTk2NTA0MywxNTk1NzM0NjM5LDE4
