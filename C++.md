@@ -1814,7 +1814,8 @@ int main(){
 	std::vector<std::string> strings;
 	string.push_back("Apple");
 	string.push_back("Orange");
-	for (std::vector<std::string>
+	for (std::vector<std::string>::iterator it = strings.begin());
+		it!= strings.end(); i
 ~~~
 
 
@@ -1823,11 +1824,11 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDkyNjc3LC0xNjQ5MDg3MDkzLDE0ND
-A1MzM3NTYsLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1
-OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNy
-wxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3
-NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5Mz
-Q5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAs
-LTY4MjM0NzA3M119
+eyJoaXN0b3J5IjpbLTkyNjk4MDI5NCwtMTY0OTA4NzA5MywxND
+QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
+NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
+csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
+NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OT
+M0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAw
+LC02ODIzNDcwNzNdfQ==
 -->
