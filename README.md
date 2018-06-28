@@ -1895,6 +1895,7 @@ void Hello()
 {
 	cout << "Hello" << endl;
 }
+typedef void(*Lou
 int main(){
 	auto function = &Hello;
 	auto function = Hello; //working the same as above, implicit conversion
@@ -1907,7 +1908,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjQ5OTMyMCw3Nzc4NzM2OTEsMjA5OT
-g2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQs
-MTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDczNTIwMDMsNzc3ODczNjkxLDIwOT
+k4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0
+LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
