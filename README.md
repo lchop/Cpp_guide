@@ -1941,12 +1941,13 @@ int main() {
   ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;}); //lambda
 }
 ~~~
-> Specify code that we want to run 
+> A lambda function is a good way to sepcif
+
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTk0NTY3OCwtNTUyMDUxNDUsNzc3OD
+eyJoaXN0b3J5IjpbMTA2NjI4NjAyMywtNTUyMDUxNDUsNzc3OD
 czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
 NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
 E0OTg2XX0=
