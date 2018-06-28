@@ -1996,23 +1996,23 @@ int main(){
 	print("hello");//will use apple namespace because of using namespace
 	using apple::print; //will be applied only to the fonction print of apple
 	print("hello");//will use apple namespace because of using namespace
-	orange::function::print("Hello")
+	orange::function::print("Hello");
 }
 ~~~
 > a class is a namespace on his own.
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
-> Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
+> Never use namespace in a header file, very hard to debug and you never know where it will be applied.
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIzMjQ2MzAsLTE2ODE3NDcyNTMsLT
-ExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0
-Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMj
-U0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5
-ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NC
-wxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbMTg5Mjg2NjQ3NiwtMTY4MTc0NzI1MywtMT
+EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
+ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
+QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
+NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LD
+EwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
