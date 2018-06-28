@@ -1898,7 +1898,7 @@ void Hello()
 int main(){
 	auto function = &Hello;
 	auto function = Hello; //working the same as above, implicit conversion
-	function(); // "Hello"
+	function(); // print "Hello"
 	}
 ~~~
 
@@ -1907,7 +1907,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQwMTMzOTcsNzc3ODczNjkxLDIwOT
-k4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0
-LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbMTc4MjQ5OTMyMCw3Nzc4NzM2OTEsMjA5OT
+g2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQs
+MTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
