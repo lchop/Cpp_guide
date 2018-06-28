@@ -55,6 +55,8 @@ www.cplus-cplus.com
 45. [Macros](#macros)
 46. [Auto_keyword](#auto_keyword)
 47. [Static_Arrays](#static_arrays)
+48. [Function_Pointers](#function_pointers)
+49. [Lambdas](#lambdas)
 
 
 
@@ -1923,8 +1925,15 @@ int main() {
 [TOC](#table_of_contents)
  
  **********
+
+### Lambdas 
+
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjcyMjQ1LC01NTIwNTE0NSw3Nzc4Nz
+eyJoaXN0b3J5IjpbNzUxMzIxNzQ0LC01NTIwNTE0NSw3Nzc4Nz
 M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
 MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
 Q5ODZdfQ==
