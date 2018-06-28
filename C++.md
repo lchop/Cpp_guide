@@ -1811,7 +1811,10 @@ int main(){
 char* getName(){
 	return "Louis";}
 int main(){
-	auto name =getName()
+	std::vector<std::string> strings;
+	string.push_back("Apple");
+	string.push_back("Orange");
+	for (std::vector<std::string>
 ~~~
 
 
@@ -1820,7 +1823,7 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTYyODU2LC0xNjQ5MDg3MDkzLDE0ND
+eyJoaXN0b3J5IjpbLTMzMDkyNjc3LC0xNjQ5MDg3MDkzLDE0ND
 A1MzM3NTYsLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1
 OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNy
 wxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3
