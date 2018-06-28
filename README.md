@@ -1865,7 +1865,7 @@ int main(){
 #include <array>  
 template<typename T, size_t Size>  
 void PrintArray(const std::array<T, Size>& array){  
-    for (decltype(array.size()) i = 0; i < Size ; i++) {  //decltype very usefu
+    for (decltype(array.size()) i = 0; i < Size ; i++) {  //decltype very usefull if we don't know the type in advance
         std::cout<<array[i]<<std::endl;  
   }  
 }  
@@ -1884,6 +1884,6 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNTg1MzM2LDE0MDc4MDU4OTQsMTA4OT
+eyJoaXN0b3J5IjpbMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OT
 ExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
