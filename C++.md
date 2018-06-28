@@ -51,7 +51,7 @@ www.cplus-cplus.com
 44. [Stack_vs_Heap_Memory](#stack_vs_heap_memory)
 45. [Macros](#macros)
 46. [Auto_keyword](#auto_keyword)
-47. [Static_Array](#static_array)
+47. [Static_Arrays](#static_arrays)
 
 
 
@@ -1845,7 +1845,7 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
  
  **********
 
-### Static_Array
+### Static_Arrays
 
 
 
@@ -1853,11 +1853,11 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ3OTQzNjcsMTM0OTQ2NTg5MywtMT
-Y0OTA4NzA5MywxNDQwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0
-OTQ1MjAzLDE5MTQxNTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5Mj
-M4NSwzNjU5ODI0MTcsMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1
-OTU3MzQ2MzksMTg0NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MD
-c5MywtMTI1NzE4OTM0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3
-LC0xMDQ5MjcxMzAwXX0=
+eyJoaXN0b3J5IjpbMTgyNzgzMzMzNCwtMTE4NDc5NDM2NywxMz
+Q5NDY1ODkzLC0xNjQ5MDg3MDkzLDE0NDA1MzM3NTYsLTE5NTgw
+ODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1OTkwNCwtNDgzNTA1MD
+IyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNywxNTAyNTczMTM3LC03
+NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3NzM2NTIzLDE4NjY2Nj
+MyNDYsNTEwMTQwNzkzLC0xMjU3MTg5MzQ5LDE2ODYyNzMxMzAs
+LTIwMTI5MDI5MDddfQ==
 -->
