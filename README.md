@@ -5,7 +5,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
  [Link to the video tutorial](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
  
 [cplusplus.com](http://www.cplusplus.com/)
-
+[cppreference.com](https://en.cppreference.com/w/)
 *************  
 # Table_of_Contents
 
@@ -1973,7 +1973,7 @@ int main() {
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
 > Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI1ODc5MDMsNDc3Mjc4MjIzLC03Mj
+eyJoaXN0b3J5IjpbLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03Mj
 Y0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5
 MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LD
 c3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4
