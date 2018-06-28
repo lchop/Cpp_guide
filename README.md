@@ -1991,8 +1991,8 @@ namespace orange{
 }
 int main(){
 	using namespace apple;
-	using apple
-	print("hello");//will use apple namespace.
+	using apple::print(); //will be applied only the fonction 
+	print("hello");//will use apple namespace because of using namespace
 	orange::print("Hello")
 
 	
@@ -2007,10 +2007,10 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyOTU3MywtMTY4MTc0NzI1MywtMTEwMD
-UyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3
-LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMT
-IxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4
-NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwOD
-kxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbOTIwMjA3MDU1LC0xNjgxNzQ3MjUzLC0xMT
+AwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4
+NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NC
+wxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2
+MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQsMT
+A4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
