@@ -1801,20 +1801,21 @@ Example:
 char* getName(){
 	return "Louis";}
 int main(){
-	auto name =getName() //will be a char* but if I change the return type of the fct to std::string, name will be a std::string without ch
+	auto name =getName() //name will be a char* but if I change the return type of the fct to std::string, name will be a std::string without changing any code in main. 
 	}
 ~~~
+> Here it's not a very good idea to use auto because your code is less clear, and you can break 
 
 [TOC](#table_of_contents)
  
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzY4MDcxOSwtMTY0OTA4NzA5MywxND
-QwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0OTQ1MjAzLDE5MTQx
-NTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5MjM4NSwzNjU5ODI0MT
-csMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1OTU3MzQ2MzksMTg0
-NzczNjUyMywxODY2NjYzMjQ2LDUxMDE0MDc5MywtMTI1NzE4OT
-M0OSwxNjg2MjczMTMwLC0yMDEyOTAyOTA3LC0xMDQ5MjcxMzAw
-LC02ODIzNDcwNzNdfQ==
+eyJoaXN0b3J5IjpbNTA1MTE0MTc4LC0xNjQ5MDg3MDkzLDE0ND
+A1MzM3NTYsLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1
+OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNy
+wxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3
+NzM2NTIzLDE4NjY2NjMyNDYsNTEwMTQwNzkzLC0xMjU3MTg5Mz
+Q5LDE2ODYyNzMxMzAsLTIwMTI5MDI5MDcsLTEwNDkyNzEzMDAs
+LTY4MjM0NzA3M119
 -->
