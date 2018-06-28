@@ -58,6 +58,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
 47. [Static_Arrays](#static_arrays)
 48. [Function_Pointers](#function_pointers)
 49. [Lambdas](#lambdas)
+50. [Namespaces](#namespaces)
 
 
 
@@ -72,6 +73,8 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
   
 ***Error***:
 ***Linking_error***: Two symbols (fonction, class, variable) that have the same name. 
+
+
    [TOC](#table_of_contents)
 *************************  
   
@@ -1980,7 +1983,7 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzM1MjMwNCwtMTEwMDUyMDMzNyw0Nz
+eyJoaXN0b3J5IjpbMTU5MjQ5MDE4NywtMTEwMDUyMDMzNyw0Nz
 cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
 MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
 wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
