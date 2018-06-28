@@ -51,6 +51,7 @@ www.cplus-cplus.com
 44. [Stack_vs_Heap_Memory](#stack_vs_heap_memory)
 45. [Macros](#macros)
 46. [Auto_keyword](#auto_keyword)
+47. [Static_Array](#static_array)
 
 
 
@@ -1846,11 +1847,13 @@ for (iterator it = strings.begin(); it!= strings.end(); i++)
 
 ### Static_Array
 
+
+
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA3OTg2NDAsMTM0OTQ2NTg5MywtMT
+eyJoaXN0b3J5IjpbLTExODQ3OTQzNjcsMTM0OTQ2NTg5MywtMT
 Y0OTA4NzA5MywxNDQwNTMzNzU2LC0xOTU4MDg4NjI5LC0xNzA0
 OTQ1MjAzLDE5MTQxNTk5MDQsLTQ4MzUwNTAyMiwtMTMyMzI5Mj
 M4NSwzNjU5ODI0MTcsMTUwMjU3MzEzNywtNzY1OTY1MDQzLDE1
