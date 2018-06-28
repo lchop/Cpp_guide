@@ -1850,8 +1850,9 @@ Array that don't grow, you cannot touch the size of this array
 ~~~cpp
 int main(){
 	std::array<int,5> data; //standard array, new style
-	data.size();
+	data.size(); //only std array
 	int data[5]; //old style, same meaning, but we need to maintain the size.
+	}
 ~~~
 > Static Arrays are stored on the stack.
 
@@ -1861,6 +1862,6 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODI0NTkxMywxMDg5MTE1MTE5LDE4Mj
+eyJoaXN0b3J5IjpbMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mj
 c4MzMzMzQsLTYxMDYxNDk4Nl19
 -->
