@@ -1804,14 +1804,23 @@ int main(){
 	auto name =getName() //name will be a char* but if I change the return type of the fct to std::string, name will be a std::string without changing any code in main. 
 	}
 ~~~
-> Here it's not a very good idea to use auto because your code is less clear, and you can break 
+> Here it's not a very good idea to use auto because your code is less clear, and you can break the code without notice it. 
+
+*Useful example of auto*:
+~~~cpp
+char* getName(){
+	return "Louis";}
+int main(){
+	auto name =getName()
+~~~
+
 
 [TOC](#table_of_contents)
  
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MTE0MTc4LC0xNjQ5MDg3MDkzLDE0ND
+eyJoaXN0b3J5IjpbMTI5NTYyODU2LC0xNjQ5MDg3MDkzLDE0ND
 A1MzM3NTYsLTE5NTgwODg2MjksLTE3MDQ5NDUyMDMsMTkxNDE1
 OTkwNCwtNDgzNTA1MDIyLC0xMzIzMjkyMzg1LDM2NTk4MjQxNy
 wxNTAyNTczMTM3LC03NjU5NjUwNDMsMTU5NTczNDYzOSwxODQ3
