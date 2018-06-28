@@ -70,6 +70,8 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
 * **#include ** : to use time  
 * **srand(time(0))**: seed the time to rand  
   
+***Error***:
+***Linking_error***: Two symbols (fonction, class, variable) that have the same name. 
    [TOC](#table_of_contents)
 *************************  
   
@@ -1978,7 +1980,7 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzYxMzgwMCwtMTEwMDUyMDMzNyw0Nz
+eyJoaXN0b3J5IjpbLTUwMzM1MjMwNCwtMTEwMDUyMDMzNyw0Nz
 cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
 MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
 wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
