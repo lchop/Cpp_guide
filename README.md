@@ -1895,10 +1895,11 @@ void Hello()
 {
 	cout << "Hello" << endl;
 }
-typedef void(*Lou
+typedef void(*HelloWorldFunction);
 int main(){
 	auto function = &Hello;
 	auto function = Hello; //working the same as above, implicit conversion
+	HelloWordFunction function = Hello; //working the same using type
 	function(); // print "Hello"
 	}
 ~~~
@@ -1908,7 +1909,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDczNTIwMDMsNzc3ODczNjkxLDIwOT
-k4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0
-LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbLTg3NjY1ODgyMyw3Nzc4NzM2OTEsMjA5OT
+g2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQs
+MTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ==
 -->
