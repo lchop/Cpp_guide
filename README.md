@@ -1927,7 +1927,8 @@ int main() {
  **********
 
 ### Lambdas 
-Anonymous functions. Using a function without declaring it forma
+Anonymous functions. Using a function without declaring it formally.
+When we have a fonction pointer, we can use a lambda. A lambda is a way to define a function witout declaring a functi
 
 
 
@@ -1935,8 +1936,8 @@ Anonymous functions. Using a function without declaring it forma
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTMyMzg0LC01NTIwNTE0NSw3Nzc4Nz
-M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
-MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
-Q5ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDkxNjYyMCwtNTUyMDUxNDUsNzc3OD
+czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
+NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
+E0OTg2XX0=
 -->
