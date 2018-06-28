@@ -1966,10 +1966,13 @@ int main() {
  
  **********
 ### Namespaces
-We can use namespaces i
+
+
+
+We can use namespaces inside a function, and will be delete when we reach the end of scope.
 > Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTkxMDQ2LC03MjY0OTIzNDIsMTMzMT
+eyJoaXN0b3J5IjpbNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMT
 E0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4Nzky
 MjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMD
 k5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5
