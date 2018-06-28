@@ -1990,8 +1990,11 @@ namespace orange{
 	}
 }
 int main(){
-using nam
-	apple::print("hello");
+	using namespace apple;
+	using apple
+	print("hello");//will use apple namespace.
+	orange::print("Hello")
+
 	
 ~~~
 > a class is a namespace on his own.
@@ -2004,10 +2007,10 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDk5ODU2NSwtMTY4MTc0NzI1MywtMT
-EwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3
-ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNT
-QsMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4
-NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LD
-EwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbNDAyOTU3MywtMTY4MTc0NzI1MywtMTEwMD
+UyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3
+LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMT
+IxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4
+NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwOD
+kxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
