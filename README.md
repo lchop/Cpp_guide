@@ -1943,14 +1943,15 @@ int main() {
 ~~~
 > A lambda function is a good way to specify code that we want to run some time in the future, we run the code when we run throw the elements of our vector.
 
-
+~~~
+~~
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3OD
-czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
-NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
-E0OTg2XX0=
+eyJoaXN0b3J5IjpbLTE5MjM3MDE4NTIsMTIxNjMyMjcyMiwtNT
+UyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4
+LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNz
+gzMzMzNCwtNjEwNjE0OTg2XX0=
 -->
