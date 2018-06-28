@@ -1972,7 +1972,7 @@ int main() {
  
  **********
 ### Namespaces
-
+Namespace exist to avoid naming conflict.
 
 
 We can use namespaces inside a function, and will be delete when we reach the end of scope.
@@ -1983,10 +1983,10 @@ We can use namespaces inside a function, and will be delete when we reach the en
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjQ5MDE4NywtMTEwMDUyMDMzNyw0Nz
-cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
-MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
-wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
-NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkxMTUxMTksMT
-gyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsND
+c3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0
+MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3Mj
+IsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUy
+NDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LD
+E4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
 -->
