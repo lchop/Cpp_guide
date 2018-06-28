@@ -1941,14 +1941,16 @@ int main() {
   ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;}); //lambda
 }
 ~~~
-> A lambda function is a good way to specify code that we want to run some point in the future, we run the code when we run throw the element
+> A lambda function is a good way to specify code that we want to run some time in the future, we run the code when we run throw the elements of our vector.
+
+
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUxMTQyMTAsLTU1MjA1MTQ1LDc3Nz
-g3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgs
-MTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMD
-YxNDk4Nl19
+eyJoaXN0b3J5IjpbMTIxNjMyMjcyMiwtNTUyMDUxNDUsNzc3OD
+czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
+NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
+E0OTg2XX0=
 -->
