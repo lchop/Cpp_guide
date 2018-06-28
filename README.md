@@ -1941,13 +1941,13 @@ int main() {
   ForEach(values, [] (int value){ std::cout << "Value: " << value << std::endl;}); //lambda
 }
 ~~~
-
+> Specify code that we want to run 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MzIxNDkzLC01NTIwNTE0NSw3Nzc4Nz
-M2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0
-MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MT
-Q5ODZdfQ==
+eyJoaXN0b3J5IjpbLTg5NTk0NTY3OCwtNTUyMDUxNDUsNzc3OD
+czNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwx
+NDA3ODA1ODk0LDEwODkxMTUxMTksMTgyNzgzMzMzNCwtNjEwNj
+E0OTg2XX0=
 -->
