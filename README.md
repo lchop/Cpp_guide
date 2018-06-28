@@ -1966,12 +1966,12 @@ int main() {
  
  **********
 ### Namespaces
-
+We can use namespaces i
+> Never use std namespace in a header file, very hard to debug and you never know where it will be applied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjQ5MjM0MiwtNzI2NDkyMzQyLDEzMz
-ExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5
-MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMj
-A5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4
-OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5ODZdfQ
-==
+eyJoaXN0b3J5IjpbNjEzNTkxMDQ2LC03MjY0OTIzNDIsMTMzMT
+E0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4Nzky
+MjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMD
+k5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5
+NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQsLTYxMDYxNDk4Nl19
 -->
