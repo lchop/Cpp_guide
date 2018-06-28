@@ -1888,6 +1888,7 @@ int main(){
  **********
 
 ### Function_Pointers
+Raw functions pointers, a way to assign a function to a variable.
 
 
 
@@ -1895,7 +1896,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzA4NjkzLDI1NzUyNDQ1OCwyOTkyMT
-I4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4MzMzMzQs
-LTYxMDYxNDk4Nl19
+eyJoaXN0b3J5IjpbMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5Mj
+EyODA4LDE0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0
+LC02MTA2MTQ5ODZdfQ==
 -->
