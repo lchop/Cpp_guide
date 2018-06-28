@@ -1954,8 +1954,7 @@ Example of lambda use:
 ~~~cpp
 #include <iostream>  
 #include <vector>  
-#include <algorithm>
-  
+#include <algorithm>  
 int main() {  
   std::vector<int> values = { 1, 2, 3 ,4, 5};  
   auto it = std::find_if(values.begin(), values.end(), [](int value){ return value >3;});  
@@ -1969,7 +1968,7 @@ int main() {
 ### Namespaces
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDYxOTIyOCwtNzI2NDkyMzQyLDEzMz
+eyJoaXN0b3J5IjpbLTcyNjQ5MjM0MiwtNzI2NDkyMzQyLDEzMz
 ExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5
 MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMj
 A5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4
