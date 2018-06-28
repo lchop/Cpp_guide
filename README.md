@@ -1853,13 +1853,14 @@ int main(){
 	data.size();
 	int data[5]; //old style, same meaning, but we need to maintain the size.
 ~~~
-> Array are stored on the stack.
-> 
+> Static Arrays are stored on the stack.
+
+>
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDQ5MTkyMywxODI3ODMzMzM0LC02MT
+eyJoaXN0b3J5IjpbMTE4NDMxMjEwNiwxODI3ODMzMzM0LC02MT
 A2MTQ5ODZdfQ==
 -->
