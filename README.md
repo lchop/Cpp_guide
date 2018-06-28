@@ -1926,7 +1926,8 @@ int main() {
  
  **********
 
-### Lambdas 
+### Lambdas
+[C++ reference about lambda](https://en.cppreference.com/w/cpp/language/lambda)
 Anonymous functions. Using a function without declaring it formally.
 When we have a fonction pointer, we can use a lambda. A lambda is a way to define a function without declaring a function. 
 
@@ -1952,8 +1953,9 @@ auto lambda = [](int value){ std::cout << "Value: " << value << std::endl;});
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMT
-IxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4
-NTMsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwOD
-kxMTUxMTksMTgyNzgzMzMzNCwtNjEwNjE0OTg2XX0=
+eyJoaXN0b3J5IjpbMTAzNDU4MjYyNCwtMTUwNjc4OTMyNSwtMj
+A1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2
+OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MD
+c4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2MTQ5
+ODZdfQ==
 -->
