@@ -2043,7 +2043,9 @@ Chrono Library.
 #include <threads>
 int main(){
 	std::chrono::high_resolution_clock::now();
-	std::this_thread::sleep_for(5s);
+	std::this_thread::sleep_for(1s);
+	auto end = std::chrono::high_resolution_clock::now();
+	}
 ~~~
 
 
@@ -2053,11 +2055,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjMzNTkzNiwtMTM2NDAyOTUxNywxMz
-Y2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1
-MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0Ny
-wtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEy
-MTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwOD
-UzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5
-MTE1MTE5XX0=
+eyJoaXN0b3J5IjpbLTE5NDIxMjAwNTAsLTEzNjQwMjk1MTcsMT
+M2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAw
+NTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4ND
+csLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwx
+MjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MD
+g1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4
+OTExNTExOV19
 -->
