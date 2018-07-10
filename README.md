@@ -2009,12 +2009,21 @@ We can use namespaces inside a function, and it will be deleted when we reach th
 [TOC](#table_of_contents)
  
  **********
+### Threads
+
+Work in parallel.
+
+
+
+[TOC](#table_of_contents)
+ 
+ **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNj
-gxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDky
-MzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNS
-wtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4
-NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEyODA4LD
-E0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3ODMzMzM0LC02MTA2
-MTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTExMDMzODAyNDYsMTM2NjExNjQ2MCwtNz
+A0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3
+ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMC
+wtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01
+NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NT
+gsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3
+ODMzMzM0XX0=
 -->
