@@ -2014,8 +2014,11 @@ We can use namespaces inside a function, and it will be deleted when we reach th
 Work in parallel.
 ~~~cpp
 #include <threads>
+void DoWork(){
+	
 int main(){
-	std::thread worker();
+	std::thread worker(DoWork); //take a fct pointer as arguments. Will execute everything in DoWork
+	
 	
 ~~~
 
@@ -2024,11 +2027,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc2Mjc1ODAsMTM2NjExNjQ2MCwtNz
-A0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3
-ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMC
-wtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01
-NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NT
-gsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3
-ODMzMzM0XX0=
+eyJoaXN0b3J5IjpbMjA3NjgwMzM4MSwxMzY2MTE2NDYwLC03MD
+Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
+MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
+0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
+MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OC
+wyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4
+MzMzMzRdfQ==
 -->
