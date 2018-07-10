@@ -2018,11 +2018,11 @@ static bool s_Finished = false;
 void DoWork(){
 	while (!s_Finished){
 		cout << "working" << endl;
-		std::this_thread::sleep_for(5s);
+		std::this_thread::sleep_for(5s); //this_thread give command to this current thread.
 	}
 }	
 int main(){
-	std::thread worker(DoWork); //take a fct pointer as arguments. Will execute everything in DoWork (we are making the thre
+	std::thread worker(DoWork); //take a fct pointer as arguments. Will execute everything in DoWork (we are making the thread object here)
 	std::cin.get() // wait for the user to press enter
 	s_Finished = true;
 	worker.join(); //wait for this thread to finish, block the current thread (main, here) to wait that the worker thread finished
@@ -2035,11 +2035,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTUyOTQyNCwxMzY2MTE2NDYwLC03MD
-Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
-MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
-0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
-MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OC
-wyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5MTE1MTE5LDE4Mjc4
-MzMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTEwODk0NjE3OTYsMTM2NjExNjQ2MCwtNz
+A0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3
+ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMC
+wtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01
+NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NT
+gsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4OTExNTExOSwxODI3
+ODMzMzM0XX0=
 -->
