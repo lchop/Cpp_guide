@@ -2015,10 +2015,14 @@ Work in parallel.
 ~~~cpp
 #include <threads>
 void DoWork(){
+while (true){
+	}
+}
 	
 int main(){
 	std::thread worker(DoWork); //take a fct pointer as arguments. Will execute everything in DoWork
-	worker.join(); //wait for this thread to finish, block this current thread (main) to finish the execution of worker thread.
+	worker.join(); //wait for this thread to finish, block the current thread (main, here) to wait that the worker thread finished
+
 	}
 	
 ~~~
@@ -2028,7 +2032,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTc0MTc3MiwxMzY2MTE2NDYwLC03MD
+eyJoaXN0b3J5IjpbMTU5NzkzMDIxNiwxMzY2MTE2NDYwLC03MD
 Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
 MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
 0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
