@@ -2018,14 +2018,16 @@ static bool s_Finished = false;
 void DoWork(){
 	while (!s_Finished){
 		cout << "working" << endl;
+		std::this_thread::sleep_
 	}
 }
 	
 int main(){
 	std::thread worker(DoWork); //take a fct pointer as arguments. Will execute everything in DoWork
-	std::cin.get() // wait for the user to pres
+	std::cin.get() // wait for the user to press enter
+	s_Finished = true;
 	worker.join(); //wait for this thread to finish, block the current thread (main, here) to wait that the worker thread finished
-
+	
 	}
 	
 ~~~
@@ -2035,7 +2037,7 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDIwMjMxMywxMzY2MTE2NDYwLC03MD
+eyJoaXN0b3J5IjpbLTc3NTI2NzE2NiwxMzY2MTE2NDYwLC03MD
 Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
 MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
 0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
