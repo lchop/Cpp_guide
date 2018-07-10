@@ -2012,14 +2012,19 @@ We can use namespaces inside a function, and it will be deleted when we reach th
 ### Threads
 
 Work in parallel.
-
+~~~cpp
+#include <threads>
+int main(){
+	std::thread worker();
+	
+~~~
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMzODAyNDYsMTM2NjExNjQ2MCwtNz
+eyJoaXN0b3J5IjpbLTEzNDc2Mjc1ODAsMTM2NjExNjQ2MCwtNz
 A0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3
 ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMC
 wtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01
