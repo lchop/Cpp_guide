@@ -2055,6 +2055,11 @@ struct Timer{
 		std::cout << duration.count() << std::endl;
 	}
 };
+void Function(){
+	Timer timer;
+	for (int i = 0; i<100; i++)
+		std::cout << "hello
+		}";
 int main(){
 	auto start = std::chrono::high_resolution_clock::now();
 	std::this_thread::sleep_for(1s);
@@ -2073,11 +2078,11 @@ In a second step, we created a struct to do actually to the timing automatically
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNzk1MTk2LC0xMzY0MDI5NTE3LDEzNj
-YxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUy
-MDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC
-0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIx
-NjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NT
-MsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkx
-MTUxMTldfQ==
+eyJoaXN0b3J5IjpbLTkxMjQwMzI0NSwtMTM2NDAyOTUxNywxMz
+Y2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1
+MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0Ny
+wtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEy
+MTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwOD
+UzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgwNTg5NCwxMDg5
+MTE1MTE5XX0=
 -->
