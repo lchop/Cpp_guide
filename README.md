@@ -2045,6 +2045,9 @@ int main(){
 	std::chrono::high_resolution_clock::now();
 	std::this_thread::sleep_for(1s);
 	auto end = std::chrono::high_resolution_clock::now();
+	
+	std::chrono::duration<float> duration = end - start;
+	std::cout << duration.count() << std::endl;
 	}
 ~~~
 
@@ -2055,11 +2058,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIxMjAwNTAsLTEzNjQwMjk1MTcsMT
-M2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAw
-NTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4ND
-csLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwx
-MjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MD
-g1MywyNTc1MjQ0NTgsMjk5MjEyODA4LDE0MDc4MDU4OTQsMTA4
-OTExNTExOV19
+eyJoaXN0b3J5IjpbMTMyODc1MTgzLC0xMzY0MDI5NTE3LDEzNj
+YxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUy
+MDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC
+0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIx
+NjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NT
+MsMjU3NTI0NDU4LDI5OTIxMjgwOCwxNDA3ODA1ODk0LDEwODkx
+MTUxMTldfQ==
 -->
