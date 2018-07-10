@@ -2058,8 +2058,8 @@ struct Timer{
 void Function(){
 	Timer timer;
 	for (int i = 0; i<100; i++)
-		std::cout << "hello
-		}";
+		std::cout << "hello";
+	}
 int main(){
 	auto start = std::chrono::high_resolution_clock::now();
 	std::this_thread::sleep_for(1s);
@@ -2067,10 +2067,12 @@ int main(){
 	
 	std::chrono::duration<float> duration = end - start; 
 	std::cout << duration.count() << std::endl;
+	
+	Function();
 	}
 ~~~
 This program compute the time duration between our line of code.
-In a second step, we created a struct to do actually to the timing automatically without having to write the 6 lines of code all the time. 
+In a second step, we created a struct to do actually to the timing automatically without having to write the 6 lines of code all the time ( the timer will start in the constructor and when we 
 
 
 
@@ -2078,7 +2080,7 @@ In a second step, we created a struct to do actually to the timing automatically
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjQwMzI0NSwtMTM2NDAyOTUxNywxMz
+eyJoaXN0b3J5IjpbMTAzMDMwMTk3NCwtMTM2NDAyOTUxNywxMz
 Y2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1
 MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0Ny
 wtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEy
