@@ -2039,7 +2039,11 @@ int main(){
 How to time our program, how fast our program run, how to execute a task at a certain time.
 Chrono Library.
 ~~~cpp
-#in
+#include <chrono>
+#include <threads>
+int main(){
+	std::chrono::high_resolution_clock::now();
+	std::this_thread::sleep_for(5s);
 ~~~
 
 
@@ -2049,7 +2053,7 @@ Chrono Library.
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMzMTI1MSwtMTM2NDAyOTUxNywxMz
+eyJoaXN0b3J5IjpbLTYxNjMzNTkzNiwtMTM2NDAyOTUxNywxMz
 Y2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1
 MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0Ny
 wtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEy
