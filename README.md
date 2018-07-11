@@ -2127,8 +2127,11 @@ int main()
 	std::sort(values.begin(), values.end());
 	std::sort(values.begin(), values.end(), [](int a, int b)
 	{
-		if (a ==
-		return a>b;
+		if (a == 1)
+			return false
+		if (b == 1)
+			return true
+		return a>b; //the list will be sort in order with a at the end.
 	}); //using a lambda fct
 	std::sort(values.begin(), values.end(), [](int a, int b)
 	{	
@@ -2150,7 +2153,7 @@ int main()
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjQxNzQwOCwyMzQwMjQ3NzAsLTE0NT
+eyJoaXN0b3J5IjpbMTAyODEyMTkwMywyMzQwMjQ3NzAsLTE0NT
 MxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMs
 OTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwND
 g2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgy
