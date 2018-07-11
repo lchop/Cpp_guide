@@ -2131,33 +2131,35 @@ int main()
 			return false
 		if (b == 1)
 			return true
-		return a>b; //the list will be sort in ascending order with a at the end.
+		return a>b; //the list will be sort in ascending order with 1 at the end.
 	}); //using a lambda fct
 	std::sort(values.begin(), values.end(), [](int a, int b)
 	{	
 		return a>b; //
 	}); //using a lambda fct
-	
-	
 	for (int value : values)
 		std::cout << value << std::endl;
-	
-	
-	
 }	 
 ~~~
+[TOC](#table_of_contents)
+ 
+ **********
+### Type_Punning
+
+
 
 
 [TOC](#table_of_contents)
  
  **********
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTYxMDYyODMsMjM0MDI0NzcwLC0xND
-UzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUz
-LDk3NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MD
-Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
-MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
-0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
-MjA1MTQ1XX0=
+eyJoaXN0b3J5IjpbODQwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1Mz
+EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
+NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
+Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
+MywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMT
+UwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIw
+NTE0NV19
 -->
