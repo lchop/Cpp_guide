@@ -2099,17 +2099,17 @@ int main()
 	delete[] a2d;
 }
 ~~~
-> Leads to memory fragmentation, we don't know where it's allocated in memory, random, they can be close to each other or very far -> cache miss. ***A lot slower than single dimensional array. 
+> Leads to memory fragmentation, we don't know where it's allocated in memory, random, they can be close to each other or very far -> cache miss. ***A lot slower than single dimensional array.***  
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4Mzc0MjczLDE0ODE4MDU3MjksNjU0OT
-c4ODUzLDk3NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYw
-LC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsND
-c3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0
-MTMwLC0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3Mj
-IsLTU1MjA1MTQ1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUy
-NDQ1OF19
+eyJoaXN0b3J5IjpbMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nz
+g4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAs
+LTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0Nz
+cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
+MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
+wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
+NDU4XX0=
 -->
