@@ -2123,10 +2123,14 @@ using std::sort.
 ~~~cpp
 int main()
 {
-	 std::vector<int> values = {1,3,5,7,4,2};
-	 std::sort(values.begin(), values.end());
-	 for (int value : values)
+	std::vector<int> values = {1,3,5,7,4,2};
+	std::sort(values.begin(), values.end());
+	std::sort(values.begin(), values.end(), [](int a, int b);
+	for (int value : values)
 		std::cout << value << std::endl;
+	
+	
+	
 }	 
 ~~~
 
@@ -2136,11 +2140,11 @@ int main()
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODc0MDE2NiwyMzQwMjQ3NzAsLTE0NT
-MxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMs
-OTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwND
-g2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgy
-MjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLT
-E1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUy
-MDUxNDVdfQ==
+eyJoaXN0b3J5IjpbMTI5NDg0Nzg0LDIzNDAyNDc3MCwtMTQ1Mz
+EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
+NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
+Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
+MywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMT
+UwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIw
+NTE0NV19
 -->
