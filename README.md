@@ -2096,17 +2096,17 @@ int main()
 		a2d[i]= new int[50];
 }
 ~~~
->
+> Leads to memory fragmentation, we don't know where it's stored in memory, they can 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI4MTYyNjksMTQ4MTgwNTcyOSw2NT
-Q5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0
-NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNy
-w0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzky
-MDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMj
-cyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3
-NTI0NDU4XX0=
+eyJoaXN0b3J5IjpbMTQxODA2NTcyOSwxNDgxODA1NzI5LDY1ND
+k3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2
+MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LD
+Q3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIw
+NDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNz
+IyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1
+MjQ0NThdfQ==
 -->
