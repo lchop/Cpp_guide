@@ -2087,8 +2087,8 @@ An array of array, is an array of pointer (buffer) that points to arrays.
 ~~~cpp
 int main()
 {
-	int* array = new int[50]; //memory allocation, setting the size of the allocation, arr
-	int** a2d = new int*[50] //a pointer to a pointer integer, used to create multidimensional array
+	int* array = new int[50]; //memory allocation, setting the size of the allocation, array
+	int** a2d = new int*[50] //a pointer to a pointer integer, 2D array
 	a2d[0] = nullptr; //refer to and int pointer
 	array[0] = 0; //refer to an int
 	
@@ -2102,11 +2102,11 @@ int main()
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQyNTYzMTksNjU0OTc4ODUzLDk3NT
-MyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3
-MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC
-03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2
-Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MT
-Q1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTky
-MTI4MDhdfQ==
+eyJoaXN0b3J5IjpbMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMsOTc1Mz
+IxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcx
+MSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLT
+cyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLTE1MDY3
+ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUyMDUxND
+UsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIx
+MjgwOF19
 -->
