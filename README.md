@@ -2131,11 +2131,11 @@ int main()
 			return false
 		if (b == 1)
 			return true
-		return a>b; //the list will be sort in order with a at the end.
+		return a>b; //the list will be sort in ascending order with a at the end.
 	}); //using a lambda fct
 	std::sort(values.begin(), values.end(), [](int a, int b)
 	{	
-		return a>b;
+		return a>b; //
 	}); //using a lambda fct
 	
 	
@@ -2153,11 +2153,11 @@ int main()
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODEyMTkwMywyMzQwMjQ3NzAsLTE0NT
-MxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMs
-OTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwND
-g2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgy
-MjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLT
-E1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUy
-MDUxNDVdfQ==
+eyJoaXN0b3J5IjpbLTEwNTYxMDYyODMsMjM0MDI0NzcwLC0xND
+UzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUz
+LDk3NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MD
+Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
+MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC
+0xNTA2Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1
+MjA1MTQ1XX0=
 -->
