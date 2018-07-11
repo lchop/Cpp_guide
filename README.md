@@ -2082,19 +2082,21 @@ In a second step, we created a struct to do actually to the timing automatically
  **********
 ### Multidimensional_Arrays_2D_Arrays 
 An array of arrays.
-An array is a pointer to the begi
-A buffer 
+An array is a pointer to the beginning of the array.
+An array of array, is an array of pointer (buffer) that points to arrays. 
+~~~cpp
+~~~
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NzEyNDQ4LDY1NDk3ODg1Myw5NzUzMj
-EyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzEx
-LC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNz
-I2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4
-OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NS
-w3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEy
-ODA4XX0=
+eyJoaXN0b3J5IjpbMTE2NzQ4Nzk3Myw2NTQ5Nzg4NTMsOTc1Mz
+IxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcx
+MSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLT
+cyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLTE1MDY3
+ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUyMDUxND
+UsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIx
+MjgwOF19
 -->
