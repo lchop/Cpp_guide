@@ -2081,18 +2081,20 @@ In a second step, we created a struct to do actually to the timing automatically
  
  **********
 ### Multidimensional_Arrays_2D_Arrays 
-
+An array of arrays.
+An array is a pointer to the begi
+A buffer 
 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0OTc4ODUzLDk3NTMyMTIxNywtMTM2ND
-AyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcy
-NTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMT
-MzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC0yMDU4
-NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3MzY5MS
-wyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTkyMTI4MDgsMTQwNzgw
-NTg5NF19
+eyJoaXN0b3J5IjpbOTM0NzEyNDQ4LDY1NDk3ODg1Myw5NzUzMj
+EyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzEx
+LC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNz
+I2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4
+OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NS
+w3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEy
+ODA4XX0=
 -->
