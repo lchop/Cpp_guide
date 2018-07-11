@@ -2090,8 +2090,9 @@ int main()
 	int* array = new int[50]; //memory allocation, setting the size of the allocation
 	int** a2d = new int*[50] //a pointer to a pointer integer.
 	a2d[0] = nullptr; //refer to and int pointer
-	array[0]; //refer to an int
-
+	array[0] = 0; //refer to an int
+	
+	for (int i=	
 }
 ~~~
 
@@ -2100,11 +2101,11 @@ int main()
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MjIzNjE0LDY1NDk3ODg1Myw5NzUzMj
-EyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzEx
-LC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNz
-I2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4
-OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIwNTE0NS
-w3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1MjQ0NTgsMjk5MjEy
-ODA4XX0=
+eyJoaXN0b3J5IjpbLTEzMTE0MDU4MDEsNjU0OTc4ODUzLDk3NT
+MyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3
+MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC
+03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2
+Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MT
+Q1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTky
+MTI4MDhdfQ==
 -->
