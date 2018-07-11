@@ -2103,6 +2103,11 @@ int main()
 
 Tips, creating a single dimensionnal array:
 ~~~cpp
+int* array = new int[5 * 5];
+for (int y = 0; y<5; y++)
+{
+	for (int x = 0; x<5; x++)
+	
 ~~~
 
 
@@ -2110,11 +2115,11 @@ Tips, creating a single dimensionnal array:
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMTkzOTgsMTcyMTQxNTUsMTQ4MTgwNT
-cyOSw2NTQ5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEz
-NjYxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMD
-UyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3
-LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMT
-IxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTY5NzY2NzE0OSwxNzIxNDE1NSwxNDgxOD
+A1NzI5LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcs
+MTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMT
+AwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4
+NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NC
+wxMjE2MzIyNzIyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2
+MDg1M119
 -->
