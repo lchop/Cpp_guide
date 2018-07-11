@@ -2101,15 +2101,20 @@ int main()
 ~~~
 > Leads to memory fragmentation, we don't know where it's allocated in memory, random, they can be close to each other or very far -> cache miss. ***A lot slower than single dimensional array.***  
 
+Tips, creating a single dimensionnal array:
+~~~cpp
+~~~
+
+
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nz
-g4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAs
-LTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0Nz
-cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
-MzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMi
-wtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0
-NDU4XX0=
+eyJoaXN0b3J5IjpbNTgwMTkzOTgsMTcyMTQxNTUsMTQ4MTgwNT
+cyOSw2NTQ5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEz
+NjYxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMD
+UyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3
+LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMT
+IxNjMyMjcyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4
+NTNdfQ==
 -->
