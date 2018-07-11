@@ -2122,7 +2122,11 @@ for (int y = 0; y<5; y++)
 std::sort.
 ~~~cpp
 int main(){
-	 std::vector<int> values = {1,
+	 std::vector<int> values = {1,3,5,7,4,2};
+	 std::sort(values.begin(), values.end());
+	for (int value : values)
+		std::cout << value << std::endl;
+	 
 ~~~
 
 
@@ -2131,7 +2135,7 @@ int main(){
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMzMjM0NzksMjM0MDI0NzcwLC0xND
+eyJoaXN0b3J5IjpbLTIwNjQ1MTI0NjEsMjM0MDI0NzcwLC0xND
 UzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUz
 LDk3NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MD
 Q4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4
