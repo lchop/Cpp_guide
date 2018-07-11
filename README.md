@@ -2094,6 +2094,9 @@ int main()
 	
 	for (int i=0; i<50;i++)
 		a2d[i]= new int[50];
+	for (int i=0; i<50;i++)
+		delete[] a2i[i];
+	delete[] a2d;
 }
 ~~~
 > Leads to memory fragmentation, we don't know where it's stored in memory, they can 
@@ -2102,7 +2105,7 @@ int main()
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODA2NTcyOSwxNDgxODA1NzI5LDY1ND
+eyJoaXN0b3J5IjpbMjA0ODI0ODU4MywxNDgxODA1NzI5LDY1ND
 k3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2
 MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LD
 Q3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIw
