@@ -2085,6 +2085,9 @@ An array of arrays.
 An array is a pointer to the beginning of the array.
 An array of array, is an array of pointer (buffer) that points to arrays. 
 ~~~cpp
+int main(){
+	int* array = new int[50];
+	int
 ~~~
 
 
@@ -2092,7 +2095,7 @@ An array of array, is an array of pointer (buffer) that points to arrays.
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzQ4Nzk3Myw2NTQ5Nzg4NTMsOTc1Mz
+eyJoaXN0b3J5IjpbMTE4NDE0MDQzNiw2NTQ5Nzg4NTMsOTc1Mz
 IxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcx
 MSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLT
 cyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLTE1MDY3
