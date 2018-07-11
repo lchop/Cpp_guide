@@ -2087,29 +2087,29 @@ An array of array, is an array of pointer (buffer) that points to arrays.
 ~~~cpp
 int main()
 {
-	int* array = new int[50]; //memory allocation, setting the size of the allocation, array
-	int** a2d = new int*[50] //a pointer to a pointer integer, 2D array
+	int* array = new int[5]; //memory allocation, setting the size of the allocation, array
+	int** a2d = new int*[5] //a pointer to a pointer integer, 2D array
 	a2d[0] = nullptr; //refer to and int pointer
 	array[0] = 0; //refer to an int
 	
-	for (int i=0; i<50;i++)
-		a2d[i]= new int[50];
-	for (int i=0; i<50;i++)
+	for (int i=0; i<5;i++)
+		a2d[i]= new int[5];
+	for (int i=0; i<5;i++)
 		delete[] a2i[i];
 	delete[] a2d;
 }
 ~~~
-> Leads to memory fragmentation, we don't know where it's stored in memory, they can 
+> Leads to memory fragmentation, we don't know where it's allocate in memory, they can 
 
 [TOC](#table_of_contents)
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODI0ODU4MywxNDgxODA1NzI5LDY1ND
-k3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2
-MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LD
-Q3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIw
-NDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNz
-IyLC01NTIwNTE0NSw3Nzc4NzM2OTEsMjA5OTg2MDg1MywyNTc1
-MjQ0NThdfQ==
+eyJoaXN0b3J5IjpbLTE1NjI5MjEyMTMsMTQ4MTgwNTcyOSw2NT
+Q5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0
+NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNy
+w0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzky
+MDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMj
+cyMiwtNTUyMDUxNDUsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3
+NTI0NDU4XX0=
 -->
