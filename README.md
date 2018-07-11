@@ -2101,7 +2101,7 @@ int main()
 ~~~
 > Leads to memory fragmentation, we don't know where it's allocated in memory, random, they can be close to each other or very far -> cache miss. ***A lot slower than single dimensional array.***  
 
-Tips, creating a single dimensionnal array:
+Tips, creating a single dimensionnal array and :
 ~~~cpp
 int* array = new int[5 * 5];
 for (int y = 0; y<5; y++)
@@ -2127,11 +2127,11 @@ for (int y = 0; y<5; y++)
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3Mj
-E0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywt
-MTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2OD
-E3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIz
-NDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2Nzg5MzI1LC
-0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MTQ1LDc3Nzg3
-MzY5MV19
+eyJoaXN0b3J5IjpbMTY4NjgzNDM5LDIzNDAyNDc3MCwtMTQ1Mz
+EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
+NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
+Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
+MywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMT
+UwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIw
+NTE0NV19
 -->
