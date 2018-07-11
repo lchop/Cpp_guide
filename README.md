@@ -2086,8 +2086,8 @@ An array is a pointer to the beginning of the array.
 An array of array, is an array of pointer (buffer) that points to arrays. 
 ~~~cpp
 int main(){
-	int* array = new int[50];
-	int**  //a pointer to a pointer integer.
+	int* array = new int[50]; //memory allocation, setting the size of the allocation
+	int** a2d = new int*[50] //a pointer to a pointer integer.
 ~~~
 
 
@@ -2095,11 +2095,11 @@ int main(){
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDg4MDIzMyw2NTQ5Nzg4NTMsOTc1Mz
-IxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcx
-MSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLT
-cyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLTE1MDY3
-ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUyMDUxND
-UsNzc3ODczNjkxLDIwOTk4NjA4NTMsMjU3NTI0NDU4LDI5OTIx
-MjgwOF19
+eyJoaXN0b3J5IjpbLTE4OTc3NDEyNjgsNjU0OTc4ODUzLDk3NT
+MyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3
+MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC
+03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2
+Nzg5MzI1LC0yMDU4NzkyMjU0LDEyMTYzMjI3MjIsLTU1MjA1MT
+Q1LDc3Nzg3MzY5MSwyMDk5ODYwODUzLDI1NzUyNDQ1OCwyOTky
+MTI4MDhdfQ==
 -->
