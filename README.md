@@ -2108,15 +2108,26 @@ for (int y = 0; y<5; y++)
 {
 	for (int x = 0; x<5; x++)
 	{
-		array[x + y * 5] = 2; //5 is the width of the array, every 5 element we jump 
+		array[x + y * 5] = 2; //5 is the width of the array, every 5 element we jump of the width
 	}
 }
 ~~~
+> Much faster !
+
 [TOC](#table_of_contents)
  
  **********
+
+### Sorting
+
+
+
+[TOC](#table_of_contents)
+ 
+ **********
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NzkzNzc1LC0xNDUzMTM4NzY4LDE3Mj
+eyJoaXN0b3J5IjpbMjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3Mj
 E0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywt
 MTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2OD
 E3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIz
