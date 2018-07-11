@@ -2101,7 +2101,7 @@ int main()
 ~~~
 > Leads to memory fragmentation, we don't know where it's allocated in memory, random, they can be close to each other or very far -> cache miss. ***A lot slower than single dimensional array.***  
 
-Tips, creating a single dimensionnal array and :
+Tips, creating a single dimensional array and you can still increment in a double loop with line and column:
 ~~~cpp
 int* array = new int[5 * 5];
 for (int y = 0; y<5; y++)
@@ -2119,6 +2119,7 @@ for (int y = 0; y<5; y++)
  **********
 
 ### Sorting
+std::sort.
 
 
 
@@ -2127,11 +2128,11 @@ for (int y = 0; y<5; y++)
  **********
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjgzNDM5LDIzNDAyNDc3MCwtMTQ1Mz
-EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
-NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
-Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
-MywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEzMCwtMT
-UwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2MzIyNzIyLC01NTIw
-NTE0NV19
+eyJoaXN0b3J5IjpbMTA5MzExMjcyMCwyMzQwMjQ3NzAsLTE0NT
+MxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMs
+OTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwND
+g2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgy
+MjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQxMzAsLT
+E1MDY3ODkzMjUsLTIwNTg3OTIyNTQsMTIxNjMyMjcyMiwtNTUy
+MDUxNDVdfQ==
 -->
