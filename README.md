@@ -2087,12 +2087,13 @@ An array of array, is an array of pointer (buffer) that points to arrays.
 ~~~cpp
 int main()
 {
-	int* array = new int[50]; //memory allocation, setting the size of the allocation
-	int** a2d = new int*[50] //a pointer to a pointer integer.
+	int* array = new int[50]; //memory allocation, setting the size of the allocation, arr
+	int** a2d = new int*[50] //a pointer to a pointer integer, used to create multidimensional array
 	a2d[0] = nullptr; //refer to and int pointer
 	array[0] = 0; //refer to an int
 	
-	for (int i=	
+	for (int i=0; i<50;i++)
+		a2d[i]= new int[50];
 }
 ~~~
 
@@ -2101,7 +2102,7 @@ int main()
  
  **********
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE0MDU4MDEsNjU0OTc4ODUzLDk3NT
+eyJoaXN0b3J5IjpbLTE5NDQyNTYzMTksNjU0OTc4ODUzLDk3NT
 MyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3
 MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC
 03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0MTMwLC0xNTA2
