@@ -2146,7 +2146,16 @@ int main()
  **********
 ### Type_Punning
 
-In cpp, we have a type system. 
+In cpp, we have a type system but we can overpass it using memory access.
+
+~~~cpp
+
+int main()
+{
+	int a = 50;
+	double value = a;
+	
+~~~
 
 
 [TOC](#table_of_contents)
@@ -2155,7 +2164,7 @@ In cpp, we have a type system.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NDE5MDI1LDg0MDE5NTgxNywyMzQwMj
+eyJoaXN0b3J5IjpbNzQwOTc4NTM0LDg0MDE5NTgxNywyMzQwMj
 Q3NzAsLTE0NTMxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2
 NTQ5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMT
 Y0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMz
