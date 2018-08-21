@@ -2154,6 +2154,7 @@ int main()
 {
 	int a = 50;
 	double value = a;
+	
 }
 ~~~
 
@@ -2164,7 +2165,7 @@ int main()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY2NTA1NDUsODQwMTk1ODE3LDIzND
+eyJoaXN0b3J5IjpbLTEzNTYzMjIzMTEsODQwMTk1ODE3LDIzND
 AyNDc3MCwtMTQ1MzEzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5
 LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2Nj
 ExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIw
