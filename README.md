@@ -2196,10 +2196,18 @@ struct Vector4
 
 [TOC](#table_of_contents)
 
+### Virtual Destrutors
+
+
+
+[TOC](#table_of_contents)
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzODYzODI5LDM3OTU2MDU4NSw3NzA5OD
+eyJoaXN0b3J5IjpbNzU0NzIyODU5LDM3OTU2MDU4NSw3NzA5OD
 YxOTIsLTE4NzI1ODc2NTYsODQwMTk1ODE3LDIzNDAyNDc3MCwt
 MTQ1MzEzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3OD
 g1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwt
