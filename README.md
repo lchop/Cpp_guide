@@ -2169,7 +2169,12 @@ int main()
 
 ### Unions 
 
-It's a bit like a class type or a struct type. It only can occupied memory of one member at a time. 
+It's a bit like a class type or a struct type. It only can occupied memory of one member at a time. For example if i have 4 floats in a unions, if i change the value of one member it will change the value for others because they are stored on the same memory.
+
+~~~cpp
+
+
+~~~
 
 
 [TOC](#table_of_contents)
@@ -2177,7 +2182,7 @@ It's a bit like a class type or a struct type. It only can occupied memory of on
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3NzQ4ODE4LDc3MDk4NjE5MiwtMTg3Mj
+eyJoaXN0b3J5IjpbMzc5NTYwNTg1LDc3MDk4NjE5MiwtMTg3Mj
 U4NzY1Niw4NDAxOTU4MTcsMjM0MDI0NzcwLC0xNDUzMTM4NzY4
 LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3NTMyMT
 IxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEs
