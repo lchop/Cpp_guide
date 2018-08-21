@@ -2172,7 +2172,20 @@ int main()
 It's a bit like a class type or a struct type. It only can occupied memory of one member at a time. For example if i have 4 floats in a unions, if i change the value of one member it will change the value for others because they are stored on the same memory.
 
 ~~~cpp
-str
+struct Vector4
+{
+	union
+	{
+		struct
+		{	
+			float x,y,z,w;
+		};
+		struct
+		{
+			Vector2 a,b;
+		};
+	};
+};
 
 ~~~
 
@@ -2182,11 +2195,11 @@ str
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzY0MDI5NiwzNzk1NjA1ODUsNzcwOT
-g2MTkyLC0xODcyNTg3NjU2LDg0MDE5NTgxNywyMzQwMjQ3NzAs
-LTE0NTMxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nz
-g4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAs
-LTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0Nz
-cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
-MzBdfQ==
+eyJoaXN0b3J5IjpbLTIxNDU5OTk3ODYsMzc5NTYwNTg1LDc3MD
+k4NjE5MiwtMTg3MjU4NzY1Niw4NDAxOTU4MTcsMjM0MDI0Nzcw
+LC0xNDUzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OT
+c4ODUzLDk3NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYw
+LC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsND
+c3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0NywtMjM5MjA0
+MTMwXX0=
 -->
