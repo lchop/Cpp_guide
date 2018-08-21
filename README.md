@@ -62,6 +62,8 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
 51. [Threads](#threads)
 52. [Multidimensional_Arrays_2D_Arrays](#multidimensional_arrays_2d_arrays)
 53. [Type Punning](#type_punning)
+54. [Unions](#unions)
+55. 
 
 
 
@@ -2196,6 +2198,8 @@ struct Vector4
 
 [TOC](#table_of_contents)
 
+***************
+
 ### Virtual Destrutors
 
 
@@ -2207,11 +2211,11 @@ struct Vector4
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NzIyODU5LDM3OTU2MDU4NSw3NzA5OD
-YxOTIsLTE4NzI1ODc2NTYsODQwMTk1ODE3LDIzNDAyNDc3MCwt
-MTQ1MzEzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3OD
-g1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwt
-NzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3Nz
-I3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLTIzOTIwNDEz
-MF19
+eyJoaXN0b3J5IjpbLTI2MDkyODAzNCwzNzk1NjA1ODUsNzcwOT
+g2MTkyLC0xODcyNTg3NjU2LDg0MDE5NTgxNywyMzQwMjQ3NzAs
+LTE0NTMxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nz
+g4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAs
+LTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0Nz
+cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
+MzBdfQ==
 -->
