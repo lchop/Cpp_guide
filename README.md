@@ -61,6 +61,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
 50. [Namespaces](#namespaces)
 51. [Threads](#threads)
 52. [Multidimensional_Arrays_2D_Arrays](#multidimensional_arrays_2d_arrays)
+53. [Type Punning](#type_punning)
 
 
 
@@ -2162,16 +2163,23 @@ int main()
 
 
 [TOC](#table_of_contents)
- 
+
  **********
+
+### Unions 
+
+
+
+[TOC](#table_of_contents)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI1ODc2NTYsODQwMTk1ODE3LDIzND
-AyNDc3MCwtMTQ1MzEzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5
-LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2Nj
-ExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIw
-MzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4NDcsLT
-IzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1ODc5MjI1NCwxMjE2
-MzIyNzIyXX0=
+eyJoaXN0b3J5IjpbLTE0MjA0NzE5MzcsLTE4NzI1ODc2NTYsOD
+QwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1MzEzODc2OCwxNzIxNDE1
+NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNj
+QwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3
+MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLD
+EzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1
+ODc5MjI1NF19
 -->
