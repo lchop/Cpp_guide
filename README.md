@@ -2148,6 +2148,7 @@ int main()
 ### Type_Punning
 
 In cpp, we have a type system but we can overpass it using memory access.
+Not very clear..., on this. 
 
 ~~~cpp
 
@@ -2175,11 +2176,11 @@ int main()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA0NzE5MzcsLTE4NzI1ODc2NTYsOD
-QwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1MzEzODc2OCwxNzIxNDE1
-NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNj
-QwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3
-MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLD
-EzMzExNDc4NDcsLTIzOTIwNDEzMCwtMTUwNjc4OTMyNSwtMjA1
-ODc5MjI1NF19
+eyJoaXN0b3J5IjpbNzcwOTg2MTkyLC0xODcyNTg3NjU2LDg0MD
+E5NTgxNywyMzQwMjQ3NzAsLTE0NTMxMzg3NjgsMTcyMTQxNTUs
+MTQ4MTgwNTcyOSw2NTQ5Nzg4NTMsOTc1MzIxMjE3LC0xMzY0MD
+I5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MTc0NzI1
+MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0MiwxMz
+MxMTQ3ODQ3LC0yMzkyMDQxMzAsLTE1MDY3ODkzMjUsLTIwNTg3
+OTIyNTRdfQ==
 -->
