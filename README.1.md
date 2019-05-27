@@ -2212,18 +2212,20 @@ struct Vector4
 ~~~cpp
 //C style
 double value = 5.25;
-int a = (int) value; //Explicit convertion
+int a = (int) value; //Explicit convertsion
 double a = (int) value + 5.3;
 int a = value; //Implecit convertion
-//Static cast C++ way
-double s = static_cast<int>(value) + 5.3
+//Static cast C++ ay
+double s = static_cast<int>(value) + 5.3op
+
 ~~~
-> C++ way is more a syntax sugar, it is not doing anything more that the C style
+> C++ way is more a syntax sugar, it is not doing anything more that the C style but It is easier to search for the cast when you write it in a c++ way.
+> 
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzMwNDk3MF19
+eyJoaXN0b3J5IjpbLTIwMDI1NjE5MDldfQ==
 -->
