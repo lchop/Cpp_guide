@@ -2210,20 +2210,20 @@ struct Vector4
 
 ### Casting
 ~~~cpp
-//C
+//C style
 double value = 5.25;
 int a = (int) value; //Explicit convertion
 double a = (int) value + 5.3;
 int a = value; //Implecit convertion
-//Static cast C++ xay
+//Static cast C++ way
 double s = static_cast<int>(value) + 5.3
 ~~~
-
+> C++ way is more a syntax sugar, it is not doing anything more that the C style
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY4OTM0MTVdfQ==
+eyJoaXN0b3J5IjpbMTgxMzMwNDk3MF19
 -->
