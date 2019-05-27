@@ -2220,12 +2220,16 @@ double s = static_cast<int>(value) + 5.3op
 
 ~~~
 > C++ way is more a syntax sugar, it is not doing anything more that the C style but It is easier to search for the cast when you write it in a c++ way.
-> 
+
+~~~cpp
+//Dynamic cast
+
+~~~
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI1NjE5MDldfQ==
+eyJoaXN0b3J5IjpbMTk2MjU1ODMyMl19
 -->
