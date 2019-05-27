@@ -2211,16 +2211,18 @@ struct Vector4
 ### Casting
 ~~~cpp
 double value = 5.25;
-int a = (int) value; //Explicit conversion
-int a = value; //Implecit convertop
+int a = (int) value; //Explicit convertion
+int a = value; //Implecit convertion
 
+//Static cast C++ xay
+double s = static_cast<int
 ~~~
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2NzQwNTk3LC0yNjA5MjgwMzQsMzc5NT
+eyJoaXN0b3J5IjpbMTM5NjQ3OTkzLC0yNjA5MjgwMzQsMzc5NT
 YwNTg1LDc3MDk4NjE5MiwtMTg3MjU4NzY1Niw4NDAxOTU4MTcs
 MjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MD
 U3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywtMTM2NDAyOTUxNywx
