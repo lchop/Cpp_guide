@@ -2247,11 +2247,12 @@ int main()
 	}
 }
 ~~~
+> const cast is used to add or remove const. 
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjcxODk3OV19
+eyJoaXN0b3J5IjpbMjA5OTQxMTMxOF19
 -->
