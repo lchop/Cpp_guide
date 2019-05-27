@@ -63,7 +63,7 @@ This guide is based on a Youtube serie about C++ made by TheChernoProject.
 52. [Multidimensional_Arrays_2D_Arrays](#multidimensional_arrays_2d_arrays)
 53. [Type Punning](#type_punning)
 54. [Unions](#unions)
-55. 
+55. [Casting](#casting)
 
 
 
@@ -2206,16 +2206,21 @@ struct Vector4
 
 [TOC](#table_of_contents)
 
+***************
 
+### Casting
+
+
+[TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDkyODAzNCwzNzk1NjA1ODUsNzcwOT
-g2MTkyLC0xODcyNTg3NjU2LDg0MDE5NTgxNywyMzQwMjQ3NzAs
-LTE0NTMxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nz
-g4NTMsOTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAs
-LTcwNDg2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0Nz
-cyNzgyMjMsLTcyNjQ5MjM0MiwxMzMxMTQ3ODQ3LC0yMzkyMDQx
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTUzOTEyNzY3MSwtMjYwOTI4MDM0LDM3OT
+U2MDU4NSw3NzA5ODYxOTIsLTE4NzI1ODc2NTYsODQwMTk1ODE3
+LDIzNDAyNDc3MCwtMTQ1MzEzODc2OCwxNzIxNDE1NSwxNDgxOD
+A1NzI5LDY1NDk3ODg1Myw5NzUzMjEyMTcsLTEzNjQwMjk1MTcs
+MTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNjgxNzQ3MjUzLC0xMT
+AwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDkyMzQyLDEzMzExNDc4
+NDddfQ==
 -->
