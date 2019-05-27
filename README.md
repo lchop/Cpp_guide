@@ -2220,18 +2220,22 @@ double s = static_cast<int>(value) + 5.3op
 
 ~~~
 > C++ way is more a syntax sugar, it is not doing anything more that the C style but It is easier to search for the cast when you write it in a c++ way.
-> 
+
+~~~cpp
+//Dynamic cast
+
+~~~
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI1NjE5MDksLTYyNjY2NDgyMiwtMj
-YwOTI4MDM0LDM3OTU2MDU4NSw3NzA5ODYxOTIsLTE4NzI1ODc2
-NTYsODQwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1MzEzODc2OCwxNz
-IxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5NzUzMjEyMTcs
-LTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0ODY5NzExLC0xNj
-gxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIyMywtNzI2NDky
-MzQyXX0=
+eyJoaXN0b3J5IjpbMTk2MjU1ODMyMiwtNjI2NjY0ODIyLC0yNj
+A5MjgwMzQsMzc5NTYwNTg1LDc3MDk4NjE5MiwtMTg3MjU4NzY1
+Niw4NDAxOTU4MTcsMjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3Mj
+E0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywt
+MTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2OD
+E3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIz
+NDJdfQ==
 -->
