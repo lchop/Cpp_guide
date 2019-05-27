@@ -2248,11 +2248,12 @@ int main()
 }
 ~~~
 > const cast is used to add or remove const. 
+> re interpret cast is used to re interprete the memeort
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTQxMTMxOF19
+eyJoaXN0b3J5IjpbLTIxMzA3NjY3MTBdfQ==
 -->
