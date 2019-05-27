@@ -2209,12 +2209,16 @@ struct Vector4
 ***************
 
 ### Casting
+~~~cpp
+double value = 5.25;
+int a = (int) value; //Explicit conversion
+int a = value; //Implecit con
 
-
+~~~
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTEyNzY3MV19
+eyJoaXN0b3J5IjpbLTQ0OTU2MTU5M119
 -->
