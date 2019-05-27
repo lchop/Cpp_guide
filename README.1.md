@@ -2210,17 +2210,20 @@ struct Vector4
 
 ### Casting
 ~~~cpp
+//C
 double value = 5.25;
 int a = (int) value; //Explicit convertion
+double a = (int) value + 5.3;
 int a = value; //Implecit convertion
-
 //Static cast C++ xay
-double s = static_cast
+double s = static_cast<int>(value) + 5.3
 ~~~
+
+
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE2NTU1NDBdfQ==
+eyJoaXN0b3J5IjpbLTE3NDY4OTM0MTVdfQ==
 -->
