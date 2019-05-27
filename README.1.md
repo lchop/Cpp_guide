@@ -2223,6 +2223,19 @@ double s = static_cast<int>(value) + 5.3op
 
 ~~~cpp
 //Dynamic cast
+class Derived : public Base
+{
+public:
+	Derived(){}
+	~Derived(){}
+};
+
+class AnotherClass : public Base
+{
+public:
+	AnotherClass(){}
+	~AnotherClass(){}
+};
 
 ~~~
 
@@ -2231,5 +2244,5 @@ double s = static_cast<int>(value) + 5.3op
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjU1ODMyMl19
+eyJoaXN0b3J5IjpbMTAyMjIzODgxOF19
 -->
