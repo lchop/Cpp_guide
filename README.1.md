@@ -2236,7 +2236,11 @@ public:
 	AnotherClass(){}
 	~AnotherClass(){}
 };
-
+int main()
+{
+	Derived* derived = new Derived();
+	Base* base = derived;
+	AnotherClass* ac = dynamic_cast<AnotherClass*>(ac); //see if 
 ~~~
 
 [TOC](#table_of_contents)
@@ -2244,5 +2248,5 @@ public:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjIzODgxOF19
+eyJoaXN0b3J5IjpbLTc4MTc1MTQ5M119
 -->
