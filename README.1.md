@@ -2240,13 +2240,17 @@ int main()
 {
 	Derived* derived = new Derived();
 	Base* base = derived;
-	AnotherClass* ac = dynamic_cast<AnotherClass*>(ac); //see if 
+	//Compile time checking
+	AnotherClass* ac = dynamic_cast<AnotherClass*>(base)
+}
 ~~~
+	
+
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTc1MTQ5M119
+eyJoaXN0b3J5IjpbMTYyMzA3Mzc2MF19
 -->
