@@ -2240,8 +2240,11 @@ int main()
 {
 	Derived* derived = new Derived();
 	Base* base = derived;
-	//Compile time checking
+	//Compile time checking, see if it actually work
 	AnotherClass* ac = dynamic_cast<AnotherClass*>(base)
+	if (ac)
+	{
+	}
 }
 ~~~
 	
@@ -2252,5 +2255,5 @@ int main()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzA3Mzc2MF19
+eyJoaXN0b3J5IjpbMTIxMzA3NzgyN119
 -->
