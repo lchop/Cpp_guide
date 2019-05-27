@@ -2215,22 +2215,22 @@ double value = 5.25;
 int a = (int) value; //Explicit convertsion
 double a = (int) value + 5.3;
 int a = value; //Implecit convertion
-//Static cast C++ xay
+//Static cast C++ ay
 double s = static_cast<int>(value) + 5.3op
 
 ~~~
-
+> C++ way is more a syntax sugar, it is not doing anything more that the C style
 
 [TOC](#table_of_contents)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjY2NDgyMiw4NDM4NzU5NDQsLTI2MD
-kyODAzNCwzNzk1NjA1ODUsNzcwOTg2MTkyLC0xODcyNTg3NjU2
-LDg0MDE5NTgxNywyMzQwMjQ3NzAsLTE0NTMxMzg3NjgsMTcyMT
-QxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMsOTc1MzIxMjE3LC0x
-MzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MT
-c0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0
-Ml19
+eyJoaXN0b3J5IjpbMTM4NTYzNjk4MSwtNjI2NjY0ODIyLC0yNj
+A5MjgwMzQsMzc5NTYwNTg1LDc3MDk4NjE5MiwtMTg3MjU4NzY1
+Niw4NDAxOTU4MTcsMjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3Mj
+E0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywt
+MTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2OD
+E3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIz
+NDJdfQ==
 -->
