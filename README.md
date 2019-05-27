@@ -2240,7 +2240,7 @@ int main()
 {
 	Derived* derived = new Derived();
 	Base* base = derived;
-	//Compile time checking, see if it actually work
+	//Compile time checking, run time checking, see if it actually work
 	AnotherClass* ac = dynamic_cast<AnotherClass*>(base)
 	if (ac)
 	{
@@ -2255,11 +2255,11 @@ int main()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzA3NzgyNywyMDk2MzY2NjYsLTYyNj
-Y2NDgyMiwtMjYwOTI4MDM0LDM3OTU2MDU4NSw3NzA5ODYxOTIs
-LTE4NzI1ODc2NTYsODQwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1Mz
-EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
-NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
-Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
-M119
+eyJoaXN0b3J5IjpbLTE3MTMwMjYyNDEsMjA5NjM2NjY2LC02Mj
+Y2NjQ4MjIsLTI2MDkyODAzNCwzNzk1NjA1ODUsNzcwOTg2MTky
+LC0xODcyNTg3NjU2LDg0MDE5NTgxNywyMzQwMjQ3NzAsLTE0NT
+MxMzg3NjgsMTcyMTQxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMs
+OTc1MzIxMjE3LC0xMzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwND
+g2OTcxMSwtMTY4MTc0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgy
+MjNdfQ==
 -->
