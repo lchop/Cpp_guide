@@ -2236,7 +2236,11 @@ public:
 	AnotherClass(){}
 	~AnotherClass(){}
 };
-int main
+int main()
+{
+	Derived* derived = new Derived();
+	Base* base = derived;
+	AnotherClass* ac = dynamic_cast<AnotherClass*>(); //see if 
 ~~~> 
 
 [TOC](#table_of_contents)
@@ -2244,11 +2248,11 @@ int main
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjM2NjY2LDIwNTI4MTM2OCwtNjI2Nj
-Y0ODIyLC0yNjA5MjgwMzQsMzc5NTYwNTg1LDc3MDk4NjE5Miwt
-MTg3MjU4NzY1Niw4NDAxOTU4MTcsMjM0MDI0NzcwLC0xNDUzMT
-M4NzY4LDE3MjE0MTU1LDE0ODE4MDU3MjksNjU0OTc4ODUzLDk3
-NTMyMTIxNywtMTM2NDAyOTUxNywxMzY2MTE2NDYwLC03MDQ4Nj
-k3MTEsLTE2ODE3NDcyNTMsLTExMDA1MjAzMzcsNDc3Mjc4MjIz
-XX0=
+eyJoaXN0b3J5IjpbMTk2MzE1OTk5OSwyMDk2MzY2NjYsLTYyNj
+Y2NDgyMiwtMjYwOTI4MDM0LDM3OTU2MDU4NSw3NzA5ODYxOTIs
+LTE4NzI1ODc2NTYsODQwMTk1ODE3LDIzNDAyNDc3MCwtMTQ1Mz
+EzODc2OCwxNzIxNDE1NSwxNDgxODA1NzI5LDY1NDk3ODg1Myw5
+NzUzMjEyMTcsLTEzNjQwMjk1MTcsMTM2NjExNjQ2MCwtNzA0OD
+Y5NzExLC0xNjgxNzQ3MjUzLC0xMTAwNTIwMzM3LDQ3NzI3ODIy
+M119
 -->
