@@ -2212,11 +2212,12 @@ struct Vector4
 ~~~cpp
 //C style
 double value = 5.25;
-int a = (int) value; //Explicit convertion
+int a = (int) value; //Explicit convertsion
 double a = (int) value + 5.3;
 int a = value; //Implecit convertion
 //Static cast C++ xay
-double s = static_cast<int>(value) + 5.3
+double s = static_cast<int>(value) + 5.3op
+
 ~~~
 
 
@@ -2225,11 +2226,11 @@ double s = static_cast<int>(value) + 5.3
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzODc1OTQ0LC0yNjA5MjgwMzQsMzc5NT
-YwNTg1LDc3MDk4NjE5MiwtMTg3MjU4NzY1Niw4NDAxOTU4MTcs
-MjM0MDI0NzcwLC0xNDUzMTM4NzY4LDE3MjE0MTU1LDE0ODE4MD
-U3MjksNjU0OTc4ODUzLDk3NTMyMTIxNywtMTM2NDAyOTUxNywx
-MzY2MTE2NDYwLC03MDQ4Njk3MTEsLTE2ODE3NDcyNTMsLTExMD
-A1MjAzMzcsNDc3Mjc4MjIzLC03MjY0OTIzNDIsMTMzMTE0Nzg0
-N119
+eyJoaXN0b3J5IjpbLTYyNjY2NDgyMiw4NDM4NzU5NDQsLTI2MD
+kyODAzNCwzNzk1NjA1ODUsNzcwOTg2MTkyLC0xODcyNTg3NjU2
+LDg0MDE5NTgxNywyMzQwMjQ3NzAsLTE0NTMxMzg3NjgsMTcyMT
+QxNTUsMTQ4MTgwNTcyOSw2NTQ5Nzg4NTMsOTc1MzIxMjE3LC0x
+MzY0MDI5NTE3LDEzNjYxMTY0NjAsLTcwNDg2OTcxMSwtMTY4MT
+c0NzI1MywtMTEwMDUyMDMzNyw0NzcyNzgyMjMsLTcyNjQ5MjM0
+Ml19
 -->
